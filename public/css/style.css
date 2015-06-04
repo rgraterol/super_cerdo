@@ -1,0 +1,309 @@
+/* Style Sheet Super Cerdo */
+
+html, body{
+    margin:0;
+}
+
+#bg {
+    width: 100vw; 
+    height: 100vh;
+    position: relative;
+   background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+#footer {
+    position:absolute; 
+    left:0px; 
+    bottom:2px; 
+    height:15%; 
+    width:100%;
+    background-color: #fff;
+}
+
+.caluga{
+    width:14vw; 
+    height:100%; 
+    float: left; 
+    display: inline-block;
+    margin: 0.143%
+}
+
+.clear{
+    clear: both;
+}
+
+.prod1{
+    background-image: url(../img/producto-1-normal.png);
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.prod2{
+    background-image: url(../img/producto-2-normal.png); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.prod3{
+    background-image: url(../img/producto-3-normal.png); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.prod4{
+    background-image: url(../img/producto-4-normal.png); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.prod5{
+    background-image: url(../img/producto-5-normal.png); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.prod6{
+    background-image: url(../img/producto-6-normal.png); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.prod7{
+    background-image: url(../img/producto-7-normal.png); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.prod1:hover{
+    background-image: url(../img/producto-1-hover.png); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.prod2:hover{
+    background-image: url(../img/producto-2-hover.png); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.prod3:hover{
+    background-image: url(../img/producto-3-hover.png); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.prod4:hover{
+    background-image: url(../img/producto-4-hover.png); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.prod5:hover{
+    background-image: url(../img/producto-5-hover.png); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.prod6:hover{
+    background-image: url(../img/producto-6-hover.png); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.prod7:hover{
+    background-image: url(../img/producto-7-hover.png); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+/* Responsive 1*/
+
+#banda 
+{
+    position: absolute; 
+    width: 90%; 
+    height: 88%;
+    top: 0;
+    left: 0;
+}
+
+#btn_fb{
+    z-index: 10;
+    width: 15vw; 
+    height: 6vh;
+    position: absolute;
+    top:0;
+    left:0;
+    
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Responsive 2*/
+
+/*#banda {
+width: 614px; 
+height: 654px; 
+background-image: url(../img/banda-roja-completa.png); 
+background-size: contain; 
+background-position: center; 
+background-repeat: no-repeat;
+}*/
+
+#medallas{
+    float: right; 
+    position: absolute; 
+    left:55%; 
+    top: -2%;
+}
+
+
+
+
+.no-padding {
+
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+}
+
+
+/* 5 Columns */
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+/* 7 Columns */
+
+@media (min-width: 1200px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 14.285714285714285714285714285714%;
+        *width: 14.285714285714285714285714285714%;
+    }
+}
+/* 14% = 100% (full-width row) divided by 7 */
+
+img{
+    max-width: 100%;
+}
+
+/* Facebook */
+
+.facebooklogin{
+    font-size:100%;
+    font-family:arial;
+    display:block;
+    width:200px;
+    height:20px;
+    background-color:#142dac;
+    color: #FFFFFF;
+    text-decoration:none;
+    padding:20px;
+    border-radius:5px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.facebooklogin:hover{
+    background-color:#4158cc;
+}
+
+.user{
+    font-size:100%;
+    font-family:arial;
+    display:block;
+    width:200px;
+    height:20px;
+    background-color:#142dac;
+    color: #FFFFFF;
+    text-decoration:none;
+    padding:20px;
+    border-radius:5px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.fb-button {
+
+    margin: 315px 0px 0px 130px;
+
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #dc0c1b;
+    z-index: 2;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease; }
+.overlay .easy_load {
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -37px 0 0 -37px;
+    background: transparent url(../img/easy.png) no-repeat; }
+.overlay.active {
+    opacity: 1;
+    visibility: visible; }
+.overlay .barra-load {
+    width: 0;
+    height: 40px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    display: block;
+    -webkit-transition: all 800ms ease;
+    -moz-transition: all 800ms ease;
+    -ms-transition: all 800ms ease;
+    -o-transition: all 800ms ease;
+    transition: all 800ms ease; }
