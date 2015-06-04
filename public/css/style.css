@@ -1,22 +1,26 @@
 /* Style Sheet Super Cerdo */
 
 html, body{
-    margin:0;
-}
-.container {
-    position: relative;
-}
-.bg {
-    width: 100vw; 
-    height: 100vh;
-    display:block;
-    position:relative;
-    background-image: url(../img/bg.jpg);
-    background-repeat:no-repeat;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center;
+    margin-top: 0%;
 }
 
+#banda {
+    padding-top: 70%;
+    width: 500px;
+    color: #f8f8f8;
+    background: url(../img/banda-roja-completa.png) no-repeat ;
+    background-size: contain;
+    -o-background-size: cover;
+}
+
+.img-fluid {
+    width: 90%;
+}
 
 #footer {
     position:absolute;
@@ -131,20 +135,11 @@ html, body{
 
 /* Responsive 1*/
 
-#banda 
-{
-    position: absolute; 
-    width: 100%;
-    height: 95%;
-    top: 0;
-    left: 0;
-}
-
 .fb_api {
     margin-top: 30%;
     margin-left: 11%;
     z-index: 10;
-    width: 15vw;
+    width: 100% ;
     height: 6vh;
     position: absolute;
     top:0;
