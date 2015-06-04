@@ -7,10 +7,11 @@ html, body{
     -o-background-size: cover;
     background-size: cover;
     margin-top: 0%;
+    overflow-x: hidden;
 }
 
-#banda {
-    padding-top: 70%;
+.banda {
+    padding-top: 48%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
     width: 500px;
     color: #f8f8f8;
     background: url(../img/banda-roja-completa.png) no-repeat ;
@@ -18,17 +19,49 @@ html, body{
     -o-background-size: cover;
 }
 
-.img-fluid {
-    width: 90%;
+.fb_api {
+    padding-top: 20%;
+    width: 50px;
+    background: url(../img/boton-fb-on.png) no-repeat ;
+    background-size: contain;
+    -o-background-size: cover;
 }
 
-#footer {
-    position:absolute;
-    left:0px;
-    bottom:0px;
-    height:17%;
+.footer {
+    height: 115px;
+    bottom: 0;
+    /*padding: 3%;*/
+    position: absolute;
     width: 100%;
-    background-color: #fff;
+    margin: 0;
+}
+.costillas {
+    padding: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    height: 100%;
+}
+.row li {
+    bottom: 0;
+    width: 14%;
+    float: right;
+    margin-top: 4px;
+    margin-left: 2px;
+    margin-bottom: 4px;
+    background-color: #f8f8f8;
+}
+.row ul {
+    width: 100%;
+    padding: 0;
+    list-style-type: square;
+    margin-left: -7px;
+}
+img {
+    border: 0 none;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
 }
 
 .img-inline {
@@ -134,17 +167,6 @@ html, body{
 }
 
 /* Responsive 1*/
-
-.fb_api {
-    margin-top: 30%;
-    margin-left: 11%;
-    z-index: 10;
-    width: 100% ;
-    height: 6vh;
-    position: absolute;
-    top:0;
-    left:0;
-}
 
 img {
     max-width: 100%;
