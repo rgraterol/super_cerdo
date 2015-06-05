@@ -13,10 +13,11 @@ return [
 	| to have a conventional place to find your various credentials.
 	|
 	*/
+
     'facebook' => [
-        'client_id' => '964551623588913',
-        'client_secret' => 'c26744bf1c2f96e0ecbad54a894a4590',
-        'redirect' => 'http://localhost:8000',
+        'client_id' => env('FACEBOOK_CLIENT_ID'),
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
+        'redirect' => 'http://super-cerdo.us.to/home',
     ],
 
 	'mailgun' => [

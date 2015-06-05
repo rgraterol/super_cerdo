@@ -11,4 +11,14 @@ class StaticController extends Controller {
         return view('index');
     }
 
+    public function redirectToProvider()
+    {
+        return Socialize::with('facebook')->redirect();
+    }
+
+    public function handleProviderCallback()
+    {
+        $user = Socialize::with('facebook')->user();
+    }
+
 }

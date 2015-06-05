@@ -13,6 +13,9 @@
 
 Route::get('/', 'StaticController@index');
 
+Route::get('login/facebook', 'Auth\AuthController@login');
+
+Route::get('/home', 'Auth\AuthController@handleProviderCallback');
 /*Route::get('home', 'HomeController@index');
 
 Route::controllers([

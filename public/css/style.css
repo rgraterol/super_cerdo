@@ -227,21 +227,32 @@ background-repeat: no-repeat;
 @media only screen and (min-width : 1824px) {
     .banda {
         width: 675px;
-        padding-top: 46%;
+        padding-top: 49%;
     }
     .footer {
         height: 155px;
-        bottom: -2px;
+        bottom: -10px;
+    }
+    .fb_api {
+        padding-top: 0%;
+        margin-top: -395px;
+        margin-left: 200px;
     }
 }
 
 @media only screen and (max-width : 1280px) and (min-width: 1000px) and (max-height: 800px) {
     .banda {
         padding-top: 61%;
+        width: 550px;
     }
     .footer {
         height: 108px;
         bottom: 0px;
+    }
+    .fb_api {
+        padding-top: 0%;
+        margin-top: -355px;
+        margin-left: 145px;
     }
 }
 
