@@ -17,19 +17,23 @@ html, body{
     background: url(../img/banda-roja-completa.png) no-repeat ;
     background-size: contain;
     -o-background-size: cover;
+    position:relative;
 }
 
 .fb_api {
-    padding-top: 20%;
-    width: 50px;
-    background: url(../img/boton-fb-on.png) no-repeat ;
+    padding-top: 7%;
+    width: 100%;
+    /*background: url(../img/boton-fb-on.png) no-repeat ;
     background-size: contain;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
+    position: absolute;
+    margin-top: -295px;
+    margin-left: 116px;
 }
 
 .footer {
     height: 115px;
-    bottom: 0;
+    bottom: -2px;
     /*padding: 3%;*/
     position: absolute;
     width: 100%;
@@ -254,12 +258,19 @@ background-repeat: no-repeat;
 
 @media only screen and (max-width : 1024px) and (min-width: 768px) {
     .banda {
-        width: 370px;
+        width: 540px;
         padding-top: 72%;
     }
     .footer {
         height: 87px;
         bottom: -7px;
+    }
+    .fb_api {
+        margin-top: -320px;
+        margin-left: 155px;
+    }
+    .row ul {
+        margin-left: -5px;
     }
 }
 

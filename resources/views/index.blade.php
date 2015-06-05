@@ -7,7 +7,9 @@
         <div id="content">
             <div class="row">
                 <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 banda">
-
+                    <div class="fb_api">
+                        <img src="img/boton-fb-on.png", class="btn", id="boton-fb-on" />
+                    </div>
                 </div>
             </div>
         </div>
