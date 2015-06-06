@@ -7,9 +7,46 @@
         <div id="content">
             <div class="row">
                 <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 banda">
-                    <div class="fb_api">
-                        <img src="img/conectate-on.png", class="btn", id="boton-fb-on" />
+                    {{--Este es el formulario del final--}}
+                    <div class="form-api ">
+                        <div class="row">
+                            <div class="white-bg-red-border" style="padding-top: 5px">
+                                <small>
+                                    {{--['data-remote'],--}}
+                                    {!! Form::open( array('action' => 'StaticController@store'), array('class' => 'form-horizontal', 'remore' => true)) !!}
+                                        {!! Form::label('name', 'Nombre:', ['class' => 'col-xs-3 control-label']) !!}
+                                        <div class="col-xs-9">
+                                            {!! Form::text('name',null, ['class'=>'form-control', 'required']) !!}
+                                        </div>
+                                        {!! Form::label('email', 'Email:', ['class' => 'col-xs-3 control-label', 'required']) !!}
+                                        <div class="col-xs-9">
+                                            {!! Form::text('email',null, ['class'=>'form-control', 'required']) !!}
+                                        </div>
+                                        {!! Form::label('region', 'Region:', ['class' => 'col-xs-3 control-label', 'required']) !!}
+                                        <div class="col-xs-9">
+                                            {!! Form::text('region',null, ['class'=>'form-control', 'required']) !!}
+                                        </div>
+                                        {!! Form::label('ciudad', 'Ciudad:', ['class' => 'col-xs-3 control-label', 'required']) !!}
+                                        <div class="col-xs-9">
+                                            {!! Form::text('ciudad',null, ['class'=>'form-control', 'required']) !!}
+                                        </div>
+                                        {!! Form::label('birthday', 'Fecha nacimiento:', ['class' => 'col-xs-3 control-label', 'required']) !!}
+                                        <div class="col-xs-9">
+                                            {!! Form::text('birthday', null, ['class'=>'form-control', 'id' => 'datepicker']) !!}
+                                        </div>
+                                    <div class="col-xs-12 text-center">
+                                        {!! Form::submit('Guardar', array('class' => 'btn btn-danger btn-xs')) !!}
+                                    </div>
+                                    .
+                                    {!! Form::close() !!}
+                                </small>
+                            </div>
+                        </div>
                     </div>
+                    {{--Fin de formulario--}}
+                    {{--<div class="fb_api">--}}
+                        {{--<img src="img/conectate-on.png", class="btn", id="boton-fb-on" />--}}
+                    {{--</div>--}}
                 </div>
                 <div id="medallas"> <!-- sostiene las medallas de los amigos random y el avatar del user de fb  -->
                     <table style="width:100%" cellpadding="30" cellspacing="3"><!-- tabla que sostiene la grafica de las medallas -->

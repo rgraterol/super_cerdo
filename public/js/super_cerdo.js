@@ -45,4 +45,25 @@ jQuery(document).ready(function($) {
             }
         });
     });
+//    Este es el lugar donde se envia el formulario y se guarda la data
+    $('form[data-remote]').on('submit', function(e){
+        var form = $(this);
+        var url = form.prop('action');
+        var clienti=$('#add_clienti');
+        console.log('estoy aqui');
+        $.ajax({
+            url:url,
+            data:form.serialize(),
+            type: 'POST',
+            dataType: "json",
+            success: function(data){
+                console.log('lol lol');
+                //i want to insert in table #listaclienti at the end of it
+            }
+        });
+        return false;
+    });
+
+
+
 });

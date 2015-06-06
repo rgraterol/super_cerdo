@@ -13,7 +13,7 @@ return [
 	|
 	*/
 
-	'debug' => env('APP_DEBUG', false),
+	'debug' => env('APP_DEBUG', true),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -109,7 +109,7 @@ return [
 	*/
 
 	'providers' => [
-
+        'Illuminate\Html\HtmlServiceProvider',
 		/*
 		 * Laravel Framework Service Providers...
 		 */
@@ -160,6 +160,8 @@ return [
 	*/
 
 	'aliases' => [
+        'Form'=> 'Illuminate\Html\FormFacade',
+        'HTML'=> 'Illuminate\Html\HtmlFacade',
         'Socialize' => 'Laravel\Socialite\Facades\Socialite',
 		'App'       => 'Illuminate\Support\Facades\App',
 		'Artisan'   => 'Illuminate\Support\Facades\Artisan',
