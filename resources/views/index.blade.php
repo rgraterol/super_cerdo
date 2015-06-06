@@ -1,6 +1,7 @@
 @extends('app')
 
 @section('content')
+<div class="fb-root" id="fb-root">
 <div id="wrapper">
     <div class="container-fluid no-padding" style="position: relative;                                                      ">
         <div id="header"></div>
@@ -11,30 +12,96 @@
                         <img src="img/conectate-on.png", class="btn", id="boton-fb-on" />
                     </div>
                 </div>
-                <div id="medallas"> <!-- sostiene las medallas de los amigos random y el avatar del user de fb  -->
-                    <table style="width:100%" cellpadding="30" cellspacing="3"><!-- tabla que sostiene la grafica de las medallas -->
-                        <tr>
-                            <td style="padding-top:100px;"><div class="friend-frame">
-                                    <div class="lf-friend">
 
+                    <div id="medallas"> <!-- sostiene las medallas de los amigos random y el avatar del user de fb  -->
+                        <table style="width:100%" cellpadding="30" cellspacing="3"><!-- tabla que sostiene la grafica de las medallas -->
+                            <tr>
+                                <td style="padding-top:100px;"><div class="friend-frame">
+                                        <div class="img-rounded tl-friend"></div>
+                                        <div class="text-center friend-name">
+                                            <p id="tl-friend-name">
+                                            </p>
+                                        </div>
+                                        <div class="img-rounded friend-check" id="tl-check">
+
+                                        </div>
                                     </div>
-                                </div></td>
-                            <td><div class="friend-frame"></div></td>
-                            <td style="padding-top:100px;"><div class="friend-frame"></div></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td><div class="user-frame"></div></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td style="padding-bottom:100px;"><div class="friend-frame"></div></td>
-                            <td><div class="friend-frame"></div></td>
-                            <td style="padding-bottom:100px;"><div class="friend-frame"></div></td>
-                        </tr>
-                    </table>
+                                </td>
+                                <td>
+                                    <div class="friend-frame">
+                                        <div class="tc-friend img-rounded">
+                                        </div>
+                                        <div class="text-center friend-name">
+                                            <p id="tc-friend-name">
+                                            </p>
+                                        </div>
+                                        <div class="img-rounded friend-check" id="tc-check">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="padding-top:100px;">
+                                    <div class="friend-frame">
+                                        <div class="tr-friend img-rounded">
+                                        </div>
+                                        <div class="text-center friend-name">
+                                            <p id="tr-friend-name">
+                                            </p>
+                                        </div>
+                                        <div class="img-rounded friend-check" id="tr-check">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><div class="user-frame ">
+                                        <div class="user-pic img-rounded">
+                                        </div>
 
-                </div>
+                                    </div></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td style="padding-bottom:100px;">
+                                    <div class="friend-frame">
+                                        <div class="dl-friend img-rounded">
+                                        </div>
+                                        <div class="text-center friend-name">
+                                            <p id="dl-friend-name">
+                                            </p>
+                                        </div>
+                                        <div class="img-rounded friend-check" id="dl-check">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="friend-frame">
+                                        <div class="dc-friend img-rounded">
+                                        </div>
+                                        <div class="text-center friend-name">
+                                            <p id="dc-friend-name">
+                                            </p>
+                                        </div>
+                                        <div class="img-rounded friend-check" id="dc-check">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="padding-bottom:100px;">
+                                    <div class="friend-frame">
+                                        <div class="dr-friend img-rounded">
+                                        </div>
+                                        <div class="text-center friend-name">
+                                            <p id="dr-friend-name">
+                                            </p>
+                                        </div>
+                                        <div class="img-rounded friend-check" id="dr-check">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </div>
 
             </div>
         </div>
@@ -54,6 +121,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 
 @endsection             

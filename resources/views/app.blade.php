@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Super Cerdo</title>
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/super_cerdo.js"></script>
+
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/landing-page.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
@@ -26,9 +29,6 @@
 	@yield('content')
 
 	<!-- Scripts -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script src="js/super_cerdo.js"></script>
-
 </body>
 </html>

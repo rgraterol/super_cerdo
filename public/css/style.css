@@ -1,5 +1,5 @@
 /* Style Sheet Super Cerdo */
-
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:900,700,600);
 html, body{
     background: url('../img/bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -10,9 +10,26 @@ html, body{
     overflow-x: hidden;
 }
 
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3F3F3F;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.friend-check {
+    background: url(../img/checks/off.png) no-repeat ;
+    background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    margin-left: 42%;
+    margin-top: -50%;
+    padding-top: 20%;
+    width: 20%;
+}
 .banda {
     padding-top: 48%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
-    width: 500px;
+    width: 36%;
     color: #f8f8f8;
     background: url(../img/banda-roja-completa.png) no-repeat ;
     background-size: contain;
@@ -27,8 +44,8 @@ html, body{
     background-size: contain;
     -o-background-size: cover;*/
     position: absolute;
-    margin-top: -300px;
-    margin-left: 10px;
+    margin-top: -60%;
+    margin-left: 2%;
 }
 .fb_div {
     margin-top: 50px;
@@ -43,16 +60,81 @@ td {
     background-size: cover;
     -o-background-size: cover;
     position:relative;
-    padding-top: 164%;
+    padding-top: 169%;
     width: 100%;
     margin: 0 !important;
 }
-.rl-friend {
-
+.friend-name {
+    position: absolute;
+    margin-top: -80%;
+    width: 50%;
+    margin-left: 25%;
+}
+.tl-friend {
+    background: url(../img/default_avatar.jpg) no-repeat ;
     background-size: cover;
     -o-background-size: cover;
-    position:absolute;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -151%;
+    padding-top: 64%;
+    width: 63%;
 }
+.tc-friend {
+    background: url(../img/default_avatar.jpg) no-repeat ;
+    background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -151%;
+    padding-top: 64%;
+    width: 63%;
+}
+
+.tr-friend {
+    background: url(../img/default_avatar.jpg) no-repeat ;
+    background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -151%;
+    padding-top: 64%;
+    width: 63%;
+}
+
+.dl-friend {
+    background: url(../img/default_avatar.jpg) no-repeat ;
+    background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -151%;
+    padding-top: 64%;
+    width: 63%;
+}
+
+.dc-friend {
+    background: url(../img/default_avatar.jpg) no-repeat ;
+    background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -151%;
+    padding-top: 64%;
+    width: 63%;
+}
+
+.dr-friend {
+    background: url(../img/default_avatar.jpg) no-repeat ;
+    background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -151%;
+    padding-top: 64%;
+    width: 63%;
+}
+
 .user-frame {
     background: url(../img/marco-foto-avatar.png) no-repeat ;
     background-size: contain;
@@ -61,6 +143,16 @@ td {
     padding-top: 43%;
     width: 44%;
     margin-left: 29px;
+}
+.user-pic {
+    background: url(../img/default_avatar.jpg) no-repeat ;
+    background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    margin-left: 12%;
+    margin-top: -85%;
+    padding-top: 74%;
+    width: 73%;
 }
 .footer {
     height: 115px;
@@ -223,7 +315,7 @@ background-repeat: no-repeat;
     float: right;
     position: absolute;
     left:55%;
-    top: -2%;
+    top: -7%;
 }
 
 
