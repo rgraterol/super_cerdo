@@ -7,6 +7,16 @@ jQuery(document).ready(function($) {
         });
     };
 
+    var pool = [1, 2, 3, 4, 5];
+    var getNumber = function () {
+        if (pool.length == 0) {
+            throw "No numbers left";
+        }
+        var index = Math.floor(pool.length * Math.random());
+        var drawn = pool.splice(index, 1);
+        return drawn[0];
+    };
+
     (function(d, s, id){
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) {return;}
