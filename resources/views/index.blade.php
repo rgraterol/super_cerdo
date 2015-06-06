@@ -8,17 +8,34 @@
             <div class="row">
                 <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 banda">
                     <div class="fb_api">
-                        <img src="img/boton-fb-on.png", class="btn", id="boton-fb-on" />
+                        <img src="img/conectate-on.png", class="btn", id="boton-fb-on" />
                     </div>
                 </div>
-                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7>">
-                    <div id="fb-root">
-                    </div>
+                <div id="medallas"> <!-- sostiene las medallas de los amigos random y el avatar del user de fb  -->
+                    <table style="width:100%" cellpadding="30" cellspacing="3"><!-- tabla que sostiene la grafica de las medallas -->
+                        <tr>
+                            <td style="padding-top:100px;"><div class="friend-frame">
+                                    <div class="lf-friend">
 
-                    <btn class="btn btn-primary btn-block" id="prueba">
+                                    </div>
+                                </div></td>
+                            <td><div class="friend-frame"></div></td>
+                            <td style="padding-top:100px;"><div class="friend-frame"></div></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><div class="user-frame"></div></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom:100px;"><div class="friend-frame"></div></td>
+                            <td><div class="friend-frame"></div></td>
+                            <td style="padding-bottom:100px;"><div class="friend-frame"></div></td>
+                        </tr>
+                    </table>
 
-                    </btn>
                 </div>
+
             </div>
         </div>
         <div id="footer">

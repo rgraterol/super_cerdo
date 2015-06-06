@@ -27,10 +27,41 @@ html, body{
     background-size: contain;
     -o-background-size: cover;*/
     position: absolute;
-    margin-top: -295px;
-    margin-left: 116px;
+    margin-top: -300px;
+    margin-left: 10px;
 }
+.fb_div {
+    margin-top: 50px;
+    position: absolute;
+}
+td {
+    width: 100px;
+    padding: 0;
+}
+.friend-frame {
+    background: url(../img/plano-foto-amigos-fb.png) no-repeat ;
+    background-size: cover;
+    -o-background-size: cover;
+    position:relative;
+    padding-top: 164%;
+    width: 100%;
+    margin: 0 !important;
+}
+.rl-friend {
 
+    background-size: cover;
+    -o-background-size: cover;
+    position:absolute;
+}
+.user-frame {
+    background: url(../img/marco-foto-avatar.png) no-repeat ;
+    background-size: contain;
+    -o-background-size: cover;
+    position:relative;
+    padding-top: 43%;
+    width: 44%;
+    margin-left: 29px;
+}
 .footer {
     height: 115px;
     bottom: -2px;

@@ -16,12 +16,15 @@ jQuery(document).ready(function($) {
     }(document, 'script', 'facebook-jssdk'));
 
     $('#boton-fb-on').click(function() {
+        $(this).attr("disabled", "disabled");
+        /*var src = $(this).attr("src").replace("img/conectate-on.png","img/conectate-off.png");
+        $(this).attr("src", src);*/
         FB.getLoginStatus(function(response) {
             if (response.status === 'connected') {
                 FB.api("/me/taggable_friends",
                     function (response) {
                         if (response && !response.error) {
-                            console.log(response);
+                            console.log(response['data'][0]);
                         }
                     });
                 console.log('Logged in.');
