@@ -23,12 +23,16 @@ class StaticController extends Controller {
 
         if ($validator->fails())
         {
+//            return response()->json($data);
             return response()->json(['false']);
         }
-        $client = new User($data);
-        $client->save();
-        return response()->json($client);
-
+        if (Input::get('agree') == null){
+            return response()->json(['no']);
+        }else{
+            $client = new User($data);
+            $client->save();
+            return response()->json($client);
+        }
     }
 
 

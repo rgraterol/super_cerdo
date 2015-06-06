@@ -8,11 +8,14 @@
             <div class="row">
                 <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 banda">
                     {{--Este es el formulario del final--}}
-                    <div id="form-id-to-show" class="hide">
+                    <div id="form-id-to-show" class="">
                         <div class="form-api">
                             <div class="row">
                                 <div class="white-bg-red-border" style="padding-top: 5px">
                                     <small>
+                                        <div class="col-xs-12 text-center">
+                                            Para finalizar ingresa estos datos
+                                        </div>
                                         {{--['data-remote'],--}}
                                         {!! Form::open(['data-remote'], array('route' => 'save/user'), array('class' => 'form-horizontal', 'remore' => true)) !!}
                                             {!! Form::label('name', 'Nombre:', ['class' => 'col-xs-3 control-label']) !!}
@@ -35,9 +38,18 @@
                                             <div class="col-xs-9">
                                                 {!! Form::text('birthday', null, ['class'=>'form-control', 'id' => 'datepicker']) !!}
                                             </div>
+                                            <div class="col-xs-9 text-right">
+                                                <small>
+                                                Accepta terminos y condiciones
+                                                </small>
+                                                {!! Form::checkbox('agree', 1, true, ['class' => 'field']) !!}
+                                            </div>
                                         <div class="col-xs-12 text-center">
                                             <small class="hide" id="show-email-permission" style="color: red;">
-                                                El email ya esta participando. Gracias
+                                                El email ya esta participando. Gracias.
+                                            </small>
+                                            <small class="hide" id="show-accept" style="color: red;">
+                                                Debe aceptar los terminos para participar.
                                             </small>
                                             <br>
                                             {!! Form::submit('Guardar', array('class' => 'btn btn-danger btn-xs')) !!}
@@ -50,9 +62,9 @@
                         </div>
                     </div>
                     {{--Fin de formulario--}}
-                    <div class="fb_api">
-                        <img src="img/conectate-on.png", class="btn", id="boton-fb-on" />
-                    </div>
+                    {{--<div class="fb_api">--}}
+                        {{--<img src="img/conectate-on.png", class="btn", id="boton-fb-on" />--}}
+                    {{--</div>--}}
                 </div>
                 <div id="medallas"> <!-- sostiene las medallas de los amigos random y el avatar del user de fb  -->
                     <table style="width:100%" cellpadding="30" cellspacing="3"><!-- tabla que sostiene la grafica de las medallas -->

@@ -56,12 +56,18 @@ jQuery(document).ready(function($) {
             type: 'POST',
             dataType: "json",
             success: function(data){
-                console.log(data[0]);
+                console.log(data);
                 if (data[0] == 'false'){
                     $('#email-id-form').attr('style','border: 1px solid red;');
                     $('#show-email-permission').attr('class','');
+                }else{
+                    if (data[0] == 'no'){
+                        //$('#email-id-form').attr('style','border: 1px solid red;');
+                        $('#show-accept').attr('class','');
+                    }else{
+                        $('#form-id-to-show').attr('class','hide')
+                    }
                 }
-
                 //i want to insert in table #listaclienti at the end of it
             }
         });
