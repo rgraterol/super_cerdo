@@ -11,6 +11,14 @@
                         <img src="img/boton-fb-on.png", class="btn", id="boton-fb-on" />
                     </div>
                 </div>
+                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7>">
+                    <div id="fb-root">
+                    </div>
+
+                    <btn class="btn btn-primary btn-block" id="prueba">
+
+                    </btn>
+                </div>
             </div>
         </div>
         <div id="footer">
@@ -30,4 +38,5 @@
         </div>
     </div>
 </div>
+
 @endsection             
