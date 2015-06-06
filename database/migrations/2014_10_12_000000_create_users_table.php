@@ -21,8 +21,8 @@ class CreateUsersTable extends Migration {
             $table->string('region');
             $table->string('city');
             $table->string('friend_name');
-            $table->string('provider');
-            $table->string('provider_id')->unique();
+//            $table->string('provider');
+//            $table->string('provider_id')->unique();
 			$table->rememberToken();
 			$table->timestamps();
 		});

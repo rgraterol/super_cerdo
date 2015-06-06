@@ -50,14 +50,18 @@ jQuery(document).ready(function($) {
         var form = $(this);
         var url = form.prop('action');
         var clienti=$('#add_clienti');
-        console.log('estoy aqui');
         $.ajax({
-            url:url,
+            url:url +'/save/user',
             data:form.serialize(),
             type: 'POST',
             dataType: "json",
             success: function(data){
-                console.log('lol lol');
+                console.log(data[0]);
+                if (data[0] == 'false'){
+                    $('#email-id-form').attr('style','border: 1px solid red;');
+                    $('#show-email-permission').attr('class','');
+                }
+
                 //i want to insert in table #listaclienti at the end of it
             }
         });
