@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 banda">
                     {{--Este es el formulario del final--}}
-                    <div id="form-id-to-show" class="">
+                    <div id="form-id-to-show" class="hide">
                         <div class="form-api">
                             <div class="row">
                                 <div class="white-bg-red-border" style="padding-top: 5px">
@@ -62,9 +62,9 @@
                         </div>
                     </div>
                     {{--Fin de formulario--}}
-                    {{--<div class="fb_api">--}}
-                        {{--<img src="img/conectate-on.png", class="btn", id="boton-fb-on" />--}}
-                    {{--</div>--}}
+                    <div class="fb_api">
+                        <img src="img/conectate-on.png", class="btn", id="boton-fb-on" />
+                    </div>
                 </div>
                 <div id="medallas"> <!-- sostiene las medallas de los amigos random y el avatar del user de fb  -->
                     <table style="width:100%" cellpadding="30" cellspacing="3"><!-- tabla que sostiene la grafica de las medallas -->
