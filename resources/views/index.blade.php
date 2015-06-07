@@ -64,7 +64,7 @@
                                             {{--{!! Form::submit('Guardar', array('class' => 'btn btn-danger btn-xs')) !!}--}}
                                         </div>
                                         <div class="col-xs-12 text-center">
-                                            <button type="submit" style="padding: 0px; margin: -4%; border: 0px"><img src="img/enviar-on-fixed.png"/></button>
+                                            <button type="submit" style="padding: 0px; margin: -4%; border: 0px; background-color: transparent;"><img src="img/enviar-on-fixed.png"/></button>
                                         .</div>
                                         {!! Form::close() !!}
                                     </small>
