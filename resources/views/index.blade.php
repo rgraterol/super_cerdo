@@ -43,8 +43,8 @@
                                             </small>
                                         </div>
                                         <div class="col-xs-12 text-center" style="margin-top: 5%;">
-                                            <button type="submit" style="padding: 0px; margin: 0%; border: 0px; background-color: transparent;"><img src="img/enviar-on-fixed.png"/></button>
-                                            .</div>
+                                            <button type="submit" style="padding: 0px; margin: 3%; border: 0px; background-color: transparent;"><img src="img/enviar-on-fixed.png"/></button>
+                                        </div>
                                         <div class="col-xs-12 text-center email-in-use">
                                             <p class="email-in-use" id="show-email-permission" style="display: none;">
                                                 El email ya esta participando. Gracias.
@@ -68,13 +68,14 @@
                     </div>
                     <div class="fb_api">
                         <img src="img/conectate-on.png", class="btn" id="boton-fb-on" />
-                        <img src="img/compartir-on.png", class="btn" id="compartir-on" style="display: none"/>
+                        <img src="img/compartir-on.png", class="btn" id="compartir-on" style="display: none" disabled="true"/>
                     </div>
                 </div>
                     <div id="medallas" style="display: none"> <!-- sostiene las medallas de los amigos random y el avatar del user de fb  -->
                         <table style="width:100%" cellpadding="30" cellspacing="3"><!-- tabla que sostiene la grafica de las medallas -->
                             <tr>
-                                <td style="padding-top:100px;"><div class="friend-frame">
+                                <td style="padding-top:100px;">
+                                    <div class="friend-frame ns-f">
                                         <div class="img-rounded tl-friend friend-photo"></div>
                                         <div class="text-center friend-name">
                                             <p id="tl-friend-name">
@@ -87,7 +88,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <div class="friend-frame">
+                                    <div class="friend-frame ns-f">
                                         <div class="tc-friend img-rounded friend-photo">
                                         </div>
                                         <div class="text-center friend-name">
@@ -101,7 +102,7 @@
                                     </div>
                                 </td>
                                 <td style="padding-top:100px;">
-                                    <div class="friend-frame">
+                                    <div class="friend-frame ns-f">
                                         <div class="tr-friend img-rounded friend-photo">
                                         </div>
                                         <div class="text-center friend-name">
@@ -116,17 +117,45 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td><div class="user-frame ">
+                                <td>
+                                    <div class="friend-frame" id="s-friend-frame" style="display: none;">
+                                        <div class="img-rounded friend-photo" id="s-friend">
+                                        </div>
+                                        <div class="text-center friend-name">
+                                            <p id="s-friend-name">
+                                            </p>
+                                        </div>
+                                        <div class="img-rounded friend-check " id="tr-check">
+                                            <input type="radio" name="s-friend" id="s-friend-check" value="s-friend" />
+                                            <label for="s-friend" class="font-check"></label>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="user-frame">
                                         <div class="user-pic img-rounded">
                                         </div>
-
-                                    </div></td>
-                                <td></td>
+                                    </div>
+                                    <img src="img/boton-volver.png" class="img-responsive btn" id="volver" style="display:none">
+                                </td>
+                                <td>
+                                    <div class="friend-frame" id="s-user-frame" style="display: none;">
+                                        <div class="img-rounded friend-photo" id="s-user">
+                                        </div>
+                                        <div class="text-center friend-name">
+                                            <p id="s-user-name">
+                                            </p>
+                                        </div>
+                                        <div class="img-rounded friend-check " id="tr-check">
+                                            <input type="radio" name="s-use" id="s-user-check" value="s-user" />
+                                            <label for="s-user" class="font-check"></label>
+                                        </div>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td style="padding-bottom:100px;">
-                                    <div class="friend-frame">
+                                    <div class="friend-frame ns-f" >
                                         <div class="dl-friend img-rounded friend-photo">
                                         </div>
                                         <div class="text-center friend-name">
@@ -140,7 +169,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <div class="friend-frame">
+                                    <div class="friend-frame ns-f">
                                         <div class="dc-friend img-rounded friend-photo">
                                         </div>
                                         <div class="text-center friend-name">
@@ -154,7 +183,7 @@
                                     </div>
                                 </td>
                                 <td style="padding-bottom:100px;">
-                                    <div class="friend-frame">
+                                    <div class="friend-frame ns-f">
                                         <div class="dr-friend img-rounded friend-photo">
                                         </div>
                                         <div class="text-center friend-name">

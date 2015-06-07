@@ -306,16 +306,29 @@ background-repeat: no-repeat;
 /* RESPONSIVES DESKTOPS */
 @media only screen and (min-width : 1824px) {
     .banda {
-        width: 45%;
-        padding-top: 63%;
+        width: 33%;
+        padding-top: 48%;
     }
     .footer {
-        height: 14%;
+        height: 17%;
         bottom: 0px;
     }
     .fb_api {
-        padding-top: 3%;
-        margin-left: 28%;
+        padding-top: 0%;
+        margin-left: 13%;
+        margin-top: -65%;
+    }
+    #medallas {
+        top: 0%;
+        left: 60%;
+    }
+    #compartir-on {
+        margin-top: 16%;
+        margin-left: 3%;
+    }
+    .white-bg-red-border {
+        font-size: 14px;
+
     }
 }
 
@@ -539,6 +552,12 @@ img{
     overflow: hidden;
     opacity: 0.5;
     transition: all 0.35s;
+}
+.font-checked {
+    content: '\f046'; /*checked*/
+    overflow: hidden;
+    max-width: 25px;
+    opacity: 1;
 }
 
 input[type="radio"] {

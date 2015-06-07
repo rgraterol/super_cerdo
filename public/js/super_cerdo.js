@@ -19,6 +19,7 @@ jQuery(document).ready(function($) {
     var five = getNumber();
     var six = getNumber();
     var user = '';
+    var user_pic = '';
     var f1 = '';
     var f2 = '';
     var f3 = '';
@@ -41,6 +42,7 @@ jQuery(document).ready(function($) {
                     "/me/picture",
                     function (response) {
                         if (response && !response.error) {
+                            user_pic = response["data"]['url'];
                             $('.user-pic').css("background",'url(' + response["data"]['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
                         }
                     }
@@ -50,7 +52,6 @@ jQuery(document).ready(function($) {
                     function (response) {
                         if (response && !response.error) {
                             user = response;
-                            $('#user-name-p').text(user['name'].toUpperCase());
                         }
                     }
                 );
@@ -87,6 +88,7 @@ jQuery(document).ready(function($) {
                             $('#medallas').show().addClass('magictime vanishIn');
                             $('#boton-fb-on').hide();
                             $('#compartir-on').show();
+                            $('#user-name-p').text(user['name'].toUpperCase());
                             $('.banda').css("background",'url("../img/barra_roja/2.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').css('width','35%').addClass('magictime vanishIn');
                         }
                     });
@@ -97,6 +99,53 @@ jQuery(document).ready(function($) {
 
             }
         });
+    });
+    function user_info() {
+        $('#s-friend-frame').show();
+        $('#s-user-frame').show();
+        $('.ns-f').hide();
+        $('#compartir-on').removeAttr("disabled");
+        $('.user-frame').hide();
+        $('#volver').show();
+        document.getElementById('s-friend-check').checked = true;
+        document.getElementById('s-user-check').checked = true;
+        $('#s-user').css("background", 'url(' + user_pic + ') no-repeat').css("background-size", 'cover').css('-o-background-size', 'cover');
+        $('#s-user-name').text(user['name'].toUpperCase());
+    }
+    function set_friend(friend) {
+        $('#s-friend').css("background",'url(' + friend['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
+        $('#s-friend-name').text(friend['name'].toUpperCase());
+    }
+    $('#one').click(function() {
+        user_info();
+        set_friend(f1);
+    });
+    $('#two').click(function() {
+        user_info();
+        set_friend(f2);
+    });
+    $('#three').click(function() {
+        user_info();
+        set_friend(f3);
+    });
+    $('#four').click(function() {
+        user_info();
+        set_friend(f4);
+    });
+    $('#five').click(function() {
+        user_info();
+        set_friend(f5);
+    });
+    $('#six').click(function() {
+        user_info();
+        set_friend(f6);
+    });
+    $('#volver').click(function(){
+        $('#s-friend-frame').hide();
+        $('#s-user-frame').hide();
+        $('.ns-f').show();
+        $('.user-frame').show();
+        $('#volver').hide();
     });
 //    Este es el lugar donde se envia el formulario y se guarda la data
     $('form[data-remote]').on('submit', function(e){
