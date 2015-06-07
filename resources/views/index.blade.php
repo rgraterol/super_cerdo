@@ -13,6 +13,17 @@
                         <div class="form-api">
                             <div class="row">
                                 <div class="white-bg-red-border">
+                                    <div class="col-xs-12 text-center">
+                                        <small class="hide" id="show-email-permission" style="color: red;">
+                                            El email ya esta participando. Gracias.
+                                        </small>
+                                        <small class="hide" id="show-accept" style="color: red;">
+                                            Debe aceptar los terminos para participar.
+                                        </small>
+                                        <br>
+
+                                        {{--{!! Form::submit('Guardar', array('class' => 'btn btn-danger btn-xs')) !!}--}}
+                                    </div>
                                     <small>
                                         {{--['data-remote'],--}}
                                         {!! Form::open(['data-remote'], array('route' => 'save/user'), array('class' => 'form-horizontal', 'remore' => true)) !!}
@@ -37,6 +48,8 @@
                                             {!! Form::text('birthday', null, ['class'=>'form-control', 'id' => 'datepicker']) !!}
                                         </div>
                                         <div class="col-xs-12 text-center" style="margin-top: -1%;">
+                                        {!! Form::hidden('friend_name', null, [ 'id' => 'hidden-field-friend-name']) !!}
+                                        <div class="col-xs-12 text-center">
                                             <small>
                                                 Al Enviar aceptas los terminos y condiciones de uso.
                                             </small>
@@ -44,17 +57,9 @@
                                         <div class="col-xs-12 text-center" style="margin-top: 5%;">
                                             <button type="submit" style="padding: 0px; margin: 0%; border: 0px; background-color: transparent;"><img src="img/enviar-on-fixed.png"/></button>
                                         .</div>
-                                        <div class="col-xs-12 text-center email-in-use">
-                                            <p class="email-in-use" id="show-email-permission" style="display: none;">
-                                                El email ya esta participando. Gracias.
-                                            </p>
-                                            <small class="hide" id="show-accept" style="color: red;">
-                                                Debe aceptar los terminos para participar.
-                                            </small>
-                                            <br>
-
-                                            {{--{!! Form::submit('Guardar', array('class' => 'btn btn-danger btn-xs')) !!}--}}
-                                        </div>
+                                        <div class="col-xs-12 text-center">
+                                            <button type="submit" style="padding: 0px; margin: -6px; border: 0px; background-color: transparent;"><img src="img/enviar-on-fixed.png"/></button>
+                                        .</div>
                                         {!! Form::close() !!}
                                     </small>
                                 </div>
@@ -81,7 +86,7 @@
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="tl-check">
-                                            <input type="radio" name="one" id="one" value="one" />
+                                            <input type="checkbox" name="one" id="one" />
                                             <label for="one" class="font-check"></label>
                                         </div>
                                     </div>
@@ -95,7 +100,7 @@
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="tc-check">
-                                            <input type="radio" name="one" id="two" value="two" />
+                                            <input type="checkbox" name="two" id="two" />
                                             <label for="two" class="font-check"></label>
                                         </div>
                                     </div>
@@ -109,7 +114,7 @@
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="tr-check">
-                                            <input type="radio" name="one" id="three" value="three" />
+                                            <input type="checkbox" name="three" id="three" />
                                             <label for="three" class="font-check"></label>
                                         </div>
                                     </div>
@@ -134,7 +139,7 @@
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="dl-check">
-                                            <input type="radio" name="one" id="four"  value="four"/>
+                                            <input type="checkbox" name="four" id="four" />
                                             <label for="four" class="font-check"></label>
                                         </div>
                                     </div>
@@ -148,7 +153,7 @@
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="dc-check">
-                                            <input type="radio" name="one" id="five" value="five" />
+                                            <input type="checkbox" name="five" id="five" />
                                             <label for="five" class="font-check"></label>
                                         </div>
                                     </div>
@@ -162,7 +167,7 @@
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="dr-check">
-                                            <input type="radio" name="one" id="six" value="six" />
+                                            <input type="checkbox" name="six" id="six" />
                                             <label for="six" class="font-check"></label>
                                         </div>
                                     </div>
