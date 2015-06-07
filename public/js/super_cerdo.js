@@ -97,6 +97,7 @@ jQuery(document).ready(function($) {
     });
 //    Este es el lugar donde se envia el formulario y se guarda la data
     $('form[data-remote]').on('submit', function(e){
+        $('.banda').removeClass('magictime vanishIn');
         var form = $(this);
         var url = form.prop('action');
         var clienti=$('#add_clienti');
@@ -109,12 +110,15 @@ jQuery(document).ready(function($) {
                 if (data[0] == 'false'){
                     $('#email-id-form').attr('style','border: 1px solid red;');
                     $('#show-email-permission').show();
+                    $('#form-id-to-show').attr('class','hide')
+                    $('.banda').css("background",'url("../img/barra_roja/4.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').css('width','35%').addClass('magictime vanishIn');
                 }else{
                     if (data[0] == 'no'){
                         //$('#email-id-form').attr('style','border: 1px solid red;');
                         $('#show-accept').attr('class','');
                     }else{
                         $('#form-id-to-show').attr('class','hide')
+                        $('.banda').css("background",'url("../img/barra_roja/4.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').css('width','35%').addClass('magictime vanishIn');
                     }
                 }
                 //i want to insert in table #listaclienti at the end of it

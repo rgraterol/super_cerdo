@@ -38,7 +38,7 @@
                                         </div>
                                         <div class="col-xs-12 text-center" style="margin-top: -1%;">
                                             <small>
-                                                Al hacer click en Enviar acepta los terminos y condiciones de uso.
+                                                Al Enviar aceptas los terminos y condiciones de uso.
                                             </small>
                                         </div>
                                         <div class="col-xs-12 text-center" style="margin-top: 5%;">
@@ -178,13 +178,13 @@
             <div class="row footer">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 costillas">
                     <ul>
-                        <li><a href="img/lightbox/1-DETALLE-BARBECUE.png" title="Costillitas Barbecue" data-gallery="" ><img src="img/carousel_big/1-costillita-barbecue-on.png" class="img-responsive inline-block"></a></li>
-                        <li><a href="img/lightbox/2-DETALLE-CHILENA.png" title="Costillitas Chilenas" data-gallery="" ><img src="img/carousel_big/2-costillitas-chilenas-on.png" class="img-responsive inline-block"></a></li>
-                        <li><a href="img/lightbox/3-DETALLE-IBERICA.png" title="Costillitas Ibéricas" data-gallery="" ><img src="img/carousel_big/3-costillitas-ibericas-on.png" class="img-responsive inline-block"></a></li>
-                        <li><a href="img/lightbox/4-DETALLE-MEXICANA.png" title="Costillitas Mexicanas" data-gallery="" ><img src="img/carousel_big/4-costillitas-mexicanas-on.png" class="img-responsive inline-block"></a></li>
-                        <li><a href="img/lightbox/5-DETALLE-PERUANA.png" title="Costillitas Peruanas" data-gallery="" ><img src="img/carousel_big/5-costillitas-peruanas-on.png" class="img-responsive inline-block"></a></li>
-                        <li><a href="img/lightbox/6-DETALLE-COSTILLAR-BBQ.png" title="Costillar Barbecue" data-gallery="" ><img src="img/carousel_big/6-costillar-barbecue-on.png" class="img-responsive inline-block"></a></li>
-                        <li><a href="img/lightbox/7-DETALLE-COSTILLAR-CHILENAS.png" title="Costillar Chileno" data-gallery="" ><img src="img/carousel_big/7-costillar-chileno-on.png" class="img-responsive inline-block"></a></li>
+                        <li><a href="img/lightbox/1-DETALLE-BARBECUE.png" title="" data-gallery="" ><img src="img/carousel_big/1-costillita-barbecue-on.png" class="img-responsive inline-block"></a></li>
+                        <li><a href="img/lightbox/2-DETALLE-CHILENA.png" title="" data-gallery="" ><img src="img/carousel_big/2-costillitas-chilenas-on.png" class="img-responsive inline-block"></a></li>
+                        <li><a href="img/lightbox/3-DETALLE-IBERICA.png" title="" data-gallery="" ><img src="img/carousel_big/3-costillitas-ibericas-on.png" class="img-responsive inline-block"></a></li>
+                        <li><a href="img/lightbox/4-DETALLE-MEXICANA.png" title="" data-gallery="" ><img src="img/carousel_big/4-costillitas-mexicanas-on.png" class="img-responsive inline-block"></a></li>
+                        <li><a href="img/lightbox/5-DETALLE-PERUANA.png" title="" data-gallery="" ><img src="img/carousel_big/5-costillitas-peruanas-on.png" class="img-responsive inline-block"></a></li>
+                        <li><a href="img/lightbox/6-DETALLE-COSTILLAR-BBQ.png" title="" data-gallery="" ><img src="img/carousel_big/6-costillar-barbecue-on.png" class="img-responsive inline-block"></a></li>
+                        <li><a href="img/lightbox/7-DETALLE-COSTILLAR-CHILENAS.png" title="" data-gallery="" ><img src="img/carousel_big/7-costillar-chileno-on.png" class="img-responsive inline-block"></a></li>
                     </ul>
 
                 </div>
