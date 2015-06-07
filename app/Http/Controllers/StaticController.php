@@ -2,6 +2,7 @@
 
 use App\User;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Validator;
 use Input;
 use Request;
 
@@ -18,24 +19,19 @@ class StaticController extends Controller {
 
     public function  store()
     {
-        $data = Input::all();
-        User::create($data);
-//        $user = new User($data);
-//        $user->save();
-//        User::create($data);
-        if($_REQUEST->ajax()){
-//            Input::get('name')
-            $email = 'aaaaaaaa';
-            $name = 'name';
-//            $id = Input::get('facebook_id');
-            $client = new User();
-            $client->email = $email;
-            $client->name = $name;
-            $data = Input::all();
-//            $client::create(['email' => 'lol']);
-            User::create($data);
-            return \Response::json($client);
-//            return response()->json($client);
+        $validator = Validator::make($data = Input::all(), User::$rules);
+
+        if ($validator->fails())
+        {
+//            return response()->json($data);
+            return response()->json(['false']);
+        }
+        if (Input::get('agree') == null){
+            return response()->json(['no']);
+        }else{
+            $client = new User($data);
+            $client->save();
+            return response()->json($client);
         }
     }
 

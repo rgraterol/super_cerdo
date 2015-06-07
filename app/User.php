@@ -10,6 +10,12 @@ class User extends Model implements AuthenticatableContract {
 
 	use Authenticatable;
 
+    public static $rules = array(
+        'email' => 'required|unique:users',
+        'name'  => 'required',
+        // .. more rules here ..
+    );
+
 	/**
 	 * The database table used by the model.
 	 *
