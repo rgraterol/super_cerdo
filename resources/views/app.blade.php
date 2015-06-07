@@ -50,7 +50,13 @@
     <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <script>
         $(function() {
-            $( "#datepicker" ).datepicker();
+            var currentDate = new Date();
+            $( "#datepicker" ).datepicker({
+                defaultdate:'06/25/2010',
+                changeMonth: true,
+                changeYear: true,
+                yearRange: "-100:+0"
+            });
         });
     </script>
 </body>

@@ -9,10 +9,21 @@
             <div class="row">
                 <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 banda">
                     {{--Este es el formulario del final--}}
-                    <div id="form-id-to-show" style="display:none">
+                    <div id="form-id-to-show" style="display: none">
                         <div class="form-api">
                             <div class="row">
                                 <div class="white-bg-red-border">
+                                    <div class="col-xs-12 text-center">
+                                        <small class="hide" id="show-email-permission" style="color: red;">
+                                            El email ya esta participando. Gracias.
+                                        </small>
+                                        <small class="hide" id="show-accept" style="color: red;">
+                                            Debe aceptar los terminos para participar.
+                                        </small>
+                                        <br>
+
+                                        {{--{!! Form::submit('Guardar', array('class' => 'btn btn-danger btn-xs')) !!}--}}
+                                    </div>
                                     <small>
                                         {{--['data-remote'],--}}
                                         {!! Form::open(['data-remote'], array('route' => 'save/user'), array('class' => 'form-horizontal', 'remore' => true)) !!}
@@ -34,11 +45,11 @@
                                         </div>
                                         {!! Form::label('birthday', 'FECHA NACIMIENTO:', ['class' => 'col-xs-3 control-label', 'required']) !!}
                                         <div class="col-xs-9">
-                                            {!! Form::text('birthday', null, ['class'=>'form-control', 'id' => 'datepicker']) !!}
+                                            {!! Form::text('birthday', "06/06/2001", ['class'=>'form-control', 'id' => 'datepicker']) !!}
                                         </div>
                                         <div class="col-xs-12 text-center">
                                             <small>
-                                                Al hacer click en Enviar acepta los terminos y condiciones de uso.
+                                                Al hacer click en Enviar acepta los terminos y condiciones.
                                             </small>
                                         </div>
                                         <div class="col-xs-12 text-center">
@@ -49,9 +60,12 @@
                                                 Debe aceptar los terminos para participar.
                                             </small>
                                             <br>
-                                            {!! Form::submit('Guardar', array('class' => 'btn btn-danger btn-xs')) !!}
+
+                                            {{--{!! Form::submit('Guardar', array('class' => 'btn btn-danger btn-xs')) !!}--}}
                                         </div>
-                                        .
+                                        <div class="col-xs-12 text-center">
+                                            <button type="submit" style="padding: 0px; margin: -6px; border: 0px"><img src="img/enviar-on-fixed.png"/></button>
+                                        .</div>
                                         {!! Form::close() !!}
                                     </small>
                                 </div>
