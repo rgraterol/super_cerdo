@@ -9,51 +9,38 @@
             <div class="row">
                 <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 banda">
                     {{--Este es el formulario del final--}}
-                    <!--<div class="form-api ">
-                        <div class="row">
-                            <div class="white-bg-red-border" style="padding-top: 5px">
-                                <small>
-                                    {{--['data-remote'],--}}
-                                    {!! Form::open( array('action' => 'StaticController@store'), array('class' => 'form-horizontal', 'remore' => true)) !!}
-                                        {!! Form::label('name', 'Nombre:', ['class' => 'col-xs-3 control-label']) !!}
-                                        <div class="col-xs-9">
-                                            {!! Form::text('name',null, ['class'=>'form-control', 'required']) !!}
-                    <div id="form-id-to-show" class="hide">
+                    <div id="form-id-to-show" style="display:none">
                         <div class="form-api">
                             <div class="row">
-                                <div class="white-bg-red-border" style="padding-top: 5px">
+                                <div class="white-bg-red-border">
                                     <small>
-                                        <div class="col-xs-12 text-center">
-                                            Para finalizar ingresa estos datos
-                                        </div>
                                         {{--['data-remote'],--}}
                                         {!! Form::open(['data-remote'], array('route' => 'save/user'), array('class' => 'form-horizontal', 'remore' => true)) !!}
-                                            {!! Form::label('name', 'Nombre:', ['class' => 'col-xs-3 control-label']) !!}
-                                            <div class="col-xs-9">
-                                                {!! Form::text('name',null, ['class'=>'form-control', 'required']) !!}
-                                            </div>
-                                            {!! Form::label('email', 'Email:', ['class' => 'col-xs-3 control-label', 'required']) !!}
-                                            <div class="col-xs-9">
-                                                {!! Form::text('email',null, ['class'=>'form-control', 'required', 'id' => 'email-id-form']) !!}
-                                            </div>
-                                            {!! Form::label('region', 'Region:', ['class' => 'col-xs-3 control-label', 'required']) !!}
-                                            <div class="col-xs-9">
-                                                {!! Form::text('region',null, ['class'=>'form-control', 'required']) !!}
-                                            </div>
-                                            {!! Form::label('ciudad', 'Ciudad:', ['class' => 'col-xs-3 control-label', 'required']) !!}
-                                            <div class="col-xs-9">
-                                                {!! Form::text('ciudad',null, ['class'=>'form-control', 'required']) !!}
-                                            </div>
-                                            {!! Form::label('birthday', 'Fecha nacimiento:', ['class' => 'col-xs-3 control-label', 'required']) !!}
-                                            <div class="col-xs-9">
-                                                {!! Form::text('birthday', null, ['class'=>'form-control', 'id' => 'datepicker']) !!}
-                                            </div>
-                                            <div class="col-xs-9 text-right">
-                                                <small>
-                                                Accepta terminos y condiciones
-                                                </small>
-                                                {!! Form::checkbox('agree', 1, true, ['class' => 'field']) !!}
-                                            </div>
+                                        {!! Form::label('name', 'NOMBRE:', ['class' => 'col-xs-3 control-label']) !!}
+                                        <div class="col-xs-9">
+                                            {!! Form::text('name',null, ['class'=>'form-control', 'required']) !!}
+                                        </div>
+                                        {!! Form::label('email', 'EMAIL:', ['class' => 'col-xs-3 control-label', 'required']) !!}
+                                        <div class="col-xs-9">
+                                            {!! Form::text('email',null, ['class'=>'form-control', 'required', 'id' => 'email-id-form']) !!}
+                                        </div>
+                                        {!! Form::label('region', 'REGIÓN:', ['class' => 'col-xs-3 control-label', 'required']) !!}
+                                        <div class="col-xs-9">
+                                            {!! Form::text('region',null, ['class'=>'form-control']) !!}
+                                        </div>
+                                        {!! Form::label('ciudad', 'CIUDAD:', ['class' => 'col-xs-3 control-label', 'required']) !!}
+                                        <div class="col-xs-9">
+                                            {!! Form::text('ciudad',null, ['class'=>'form-control', 'required']) !!}
+                                        </div>
+                                        {!! Form::label('birthday', 'FECHA NACIMIENTO:', ['class' => 'col-xs-3 control-label', 'required']) !!}
+                                        <div class="col-xs-9">
+                                            {!! Form::text('birthday', null, ['class'=>'form-control', 'id' => 'datepicker']) !!}
+                                        </div>
+                                        <div class="col-xs-12 text-center">
+                                            <small>
+                                                Al hacer click en Enviar acepta los terminos y condiciones de uso.
+                                            </small>
+                                        </div>
                                         <div class="col-xs-12 text-center">
                                             <small class="hide" id="show-email-permission" style="color: red;">
                                                 El email ya esta participando. Gracias.
@@ -70,7 +57,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
                     {{--Fin de formulario--}}
                     <div class=" text-center user-name">
                         <p id="user-name-p"></p>
@@ -92,7 +79,7 @@
                                         </div>
                                         <div class="img-rounded friend-check " id="tl-check">
                                             <input type="checkbox" name="one" id="one" />
-                                            <label for="one"></label>
+                                            <label for="one" class="font-check"></label>
                                         </div>
                                     </div>
                                 </td>
@@ -106,7 +93,7 @@
                                         </div>
                                         <div class="img-rounded friend-check " id="tc-check">
                                             <input type="checkbox" name="two" id="two" />
-                                            <label for="two"></label>
+                                            <label for="two" class="font-check"></label>
                                         </div>
                                     </div>
                                 </td>
@@ -120,7 +107,7 @@
                                         </div>
                                         <div class="img-rounded friend-check " id="tr-check">
                                             <input type="checkbox" name="three" id="three" />
-                                            <label for="three"></label>
+                                            <label for="three" class="font-check"></label>
                                         </div>
                                     </div>
                                 </td>
@@ -145,7 +132,7 @@
                                         </div>
                                         <div class="img-rounded friend-check " id="dl-check">
                                             <input type="checkbox" name="four" id="four" />
-                                            <label for="four"></label>
+                                            <label for="four" class="font-check"></label>
                                         </div>
                                     </div>
                                 </td>
@@ -159,7 +146,7 @@
                                         </div>
                                         <div class="img-rounded friend-check " id="dc-check">
                                             <input type="checkbox" name="five" id="five" />
-                                            <label for="five"></label>
+                                            <label for="five" class="font-check"></label>
                                         </div>
                                     </div>
                                 </td>
@@ -173,7 +160,7 @@
                                         </div>
                                         <div class="img-rounded friend-check " id="dr-check">
                                             <input type="checkbox" name="six" id="six" />
-                                            <label for="six"></label>
+                                            <label for="six" class="font-check"></label>
                                         </div>
                                     </div>
                                 </td>

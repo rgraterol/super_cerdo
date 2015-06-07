@@ -1,18 +1,5 @@
 jQuery(document).ready(function($) {
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId      : '964551623588913',
-            xfbml      : true,
-            version    : 'v2.3'
-        });
-    };
-    (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+
 
     var pool = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24];
 
@@ -98,11 +85,9 @@ jQuery(document).ready(function($) {
                             $('#boton-fb-on').hide();
                             $('#compartir-on').show();
                             $('.banda').css("background",'url("../img/barra_roja/2.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').css('width','35%').addClass('magictime vanishIn');
-                            console.log(user);
                             $('#user-name-p').text(user['name'].toUpperCase());
                         }
                     });
-                console.log('Logged in.');
             }
             else {
                 FB.login(function(){}, {scope: 'email,public_profile,user_friends'});
@@ -121,7 +106,6 @@ jQuery(document).ready(function($) {
             type: 'POST',
             dataType: "json",
             success: function(data){
-                console.log(data);
                 if (data[0] == 'false'){
                     $('#email-id-form').attr('style','border: 1px solid red;');
                     $('#show-email-permission').attr('class','');
@@ -140,12 +124,55 @@ jQuery(document).ready(function($) {
     });
 
     $('#compartir-on').click(function() {
-        console.log(f1['id'])
+        $(this).attr("disabled", "disabled");
+        var checkboxes = document.getElementsByTagName('input');
+        var f_names = [];
+        var f_ids = [];
+        for (var i=0; i<checkboxes.length; i++)  {
+            if (checkboxes[i].type == 'checkbox')   {
+                if (checkboxes[i].checked == true && checkboxes[i].id == 'one') {
+                    f_names.push(f1['name'].replace('"', '')); f_ids.push(f1['id']);
+                }
+                if (checkboxes[i].checked == true && checkboxes[i].id == 'two') {
+                    f_names.push(f2['name'].replace('"', '')); f_ids.push(f2['id']);
+                }
+                if (checkboxes[i].checked == true && checkboxes[i].id == 'three') {
+                    f_names.push(f3['name'].replace('"', '')); f_ids.push(f3['id']);
+                }
+                if (checkboxes[i].checked == true && checkboxes[i].id == 'four') {
+                    f_names.push(f4['name'].replace('"', '')); f_ids.push(f4['id']);
+                }
+                if (checkboxes[i].checked == true && checkboxes[i].id == 'five') {
+                    f_names.push(f5['name'].replace('"', '')); f_ids.push(f5['id']);
+                }
+                if (checkboxes[i].checked == true && checkboxes[i].id == 'six') {
+                    f_names.push(f6['name'].replace('"', '')); f_ids.push(f6['id']);
+                }
+            }
+        }
+        var string = user['name'] + ' quiere compartir un asado';
+        if (f_names.length === 0) {
+            string += ' contigo...';
+        }
+        else {
+            string += ' con ';
+            $.each(f_names, function(index, value) {
+                    string += value + ', '
+                });
+            }
         FB.ui({
             method: 'feed',
-            link: 'https://super-cerdo.us.to/',
-            caption: 'Super Cerdo'
-        }, function(response){});
+            link: 'http://super-cerdo.us.to/',
+            caption: 'Super Cerdo',
+            name: string.slice(0,-2),
+            description: string.slice(0,-2)
+        }, function(response){
+            $('#medallas').hide();
+            $('#compartir-on').hide();
+            $('.user-name').hide();
+            $('#form-id-to-show').show();
+            $('.banda').css("background",'url("../img/barra_roja/3.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').css('width','35%').addClass('magictime vanishIn');
+        });
         /*FB.api('/me/feed', 'post', {message: 'Hello, world!'},
         function(response) { console.log(response)});*/
     });
