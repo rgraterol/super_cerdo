@@ -47,7 +47,7 @@
                                         <div class="col-xs-9">
                                             {!! Form::text('birthday', "06/06/2001", ['class'=>'form-control', 'id' => 'datepicker']) !!}
                                         </div>
-                                        <div class="col-xs-12 text-center">
+                                        <div class="col-xs-12 text-center" style="margin-top: -2%;">
                                             <small>
                                                 Al hacer click en Enviar acepta los terminos y condiciones.
                                             </small>
@@ -64,7 +64,7 @@
                                             {{--{!! Form::submit('Guardar', array('class' => 'btn btn-danger btn-xs')) !!}--}}
                                         </div>
                                         <div class="col-xs-12 text-center">
-                                            <button type="submit" style="padding: 0px; margin: -6px; border: 0px"><img src="img/enviar-on-fixed.png"/></button>
+                                            <button type="submit" style="padding: 0px; margin: -4%; border: 0px"><img src="img/enviar-on-fixed.png"/></button>
                                         .</div>
                                         {!! Form::close() !!}
                                     </small>

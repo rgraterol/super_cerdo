@@ -587,9 +587,9 @@ input[type="checkbox"]:checked + label:after {
     padding-right: 0;
     width: 71%;
     position: absolute;
-    margin-top: -78%;
+    margin-top: -80%;
 }
 .control-label {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
 }
