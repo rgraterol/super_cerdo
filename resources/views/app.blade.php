@@ -63,7 +63,13 @@
     <script src="js/blueimp/jquery.blueimp-gallery.min.js"></script>
     <script>
         $(function() {
-            $( "#datepicker" ).datepicker();
+            var currentDate = new Date();
+            $( "#datepicker" ).datepicker({
+                defaultdate:'06/25/2010',
+                changeMonth: true,
+                changeYear: true,
+                yearRange: "-100:+0"
+            });
         });
     </script>
 </body>
