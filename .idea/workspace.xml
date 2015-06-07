@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc6ea406-a5bf-4b26-9de9-f76ef38def14" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/super_cerdo.js" afterPath="$PROJECT_DIR$/public/js/super_cerdo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="super_cerdo.iws" />
@@ -40,22 +41,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.518518" vertical-offset="823" max-vertical-offset="3996">
-              <caret line="66" column="98" selection-start-line="66" selection-start-column="98" selection-end-line="66" selection-end-column="98" />
+            <state vertical-scroll-proportion="0.3321234" vertical-offset="537" max-vertical-offset="3798">
+              <caret line="40" column="113" selection-start-line="40" selection-start-column="113" selection-end-line="40" selection-end-column="113" />
               <folding>
+                <element signature="e#135#216#0#HTML" expanded="true" />
                 <element signature="e#485#506#0#HTML" expanded="true" />
-                <element signature="e#826#845#0#HTML" expanded="true" />
-                <element signature="e#1057#1076#0#HTML" expanded="true" />
-                <element signature="e#3594#3618#0#HTML" expanded="true" />
-                <element signature="e#4047#4066#0#HTML" expanded="true" />
-                <element signature="e#4290#4309#0#HTML" expanded="true" />
-                <element signature="e#5597#5618#0#HTML" expanded="true" />
-                <element signature="e#5711#5732#0#HTML" expanded="true" />
-                <element signature="e#5845#5863#0#HTML" expanded="true" />
+                <element signature="e#2827#2851#0#HTML" expanded="true" />
+                <element signature="e#3195#3218#0#HTML" expanded="true" />
+                <element signature="e#3286#3363#0#HTML" expanded="true" />
+                <element signature="e#3642#3664#0#HTML" expanded="true" />
+                <element signature="e#3884#3903#0#HTML" expanded="true" />
+                <element signature="e#4908#4929#0#HTML" expanded="true" />
+                <element signature="e#5022#5043#0#HTML" expanded="true" />
+                <element signature="e#5156#5174#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014_10_12_000000_create_users_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="6.0" vertical-offset="162" max-vertical-offset="828">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85714287" vertical-offset="630" max-vertical-offset="1890">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="954" max-vertical-offset="1890">
               <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
@@ -83,8 +95,8 @@
       <file leaf-file-name="super_cerdo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/super_cerdo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1609" max-vertical-offset="3348">
-              <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+            <state vertical-scroll-proportion="-7.111111" vertical-offset="1788" max-vertical-offset="3384">
+              <caret line="110" column="34" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -93,8 +105,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.074074" vertical-offset="10222" max-vertical-offset="10800">
-              <caret line="589" column="19" selection-start-line="589" selection-start-column="19" selection-end-line="589" selection-end-column="19" />
+            <state vertical-scroll-proportion="-15.407408" vertical-offset="10384" max-vertical-offset="10998">
+              <caret line="600" column="1" selection-start-line="600" selection-start-column="1" selection-end-line="600" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -103,8 +115,8 @@
       <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="12.0" vertical-offset="990" max-vertical-offset="1476">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state vertical-scroll-proportion="-11.888889" vertical-offset="885" max-vertical-offset="1494">
+              <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -118,11 +130,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/public/js/super_cerdo.js" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
-        <option value="$PROJECT_DIR$/config/database.php" />
       </list>
     </option>
   </component>
@@ -191,7 +203,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super_cerdo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super_cerdo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,15 +312,27 @@
       <option name="project" value="LOCAL" />
       <updated>1433696608220</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DONE -LIGHTBOX">
+      <created>1433698531491</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1433698531491</updated>
+    </task>
+    <task id="LOCAL-00006" summary="FIX FORMULARIO">
+      <created>1433703530367</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1433703530367</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -332,60 +374,19 @@
     <MESSAGE value="FIX - FORM" />
     <MESSAGE value="FIX - BARRAS ROJAS" />
     <MESSAGE value="DONE -LIGHTBOX" />
-    <option name="LAST_COMMIT_MESSAGE" value="DONE -LIGHTBOX" />
+    <MESSAGE value="FIX FORMULARIO" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIX FORMULARIO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="12.0" vertical-offset="990" max-vertical-offset="1476">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StaticController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/super_cerdo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1894" max-vertical-offset="3348">
-          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.074074" vertical-offset="10222" max-vertical-offset="10800">
-          <caret line="589" column="19" selection-start-line="589" selection-start-column="19" selection-end-line="589" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.518518" vertical-offset="823" max-vertical-offset="3996">
-          <caret line="66" column="98" selection-start-line="66" selection-start-column="98" selection-end-line="66" selection-end-column="98" />
-          <folding>
-            <element signature="e#485#506#0#HTML" expanded="true" />
-            <element signature="e#826#845#0#HTML" expanded="true" />
-            <element signature="e#1057#1076#0#HTML" expanded="true" />
-            <element signature="e#3594#3618#0#HTML" expanded="true" />
-            <element signature="e#4047#4066#0#HTML" expanded="true" />
-            <element signature="e#4290#4309#0#HTML" expanded="true" />
-            <element signature="e#5597#5618#0#HTML" expanded="true" />
-            <element signature="e#5711#5732#0#HTML" expanded="true" />
-            <element signature="e#5845#5863#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -399,9 +400,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85714287" vertical-offset="630" max-vertical-offset="1890">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="954" max-vertical-offset="1890">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.0" vertical-offset="162" max-vertical-offset="828">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.407408" vertical-offset="10384" max-vertical-offset="10998">
+          <caret line="600" column="1" selection-start-line="600" selection-start-column="1" selection-end-line="600" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.888889" vertical-offset="885" max-vertical-offset="1494">
+          <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/super_cerdo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.111111" vertical-offset="1788" max-vertical-offset="3384">
+          <caret line="110" column="34" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321234" vertical-offset="537" max-vertical-offset="3798">
+          <caret line="40" column="113" selection-start-line="40" selection-start-column="113" selection-end-line="40" selection-end-column="113" />
+          <folding>
+            <element signature="e#135#216#0#HTML" expanded="true" />
+            <element signature="e#485#506#0#HTML" expanded="true" />
+            <element signature="e#2827#2851#0#HTML" expanded="true" />
+            <element signature="e#3195#3218#0#HTML" expanded="true" />
+            <element signature="e#3286#3363#0#HTML" expanded="true" />
+            <element signature="e#3642#3664#0#HTML" expanded="true" />
+            <element signature="e#3884#3903#0#HTML" expanded="true" />
+            <element signature="e#4908#4929#0#HTML" expanded="true" />
+            <element signature="e#5022#5043#0#HTML" expanded="true" />
+            <element signature="e#5156#5174#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

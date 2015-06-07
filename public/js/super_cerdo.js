@@ -30,12 +30,12 @@ jQuery(document).ready(function($) {
         var checkboxes = document.getElementsByTagName('input');
 
         for (var i=0; i<checkboxes.length; i++)  {
-            if (checkboxes[i].type == 'checkbox')   {
+            if (checkboxes[i].type == 'radio')   {
                 checkboxes[i].checked = false;
             }
         }
-        $(this).attr("disabled", "disabled");
         FB.getLoginStatus(function(response) {
+            $('#boton-fb-on').attr("disabled", "disabled");
             if (response.status === 'connected') {
                 FB.api(
                     "/me/picture",
@@ -108,7 +108,7 @@ jQuery(document).ready(function($) {
             success: function(data){
                 if (data[0] == 'false'){
                     $('#email-id-form').attr('style','border: 1px solid red;');
-                    $('#show-email-permission').attr('class','');
+                    $('#show-email-permission').show();
                 }else{
                     if (data[0] == 'no'){
                         //$('#email-id-form').attr('style','border: 1px solid red;');
@@ -125,27 +125,27 @@ jQuery(document).ready(function($) {
 
     $('#compartir-on').click(function() {
         $(this).attr("disabled", "disabled");
-        var checkboxes = document.getElementsByTagName('input');
+        var radios = document.getElementsByTagName('input');
         var f_names = [];
         var f_ids = [];
-        for (var i=0; i<checkboxes.length; i++)  {
-            if (checkboxes[i].type == 'checkbox')   {
-                if (checkboxes[i].checked == true && checkboxes[i].id == 'one') {
+        for (var i=0; i<radios.length; i++)  {
+            if (radios[i].type == 'radio')   {
+                if (radios[i].checked == true && radios[i].id == 'one') {
                     f_names.push(f1['name'].replace('"', '')); f_ids.push(f1['id']);
                 }
-                if (checkboxes[i].checked == true && checkboxes[i].id == 'two') {
+                if (radios[i].checked == true && radios[i].id == 'two') {
                     f_names.push(f2['name'].replace('"', '')); f_ids.push(f2['id']);
                 }
-                if (checkboxes[i].checked == true && checkboxes[i].id == 'three') {
+                if (radios[i].checked == true && radios[i].id == 'three') {
                     f_names.push(f3['name'].replace('"', '')); f_ids.push(f3['id']);
                 }
-                if (checkboxes[i].checked == true && checkboxes[i].id == 'four') {
+                if (radios[i].checked == true && radios[i].id == 'four') {
                     f_names.push(f4['name'].replace('"', '')); f_ids.push(f4['id']);
                 }
-                if (checkboxes[i].checked == true && checkboxes[i].id == 'five') {
+                if (radios[i].checked == true && radios[i].id == 'five') {
                     f_names.push(f5['name'].replace('"', '')); f_ids.push(f5['id']);
                 }
-                if (checkboxes[i].checked == true && checkboxes[i].id == 'six') {
+                if (radios[i].checked == true && radios[i].id == 'six') {
                     f_names.push(f6['name'].replace('"', '')); f_ids.push(f6['id']);
                 }
             }
@@ -164,6 +164,7 @@ jQuery(document).ready(function($) {
             method: 'feed',
             link: 'http://super-cerdo.us.to/',
             caption: 'Super Cerdo',
+            picture: 'http://super-cerdo.us.to/img/5.png',
             name: string.slice(0,-2),
             description: string.slice(0,-2)
         }, function(response){
@@ -171,6 +172,7 @@ jQuery(document).ready(function($) {
             $('#compartir-on').hide();
             $('.user-name').hide();
             $('#form-id-to-show').show();
+            $('.fb_api').hide();
             $('.banda').css("background",'url("../img/barra_roja/3.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').css('width','35%').addClass('magictime vanishIn');
         });
         /*FB.api('/me/feed', 'post', {message: 'Hello, world!'},
