@@ -319,7 +319,7 @@ background-repeat: no-repeat;
     }
 }
 
-@media only screen and (min-width : 1280px) and (min-height: 800px) {
+@media only screen and (min-width : 1000px) and (max-width: 1280px) and (min-height: 800px) {
     .banda {
         padding-top: 61%;
         width: 42%;

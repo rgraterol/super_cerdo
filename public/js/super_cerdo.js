@@ -1,11 +1,11 @@
 jQuery(document).ready(function($) {
 
 
-    var pool = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24];
+    var pool = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 
     var getNumber = function () {
         if (pool.length == 0) {
-            throw "Error Imposible";
+            throw "Error - No tiene amigos";
         }
         var index = Math.floor(pool.length * Math.random());
         var drawn = pool.splice(index, 1);
@@ -50,16 +50,19 @@ jQuery(document).ready(function($) {
                     function (response) {
                         if (response && !response.error) {
                             user = response;
+                            $('#user-name-p').text(user['name'].toUpperCase());
                         }
                     }
                 );
                 FB.api("/me/taggable_friends",
                     function (response) {
+                        console.log(response);
+                        console.log("friends");
                         if (response && !response.error) {
                             f1 = response["data"][one];
                             $('.tl-friend').css("background",'url(' + response["data"][one]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
                             $('#tl-friend-name').text(response["data"][one]['name'].toUpperCase());
-/*                            console.log(f1);*/
+
 
                             f2 = response["data"][two];
                             $('.tc-friend').css("background",'url(' + response["data"][two]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
@@ -85,9 +88,9 @@ jQuery(document).ready(function($) {
                             $('#boton-fb-on').hide();
                             $('#compartir-on').show();
                             $('.banda').css("background",'url("../img/barra_roja/2.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').css('width','35%').addClass('magictime vanishIn');
-                            $('#user-name-p').text(user['name'].toUpperCase());
                         }
                     });
+
             }
             else {
                 FB.login(function(){}, {scope: 'email,public_profile,user_friends'});
@@ -155,12 +158,14 @@ jQuery(document).ready(function($) {
             }
         }
         var string = user['name'] + ' quiere compartir un asado';
+        var friend ='';
         if (f_names.length === 0) {
             string += ' contigo...';
         }
         else {
             string += ' con ';
             $.each(f_names, function(index, value) {
+                    friend = value;
                     string += value + ', '
                 });
             }
@@ -176,6 +181,9 @@ jQuery(document).ready(function($) {
             $('#compartir-on').hide();
             $('.user-name').hide();
             $('#form-id-to-show').show();
+            $('#name-id-form').val(user['name']);
+            $('#email-id-form').val(user['email']);
+            $('#hidden-field-friend-name').val(friend);
             $('.fb_api').hide();
             $('.banda').css("background",'url("../img/barra_roja/3.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').css('width','35%').addClass('magictime vanishIn');
         });
