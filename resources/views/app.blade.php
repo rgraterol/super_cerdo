@@ -6,13 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Super Cerdo</title>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="js/super_cerdo.js"></script>
-
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/landing-page.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/magic.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
 
 	<!-- Fonts -->
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
@@ -29,6 +27,15 @@
 	@yield('content')
 
 	<!-- Scripts -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="js/super_cerdo.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $( "#datepicker" ).datepicker();
+        });
+    </script>
 </body>
 </html>
