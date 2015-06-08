@@ -322,13 +322,12 @@ background-repeat: no-repeat;
         top: 0%;
         left: 60%;
     }
-    #compartir-on {
-        margin-top: 16%;
-        margin-left: 3%;
-    }
     .white-bg-red-border {
         font-size: 14px;
-
+    }
+    .row ul {
+        width: 101%;
+        margin-left: -1%;
     }
 }
 
@@ -381,11 +380,11 @@ background-repeat: no-repeat;
         padding-top: 53%;
     }
     .footer {
-        height: 32%;
-        bottom: -15%;
+        height: 31%;
+        bottom: -16%;
     }
     .fb_api {
-        margin-left: -7%;
+        margin-left: 2%;
     }
     .row ul {
         width: 100%;
@@ -397,7 +396,7 @@ background-repeat: no-repeat;
         bottom: 0;
         width: 14%;
         float: right;
-        margin-top: 2px;
+        margin-top: 1px;
         margin-left: 1px;
         margin-bottom: 1px;
     }
@@ -570,14 +569,14 @@ input[type="radio"]:checked + label:after {
 
 .font-check:before, .font-check:after {color: hsl(0, 45%, 40%);}
 
-/*FORMULARIO */
+/*.ULARIO */
 
 .form-control {
     display: block;
     width: 100%;
     height: 22px;
     padding: 0 5px;
-    font-size: 10px;
+    font-size: 128%;
     line-height: 100%;
     color: #7f1805;
     background-color: #ffffff;
@@ -606,11 +605,7 @@ input[type="radio"]:checked + label:after {
     padding-right: 0;
     width: 71%;
     position: absolute;
-    margin-top: -78%;
-}
-.control-label {
-    font-size: 10px;
-    font-weight: 400;
+    margin-top: -77%;
 }
 small, .small {
     font-family: 'Source Sans Pro', sans-serif;

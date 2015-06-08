@@ -89,7 +89,8 @@ jQuery(document).ready(function($) {
                             $('#boton-fb-on').hide();
                             $('#compartir-on').show();
                             $('#user-name-p').text(user['name'].toUpperCase());
-                            $('.banda').css("background",'url("../img/barra_roja/2.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').css('width','35%').addClass('magictime vanishIn');
+                            $('.banda').css("background",'url("../img/barra_roja/2.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').addClass('magictime vanishIn');
+
                         }
                     });
 
@@ -107,6 +108,7 @@ jQuery(document).ready(function($) {
         $('#compartir-on').removeAttr("disabled");
         $('.user-frame').hide();
         $('#volver').show();
+        $('#medallas').css('top','20%');
         document.getElementById('s-friend-check').checked = true;
         document.getElementById('s-user-check').checked = true;
         $('#s-user').css("background", 'url(' + user_pic + ') no-repeat').css("background-size", 'cover').css('-o-background-size', 'cover');
@@ -141,6 +143,7 @@ jQuery(document).ready(function($) {
         set_friend(f6);
     });
     $('#volver').click(function(){
+        $('#medallas').css('top','0');
         $('#s-friend-frame').hide();
         $('#s-user-frame').hide();
         $('.ns-f').show();
@@ -163,14 +166,14 @@ jQuery(document).ready(function($) {
                     $('#email-id-form').attr('style','border: 1px solid red;');
                     $('#show-email-permission').show();
                     $('#form-id-to-show').attr('class','hide')
-                    $('.banda').css("background",'url("../img/barra_roja/4.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').css('width','35%').addClass('magictime vanishIn');
+                    $('.banda').css("background",'url("../img/barra_roja/4.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').addClass('magictime vanishIn');
                 }else{
                     if (data[0] == 'no'){
                         //$('#email-id-form').attr('style','border: 1px solid red;');
                         $('#show-accept').attr('class','');
                     }else{
                         $('#form-id-to-show').attr('class','hide')
-                        $('.banda').css("background",'url("../img/barra_roja/4.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').css('width','35%').addClass('magictime vanishIn');
+                        $('.banda').css("background",'url("../img/barra_roja/1.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').addClass('magictime vanishIn');
                     }
                 }
                 //i want to insert in table #listaclienti at the end of it
@@ -220,9 +223,9 @@ jQuery(document).ready(function($) {
             }
         FB.ui({
             method: 'feed',
-            link: 'http://super-cerdo.us.to/',
+            link: 'http://nosunelaparrilla.cl/',
             caption: 'Super Cerdo',
-            picture: 'http://super-cerdo.us.to/img/5.png',
+            picture: 'http://nosunelaparrilla.cl/img/5.png',
             name: string.slice(0,-2),
             description: string.slice(0,-2)
         }, function(response){
@@ -234,7 +237,8 @@ jQuery(document).ready(function($) {
             $('#email-id-form').val(user['email']);
             $('#hidden-field-friend-name').val(friend);
             $('.fb_api').hide();
-            $('.banda').css("background",'url("../img/barra_roja/3.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').css('width','35%').addClass('magictime vanishIn');
+            $('.banda').css("background",'url("../img/barra_roja/3.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').addClass('magictime vanishIn');
+
         });
         /*FB.api('/me/feed', 'post', {message: 'Hello, world!'},
         function(response) { console.log(response)});*/
