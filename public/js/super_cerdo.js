@@ -173,7 +173,7 @@ jQuery(document).ready(function($) {
                         $('#show-accept').attr('class','');
                     }else{
                         $('#form-id-to-show').attr('class','hide')
-                        $('.banda').css("background",'url("../img/barra_roja/1.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').addClass('magictime vanishIn');
+                        $('.banda').css("background",'url("../img/barra_roja/4.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').addClass('magictime vanishIn');
                     }
                 }
                 //i want to insert in table #listaclienti at the end of it

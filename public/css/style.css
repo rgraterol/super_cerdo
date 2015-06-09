@@ -81,9 +81,9 @@ td {
 }
 .user-name {
     position: absolute;
-    margin-top: -85%;
+    margin-top: -77%;
     width: 50%;
-    margin-left: 27%;
+    margin-left: 20%;
 }
 #user-name-p {
     color: #fff;
@@ -271,8 +271,8 @@ background-repeat: no-repeat;
 #medallas{
     float: right;
     position: absolute;
-    left:55%;
-    top: -7%;
+    left:59%;
+    top: 0%;
 }
 
 
