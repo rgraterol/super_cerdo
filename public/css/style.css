@@ -313,6 +313,18 @@ background-repeat: no-repeat;
         height: 17%;
         bottom: 0px;
     }
+    .user-name {
+        margin-top: -85%;
+        width: 64%;
+    }
+    .form-api {
+        padding-top: 0%;
+        padding-left: 27%;
+        padding-right: 0;
+        width: 82%;
+        position: absolute;
+        margin-top: -80%;
+    }
     .fb_api {
         padding-top: 0%;
         margin-left: 13%;
