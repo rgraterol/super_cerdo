@@ -48,9 +48,8 @@ jQuery(document).ready(function($) {
         );
         FB.api("/me/taggable_friends",
             function (response) {
-                console.log(response);
-                console.log("friends");
                 if (response && !response.error) {
+                    $('#boton-fb-on').attr("disabled", "disabled");
                     f1 = response["data"][one];
                     $('.tl-friend').css("background",'url(' + response["data"][one]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
                     $('#tl-friend-name').text(response["data"][one]['name'].toUpperCase());
@@ -94,7 +93,6 @@ jQuery(document).ready(function($) {
             }
         }
         FB.getLoginStatus(function(response) {
-            $('#boton-fb-on').attr("disabled", "disabled");
             if (response.status === 'connected') {
                 facebook_functions();
             }
@@ -185,7 +183,7 @@ jQuery(document).ready(function($) {
                         $('#show-accept').attr('class','');
                     }else{
                         $('#form-id-to-show').attr('class','hide')
-                        $('.banda').css("background",'url("../img/barra_roja/1.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').addClass('magictime vanishIn');
+                        $('.banda').css("background",'url("../img/barra_roja/4.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').addClass('magictime vanishIn');
                     }
                 }
                 //i want to insert in table #listaclienti at the end of it

@@ -81,9 +81,9 @@ td {
 }
 .user-name {
     position: absolute;
-    margin-top: -80%;
+    margin-top: -77%;
     width: 50%;
-    margin-left: 24%;
+    margin-left: 20%;
 }
 #user-name-p {
     color: #fff;
@@ -271,8 +271,8 @@ background-repeat: no-repeat;
 #medallas{
     float: right;
     position: absolute;
-    left:55%;
-    top: -7%;
+    left:59%;
+    top: 0%;
 }
 
 
@@ -312,6 +312,18 @@ background-repeat: no-repeat;
     .footer {
         height: 17%;
         bottom: 0px;
+    }
+    .user-name {
+        margin-top: -85%;
+        width: 64%;
+    }
+    .form-api {
+        padding-top: 0%;
+        padding-left: 27%;
+        padding-right: 0;
+        width: 82%;
+        position: absolute;
+        margin-top: -80%;
     }
     .fb_api {
         padding-top: 0%;
