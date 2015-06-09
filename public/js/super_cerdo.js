@@ -27,6 +27,64 @@ jQuery(document).ready(function($) {
     var f5 = '';
     var f6 = '';
     var avatar_one = '';
+
+    function facebook_functions() {
+        FB.api(
+            "/me/picture",
+            function (response) {
+                if (response && !response.error) {
+                    user_pic = response["data"]['url'];
+                    $('.user-pic').css("background",'url(' + response["data"]['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
+                }
+            }
+        );
+        FB.api(
+            "/me",
+            function (response) {
+                if (response && !response.error) {
+                    user = response;
+                }
+            }
+        );
+        FB.api("/me/taggable_friends",
+            function (response) {
+                console.log(response);
+                console.log("friends");
+                if (response && !response.error) {
+                    f1 = response["data"][one];
+                    $('.tl-friend').css("background",'url(' + response["data"][one]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
+                    $('#tl-friend-name').text(response["data"][one]['name'].toUpperCase());
+
+
+                    f2 = response["data"][two];
+                    $('.tc-friend').css("background",'url(' + response["data"][two]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
+                    $('#tc-friend-name').text(response["data"][two]['name'].toUpperCase());
+
+                    f3 = response["data"][three];
+                    $('.tr-friend').css("background",'url(' + response["data"][three]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
+                    $('#tr-friend-name').text(response["data"][three]['name'].toUpperCase());
+
+                    f4 = response["data"][four];
+                    $('.dl-friend').css("background",'url(' + response["data"][four]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
+                    $('#dl-friend-name').text(response["data"][four]['name'].toUpperCase());
+
+                    f5 = response["data"][five];
+                    $('.dc-friend').css("background",'url(' + response["data"][five]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
+                    $('#dc-friend-name').text(response["data"][five]['name'].toUpperCase());
+
+                    f6 = response["data"][six];
+                    $('.dr-friend').css("background",'url(' + response["data"][six]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
+                    $('#dr-friend-name').text(response["data"][six]['name'].toUpperCase());
+
+                    $('#medallas').show().addClass('magictime vanishIn');
+                    $('#boton-fb-on').hide();
+                    $('#compartir-on').show();
+                    $('#user-name-p').text(user['name'].toUpperCase());
+                    $('.banda').css("background",'url("../img/barra_roja/2.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').addClass('magictime vanishIn');
+
+                }
+            });
+    }
     $('#boton-fb-on').click(function() {
         var checkboxes = document.getElementsByTagName('input');
 
@@ -38,69 +96,23 @@ jQuery(document).ready(function($) {
         FB.getLoginStatus(function(response) {
             $('#boton-fb-on').attr("disabled", "disabled");
             if (response.status === 'connected') {
-                FB.api(
-                    "/me/picture",
-                    function (response) {
-                        if (response && !response.error) {
-                            user_pic = response["data"]['url'];
-                            $('.user-pic').css("background",'url(' + response["data"]['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
-                        }
-                    }
-                );
-                FB.api(
-                    "/me",
-                    function (response) {
-                        if (response && !response.error) {
-                            user = response;
-                        }
-                    }
-                );
-                FB.api("/me/taggable_friends",
-                    function (response) {
-                        console.log(response);
-                        console.log("friends");
-                        if (response && !response.error) {
-                            f1 = response["data"][one];
-                            $('.tl-friend').css("background",'url(' + response["data"][one]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
-                            $('#tl-friend-name').text(response["data"][one]['name'].toUpperCase());
-
-
-                            f2 = response["data"][two];
-                            $('.tc-friend').css("background",'url(' + response["data"][two]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
-                            $('#tc-friend-name').text(response["data"][two]['name'].toUpperCase());
-
-                            f3 = response["data"][three];
-                            $('.tr-friend').css("background",'url(' + response["data"][three]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
-                            $('#tr-friend-name').text(response["data"][three]['name'].toUpperCase());
-
-                            f4 = response["data"][four];
-                            $('.dl-friend').css("background",'url(' + response["data"][four]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
-                            $('#dl-friend-name').text(response["data"][four]['name'].toUpperCase());
-
-                            f5 = response["data"][five];
-                            $('.dc-friend').css("background",'url(' + response["data"][five]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
-                            $('#dc-friend-name').text(response["data"][five]['name'].toUpperCase());
-
-                            f6 = response["data"][six];
-                            $('.dr-friend').css("background",'url(' + response["data"][six]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
-                            $('#dr-friend-name').text(response["data"][six]['name'].toUpperCase());
-
-                            $('#medallas').show().addClass('magictime vanishIn');
-                            $('#boton-fb-on').hide();
-                            $('#compartir-on').show();
-                            $('#user-name-p').text(user['name'].toUpperCase());
-                            $('.banda').css("background",'url("../img/barra_roja/2.png") no-repeat').css("background-size",'cover').css('-o-background-size','cover').addClass('magictime vanishIn');
-
-                        }
-                    });
-
+                facebook_functions();
             }
             else {
-                FB.login(function(){}, {scope: 'email,public_profile,user_friends'});
+                FB.login(function(response){
+                    if (response.authResponse) {
+                        console.log("All Permissions Granted");
+                        facebook_functions();
+                    }
+                    else {
+                        console.log("Dont Got Permissions");
+                    }
+                }, {scope: 'email,public_profile,user_friends'});
 
             }
         });
     });
+
     function user_info() {
         $('#s-friend-frame').show();
         $('#s-user-frame').show();
