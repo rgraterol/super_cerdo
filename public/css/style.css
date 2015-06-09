@@ -80,9 +80,10 @@ td {
 }
 .user-name {
     position: absolute;
-    margin-top: -77%;
-    width: 50%;
-    margin-left: 20%;
+    left: 15%;
+    top: 36%;
+    width: 345px;
+    margin-left: 0;
 }
 #user-name-p {
     color: #fff;
