@@ -122,23 +122,28 @@ td {
 .costillas {
     padding: 0;
     width: 101%;
-    background-color: #f8f8f8;
+    background-color: rgba(255,255,255,00.5);
     height: 100%;
 }
 .row li {
     bottom: 0;
     width: 14%;
-    float: right;
     margin-top: 4px;
     margin-left: 3px;
     margin-bottom: 4px;
     background-color: #f8f8f8;
+    display: inline-block;
 }
 .row ul {
     width: 100%;
     padding: 0;
     list-style-type: none;
     margin-left: -10px;
+}
+.detalle-bbq {
+    background: url(../img/lightbox/1-DETALLE-BARBECUE.png) no-repeat;
+    background-size: contain;
+    -o-background-size: cover;
 }
 img {
     border: 0 none;
