@@ -121,7 +121,7 @@ td {
 }
 .costillas {
     padding: 0;
-    width: 100%;
+    width: 101%;
     background-color: #f8f8f8;
     height: 100%;
 }
@@ -130,7 +130,7 @@ td {
     width: 14%;
     float: right;
     margin-top: 4px;
-    margin-left: 2px;
+    margin-left: 3px;
     margin-bottom: 4px;
     background-color: #f8f8f8;
 }
@@ -138,7 +138,7 @@ td {
     width: 100%;
     padding: 0;
     list-style-type: none;
-    margin-left: -7px;
+    margin-left: -10px;
 }
 img {
     border: 0 none;
