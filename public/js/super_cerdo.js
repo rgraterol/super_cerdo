@@ -36,7 +36,6 @@ jQuery(document).ready(function($) {
             }
         }
         FB.getLoginStatus(function(response) {
-            $('#boton-fb-on').attr("disabled", "disabled");
             if (response.status === 'connected') {
                 FB.api(
                     "/me/picture",
@@ -57,9 +56,8 @@ jQuery(document).ready(function($) {
                 );
                 FB.api("/me/taggable_friends",
                     function (response) {
-                        console.log(response);
-                        console.log("friends");
                         if (response && !response.error) {
+                            $('#boton-fb-on').attr("disabled", "disabled");
                             f1 = response["data"][one];
                             $('.tl-friend').css("background",'url(' + response["data"][one]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
                             $('#tl-friend-name').text(response["data"][one]['name'].toUpperCase());
