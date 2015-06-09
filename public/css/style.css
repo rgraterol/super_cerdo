@@ -36,16 +36,15 @@ p {
 }
 
 .fb_api {
-    padding-top: 10%;
-    width: 80%;
-    /*background: url(../img/boton-fb-on.png) no-repeat ;
-    background-size: contain;
-    -o-background-size: cover;*/
     position: absolute;
-    margin-top: -62%;
-    margin-left: 5%;
+    top: 58%;
+    left: 50%;
+    margin: 0;
+    margin-top: -30px;
+    margin-left: -215px;
+    width: 450px;
+    padding: 0;
 }
-
 
 .fb_div {
     margin-top: 50px;
@@ -325,11 +324,6 @@ background-repeat: no-repeat;
         position: absolute;
         margin-top: -80%;
     }
-    .fb_api {
-        padding-top: 0%;
-        margin-left: 13%;
-        margin-top: -65%;
-    }
     #medallas {
         top: 0%;
         left: 60%;
@@ -340,6 +334,15 @@ background-repeat: no-repeat;
     .row ul {
         width: 101%;
         margin-left: -1%;
+    }
+    .row li {
+        bottom: 0;
+        width: 14%;
+        float: right;
+        margin-top: 3px;
+        margin-left: 5px;
+        margin-bottom: 4px;
+        background-color: #f8f8f8;
     }
 }
 
@@ -352,11 +355,6 @@ background-repeat: no-repeat;
         height: 14%;
         bottom: 0px;
     }
-    .fb_api {
-        padding-top: 0%;
-        margin-top: -65%;
-        margin-left: 7%;
-    }
 }
 
 @media only screen and (max-width : 1024px) and (min-width: 768px) {
@@ -368,10 +366,6 @@ background-repeat: no-repeat;
         height: 12%;
         bottom: 0px;
     }
-    .fb_api {
-        margin-top: -70%;
-        margin-left: 5%;
-    }
     .row ul {
         margin-left: -5px;
     }
@@ -381,10 +375,6 @@ background-repeat: no-repeat;
     .footer {
         height: 12%;
     }
-    .fb_api {
-        margin-top: -71%;
-    }
-
 }
 @media only screen and (max-width: 568px) and (min-width: 320px) and (max-height: 568px) and (orientation : landscape) {
     .banda {
@@ -394,9 +384,6 @@ background-repeat: no-repeat;
     .footer {
         height: 31%;
         bottom: -16%;
-    }
-    .fb_api {
-        margin-left: 2%;
     }
     .row ul {
         width: 100%;
