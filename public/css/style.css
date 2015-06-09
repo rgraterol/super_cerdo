@@ -26,8 +26,8 @@ p {
 }
 
 .banda {
-    padding-top: 47%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
-    width: 36%;
+    padding-top: 51%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
+    width: 35%;
     color: #f8f8f8;
     background: url(../img/barra_roja/1.png) no-repeat ;
     background-size: contain;
@@ -38,7 +38,7 @@ p {
 .fb_api {
     position: absolute;
     top: 58%;
-    left: 50%;
+    left: 48%;
     margin: 0;
     margin-top: -30px;
     margin-left: -215px;
@@ -304,10 +304,6 @@ background-repeat: no-repeat;
 
 /* RESPONSIVES DESKTOPS */
 @media only screen and (min-width : 1824px) {
-    .banda {
-        width: 33%;
-        padding-top: 48%;
-    }
     .footer {
         height: 17%;
         bottom: 0px;
