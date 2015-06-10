@@ -774,6 +774,25 @@ small, .small {
     .row li {
 
     }
+
+    .table-style {
+        width: 70%;
+    }
+
+    .friend-check {
+        margin-left: 32%;
+        width: 37%;
+        margin-top: -54%;
+    }
+    .font-check {
+        margin-bottom: 11%;
+        margin-left: 5%
+    }
+    .font-check:before, .font-check:after {
+        font-size: 10px;
+        top: -4px;
+        left: 4px;
+    }
 }
 
 /* CSS for Portrait */

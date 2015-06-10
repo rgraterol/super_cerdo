@@ -131,6 +131,7 @@ jQuery(document).ready(function($) {
     }
     function set_friend(friend) {
         $('#s-friend').css("background",'url(' + friend['picture']['data']['url'] +') no-repeat').css("background-size",'contain').css('-o-background-size','cover');
+        console.log(friend['name'].toUpperCase());
         $('#s-friend-name').text(friend['name'].toUpperCase());
     }
     $('#one').click(function() {
