@@ -140,8 +140,9 @@ jQuery(document).ready(function($) {
         $('.s-friend-name').text(friend['name'].toUpperCase());
 
         $('.left-friend').css("background",'url(' + friend['picture']['data']['url'] +') no-repeat').css("background-size",'contain').css('-o-background-size','cover');
-        $('.right-friend-name').text(friend['name'].toUpperCase());
-        $('.left-friend').show();
+        $('.left-friend-name').text(friend['name'].toUpperCase());
+
+        $('.left-medalla').show();
     }
     $('#one').click(function() {
         user_info();
