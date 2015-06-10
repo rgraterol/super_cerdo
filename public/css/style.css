@@ -842,6 +842,10 @@ li.seventh-item .more-info{
         padding-top: 33%;
     }
 
+    .tl-friend-name{
+        font-size: 14px;
+    }
+
     .friend-photo{
         position: absolute;
         margin-left: 19%;
@@ -965,5 +969,9 @@ li.seventh-item .more-info{
 
     .show-carousel{
         height: 35px !important;
+    }
+
+    .tl-friend-name{
+        font-size: 8px;
     }
 }
