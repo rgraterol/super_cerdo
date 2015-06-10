@@ -17,23 +17,23 @@
                                     {!! Form::open(['data-remote'], array('route' => 'save/user'), array('class' => 'form-horizontal', 'remore' => true)) !!}
                                     {!! Form::label('name', 'NOMBRE:', ['class' => 'col-xs-3 control-label']) !!}
                                     <div class="col-xs-9">
-                                        {!! Form::text('name',null, ['class'=>'form-control', 'required', 'id' => 'name-id-form']) !!}
+                                        {!! Form::text('name',null, ['class'=>'form-control form-control-fix', 'required', 'id' => 'name-id-form']) !!}
                                     </div>
                                     {!! Form::label('email', 'EMAIL:', ['class' => 'col-xs-3 control-label', 'required']) !!}
                                     <div class="col-xs-9">
-                                        {!! Form::text('email',null, ['class'=>'form-control', 'required', 'id' => 'email-id-form']) !!}
+                                        {!! Form::text('email',null, ['class'=>'form-control form-control-fix', 'required', 'id' => 'email-id-form']) !!}
                                     </div>
                                     {!! Form::label('region', 'REGIÓN:', ['class' => 'col-xs-3 control-label', 'required']) !!}
                                     <div class="col-xs-9">
-                                        {!! Form::text('region',null, ['class'=>'form-control']) !!}
+                                        {!! Form::text('region',null, ['class'=>'form-control form-control-fix']) !!}
                                     </div>
                                     {!! Form::label('ciudad', 'CIUDAD:', ['class' => 'col-xs-3 control-label', 'required']) !!}
                                     <div class="col-xs-9">
-                                        {!! Form::text('ciudad',null, ['class'=>'form-control', 'required']) !!}
+                                        {!! Form::text('ciudad',null, ['class'=>'form-control form-control-fix', 'required']) !!}
                                     </div>
                                     {!! Form::label('birthday', 'FECHA NACIMIENTO:', ['class' => 'col-xs-3 control-label', 'required']) !!}
                                     <div class="col-xs-9">
-                                        {!! Form::text('birthday', null, ['class'=>'form-control', 'id' => 'datepicker']) !!}
+                                        {!! Form::text('birthday', null, ['class'=>'form-control form-control-fix', 'id' => 'datepicker']) !!}
                                         {!! Form::hidden('friend_name', null, [ 'id' => 'hidden-field-friend-name']) !!}
                                     </div>
                                     <div class="col-xs-12 text-center" style="margin-top: -1%;" id="terminos-condiciones">
