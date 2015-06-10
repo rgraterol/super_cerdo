@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
                     user_pic = response["data"]['url'];
                     $('.user-pic').css("background",'url(' + response["data"]['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
 
-                    $('.left-friend').css("background",'url(' + response["data"]['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
+                    $('.right-friend').css("background",'url(' + response["data"]['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
                 }
             }
         );
@@ -46,7 +46,7 @@ jQuery(document).ready(function($) {
                 if (response && !response.error) {
                     user = response;
 
-                    $('.left-friend-name').text(user['name'].toUpperCase());
+                    $('.right-friend-name').text(user['name'].toUpperCase());
                 }
             }
         );
@@ -132,6 +132,8 @@ jQuery(document).ready(function($) {
         document.getElementById('s-user-check').checked = true;
         $('#s-user').css("background", 'url(' + user_pic + ') no-repeat').css("background-size", 'contain').css('-o-background-size', 'cover');
         $('.s-user-name').text(user['name'].toUpperCase());
+
+        $('.right-friend').show();
     }
     function set_friend(friend) {
         $('#s-friend').css("background",'url(' + friend['picture']['data']['url'] +') no-repeat').css("background-size",'contain').css('-o-background-size','cover');
