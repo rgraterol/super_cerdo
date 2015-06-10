@@ -1004,6 +1004,19 @@ li.seventh-item .more-info{
         padding-top: 18%;
         display: none;
     }
+
+    .friend-check{
+        background-color: transparent;
+    }
+
+    .font-check{
+        position: relative;
+        padding-left: 30px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-left: 37%;
+        margin-top: 25px;
+    }
 }
 
 @media screen and (max-width: 640px) and (orientation: portrait){
