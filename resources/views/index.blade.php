@@ -9,7 +9,7 @@
             <div class="row first-page-mobile">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 banda">
                     {{--Este es el formulario del final--}}
-                    <div id="form-id-to-show" style="display: none">
+                    <div id="form-id-to-show" style="">
                         <div class="form-api">
                             <div class="row">
                                 <div class="white-bg-red-border">
@@ -25,7 +25,12 @@
                                     </div>
                                     {!! Form::label('region', 'REGIÓN:', ['class' => 'col-xs-3 control-label', 'required']) !!}
                                     <div class="col-xs-9">
-                                        {!! Form::text('region',null, ['class'=>'form-control form-control-fix']) !!}
+                                        <select name="region" class="form-control form-control-fix">
+                                        @foreach(DB::table('regiones')->get() as $region)
+                                                <option value="{{$region->region_id}}">{{$region->region_nombre}}</option>
+                                        @endforeach
+                                        </select>
+                                        {{--{!! Form::select('region', $regions, ['class'=>'form-control form-control-fix']) !!}--}}
                                     </div>
                                     {!! Form::label('ciudad', 'CIUDAD:', ['class' => 'col-xs-3 control-label', 'required']) !!}
                                     <div class="col-xs-9">
@@ -61,13 +66,13 @@
                         </div>
                     </div>
                     {{--Fin de formulario--}}
-                    <div class=" text-center user-name">
-                        <p id="user-name-p"></p>
-                    </div>
-                    <div class="fb_api">
-                        <img src="img/conectate-on.png", class="btn" id="boton-fb-on" />
-                        <img src="img/compartir-on.png", class="btn" id="compartir-on" style="display: none" disabled="true"/>
-                    </div>
+                    {{--<div class=" text-center user-name">--}}
+                        {{--<p id="user-name-p"></p>--}}
+                    {{--</div>--}}
+                    {{--<div class="fb_api">--}}
+                        {{--<img src="img/conectate-on.png", class="btn" id="boton-fb-on" />--}}
+                        {{--<img src="img/compartir-on.png", class="btn" id="compartir-on" style="display: none" disabled="true"/>--}}
+                    {{--</div>--}}
 
                     <div class="show-carousel">
                     </div>
