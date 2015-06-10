@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
 
     <link href="{{ asset('/css/blueimp/css/blueimp-gallery.min.css') }}" rel="stylesheet" >
+    <link href="{{asset('/css/hover-min.css')}}" rel="stylesheet" media="all">
 
 	<!-- Fonts -->
 	<!--<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>-->
