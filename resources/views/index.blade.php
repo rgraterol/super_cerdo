@@ -297,7 +297,7 @@
                                     </p>
                                 </div>
                                 <div class="img-rounded friend-check " id="dc-check">
-                                    <input type="radio" name="one" id="five" value="five" />
+                                    <input type="radio" name="one" class="left-check" id="five" value="five" />
                                     <label for="five" class="font-check"></label>
                                 </div>
                             </div>
@@ -310,7 +310,7 @@
                                     </p>
                                 </div>
                                 <div class="img-rounded friend-check " id="dr-check">
-                                    <input type="radio" name="one" id="six" value="six" />
+                                    <input type="radio" class="right-check" name="one" id="six" value="six" />
                                     <label for="six" class="font-check"></label>
                                 </div>
                             </div>

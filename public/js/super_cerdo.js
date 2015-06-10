@@ -139,6 +139,9 @@ jQuery(document).ready(function($) {
         $('#s-friend').css("background",'url(' + friend['picture']['data']['url'] +') no-repeat').css("background-size",'contain').css('-o-background-size','cover');
         $('.s-friend-name').text(friend['name'].toUpperCase());
 
+        $('.right-check').prop('checked', true);
+        $('.left-check').prop('checked', true);
+
         $('.left-friend').css("background",'url(' + friend['picture']['data']['url'] +') no-repeat').css("background-size",'contain').css('-o-background-size','cover');
         $('.left-friend-name').text(friend['name'].toUpperCase());
 
