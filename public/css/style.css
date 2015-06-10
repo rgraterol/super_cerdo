@@ -992,6 +992,20 @@ li.seventh-item .more-info{
         top: 70%;
     }
 
+    .left-medalla{
+        position: absolute;
+        top: 45%;
+        left: 15%;
+        display: none;
+    }
+
+    .right-medalla{
+        position: absolute;
+        top: 45%;
+        left: 60%;
+        display: none;
+    }
+
     .footer{
         display: none;
     }
@@ -1061,6 +1075,13 @@ li.seventh-item .more-info{
         margin-left: 9%;
         margin-top: 8%;
     }
+
+    .volver{
+        top: 66%;
+        position: absolute;
+        left: 40%;
+        width: 17%;
+    }
 }
 
 @media screen and (max-width: 640px) and (orientation: portrait){
@@ -1084,5 +1105,12 @@ li.seventh-item .more-info{
         cursor: pointer;
         margin-left: 25%;
         margin-top: 0px;
+    }
+
+    .volver{
+        top: 60%;
+        position: absolute;
+        left: 33%;
+        width: 31%;
     }
 }
