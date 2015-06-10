@@ -186,6 +186,8 @@ jQuery(document).ready(function($) {
                     $('#show-email-permission').show();
                     $('#form-id-to-show').attr('class','hide')
                     $('.banda').css("background",'url("../img/barra_roja/4.png") no-repeat').css("background-size",'contain').css('-o-background-size','cover').addClass('magictime vanishIn');
+                    /*Para Mobile - Mostrar el formulario*/
+                    $('.banda').addClass('banda-p2');
                 }else{
                     if (data[0] == 'no'){
                         //$('#email-id-form').attr('style','border: 1px solid red;');
