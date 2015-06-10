@@ -70,6 +70,9 @@
                         <img src="img/conectate-on.png", class="btn" id="boton-fb-on" />
                         <img src="img/compartir-on.png", class="btn" id="compartir-on" style="display: none" disabled="true"/>
                     </div>
+
+                    <div class="show-carousel">
+                    </div>
                 </div>
                     <div id="medallas" style="display: none"> <!-- sostiene las medallas de los amigos random y el avatar del user de fb  -->
                         <table style="width:100%" cellpadding="30" cellspacing="3"><!-- tabla que sostiene la grafica de las medallas -->
