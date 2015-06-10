@@ -844,9 +844,9 @@ li.seventh-item .more-info{
 
     .medallas-mobile{
         position: absolute;
-        width: 80%;
-        height: 400px;
-        margin-left: 12%;
+        width: 100%;
+        height: 40%;
+        margin-left: 6%;
     }
 
     #wrapper{
@@ -866,6 +866,9 @@ li.seventh-item .more-info{
 
     .banda.banda-p2{
         background: transparent url("../img/bandaP2.png") repeat scroll 0% 0% !important;
+        width: 100%;
+        padding-top: 130%;
+        background-size: cover !important;
     }
 
     .first-medalla{
@@ -885,6 +888,25 @@ li.seventh-item .more-info{
         position: absolute;
         top: 12%;
         left: 60%;
+    }
+
+    .fourth-medalla{
+        position: absolute;
+        left: 15%;
+        top: 70%;
+    }
+
+    .fifth-medalla{
+        position: absolute;
+        left: 50%;
+        margin-left: -12% !important;
+        top: 80%;
+    }
+
+    .sixth-medalla{
+        position: absolute;
+        left: 60%;
+        top: 70%;
     }
 
     .footer{

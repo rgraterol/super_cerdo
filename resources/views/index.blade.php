@@ -242,6 +242,45 @@
                                 </div>
                             </div>
 
+                            <div class="friend-frame ns-f fourth-medalla" >
+                                <div class="dl-friend img-rounded friend-photo">
+                                </div>
+                                <div class="text-center friend-name">
+                                    <p id="dl-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="dl-check">
+                                    <input type="radio" name="one" id="four"  value="four"/>
+                                    <label for="four" class="font-check"></label>
+                                </div>
+                            </div>
+
+                            <div class="friend-frame ns-f fifth-medalla">
+                                <div class="dc-friend img-rounded friend-photo">
+                                </div>
+                                <div class="text-center friend-name">
+                                    <p id="dc-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="dc-check">
+                                    <input type="radio" name="one" id="five" value="five" />
+                                    <label for="five" class="font-check"></label>
+                                </div>
+                            </div>
+
+                            <div class="friend-frame ns-f sixth-medalla">
+                                <div class="dr-friend img-rounded friend-photo">
+                                </div>
+                                <div class="text-center friend-name">
+                                    <p id="dr-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="dr-check">
+                                    <input type="radio" name="one" id="six" value="six" />
+                                    <label for="six" class="font-check"></label>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
             </div>
