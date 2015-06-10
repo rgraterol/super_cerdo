@@ -81,6 +81,10 @@ jQuery(document).ready(function($) {
                     $('#user-name-p').text(user['name'].toUpperCase());
                     $('.banda').css("background",'url("../img/barra_roja/2.png") no-repeat').css("background-size",'contain').css('-o-background-size','cover').addClass('magictime vanishIn');
 
+                    /* Para mobile */
+                    // Cambiamos la banda de fondo para mostrar la cara de los amigos
+                    $('.banda').addClass('banda-p2'); 
+
                 }
             });
     }

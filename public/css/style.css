@@ -837,11 +837,19 @@ li.seventh-item .more-info{
         overflow-y: auto;
     }
 
+    #medallas{
+        display: none;
+    }
+
     .banda{
         background: transparent url("../img/bandaH.png") repeat scroll 0% 0% !important;
         width: 100%;
         padding-top: 130%;
         background-size: cover !important;
+    }
+
+    .banda .banda-p2{
+        background: transparent url("../img/bandaP2.png") repeat scroll 0% 0% !important;
     }
 
     .footer{
