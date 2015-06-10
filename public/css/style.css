@@ -773,12 +773,28 @@ li.seventh-item .more-info{
     border-radius: 4px;
 }
 
+#medallas-mobile{
+    display: none;
+}
+
 @media screen and (max-width: 768px) and (orientation: portrait){
     body{
         background: url('../img/bg_mobile.jpg') !important;
         background-position: center center !important;
         background-repeat: no-repeat !important;
         background-size: cover !important;
+    }
+
+    .friend-frame{
+        width: 20%;
+        padding-top: 33%;
+    }
+
+    .medallas-mobile{
+        position: absolute;
+        width: 80%;
+        height: 400px;
+        margin-left: 12%;
     }
 
     #wrapper{
@@ -796,8 +812,27 @@ li.seventh-item .more-info{
         background-size: cover !important;
     }
 
-    .banda .banda-p2{
+    .banda.banda-p2{
         background: transparent url("../img/bandaP2.png") repeat scroll 0% 0% !important;
+    }
+
+    .first-medalla{
+        position: absolute;
+        top: 12%;
+        left: 15%;
+    }
+
+    .second-medalla{
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        margin-left: -12% !important;
+    }
+
+    .third-medalla{
+        position: absolute;
+        top: 12%;
+        left: 60%;
     }
 
     .footer{

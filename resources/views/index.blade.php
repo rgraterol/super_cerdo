@@ -202,19 +202,47 @@
                     </div>
 
                     <div class="medallas-mobile">
+                        <div class="medallas-mobile-content">
                 
-                        <div class="friend-frame ns-f">
-                            <div class="img-rounded tl-friend friend-photo"></div>
-                            <div class="text-center friend-name">
-                                <p id="tl-friend-name">
-                                </p>
+                            <div class="friend-frame ns-f first-medalla">
+                                <div class="img-rounded tl-friend friend-photo"></div>
+                                <div class="text-center friend-name">
+                                    <p id="tl-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="tl-check">
+                                    <input type="radio" name="one" id="one" value="one" />
+                                    <label for="one" class="font-check"></label>
+                                </div>
                             </div>
-                            <div class="img-rounded friend-check " id="tl-check">
-                                <input type="radio" name="one" id="one" value="one" />
-                                <label for="one" class="font-check"></label>
-                            </div>
-                        </div>
 
+                            <div class="friend-frame ns-f second-medalla">
+                                <div class="tc-friend img-rounded friend-photo">
+                                </div>
+                                <div class="text-center friend-name">
+                                    <p id="tc-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="tc-check">
+                                    <input type="radio" name="one" id="two" value="two" />
+                                    <label for="two" class="font-check"></label>
+                                </div>
+                            </div>
+
+                            <div class="friend-frame ns-f third-medalla">
+                                <div class="tr-friend img-rounded friend-photo">
+                                </div>
+                                <div class="text-center friend-name">
+                                    <p id="tr-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="tr-check">
+                                    <input type="radio" name="one" id="three" value="three" />
+                                    <label for="three" class="font-check"></label>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
             </div>
 
