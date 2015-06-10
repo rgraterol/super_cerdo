@@ -20,5 +20,5 @@ class CreateProvinciasTable extends Migration {
     }
 
 }
-//sudo mysql -u root -p8910735 super_cerdo < database/migrations/regions.sql
-//sudo mysql -u root -p8910735 super_cerdo < database/migrations/provincias.sql
+//sudo mysql -u root -pPASSWORD super_cerdo < database/migrations/regions.sql
+//sudo mysql -u root -pPASSWORD super_cerdo < database/migrations/provincias.sql
