@@ -722,7 +722,7 @@ small, .small {
         width: 124px;
         position: relative;
         margin-left: 21%;
-        margin-top: -97%;
+        margin-top: -98%;
     }
     .white-bg-red-border {
         font-weight: 400;
@@ -733,7 +733,7 @@ small, .small {
         margin-top: 3%;
     }
     #terminos-condiciones {
-        margin-top: 0%;
+        margin-top: -2%;
     }
     .form-control {
         display: block;
@@ -792,6 +792,15 @@ small, .small {
         font-size: 10px;
         top: -4px;
         left: 4px;
+    }
+    .form-api {
+        width: 124px;
+        position: relative;
+        margin-left: 21%;
+        margin-top: -100%;
+    }
+    #terminos-condiciones {
+        margin-top: -2%;
     }
 }
 
