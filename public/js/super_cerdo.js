@@ -260,6 +260,7 @@ jQuery(document).ready(function($) {
             name: string.slice(0,-2),
             description: 'Aunque somos super distintos, cuando el sabor juega de local nos juntamos en la parrilla ¿Te prendes con unas costillitas Super Cerdo?'
         }, function(response){
+            $('.medallas-mobile').hide();
             $('#medallas').hide();
             $('#compartir-on').hide();
             $('.user-name').hide();
