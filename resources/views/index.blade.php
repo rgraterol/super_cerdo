@@ -34,7 +34,7 @@
                                         {{--{!! Form::select('region', $regions, ['class'=>'form-control form-control-fix']) !!}--}}
                                     </div>
                                     
-                                    <label class="col-xs-3 control-label" required>Ciudad</label>
+                                    <label class="col-xs-3 control-label" required>CIUDAD:</label>
                                     <div class="col-xs-9">
                                         <select name="city" class="form-control form-control-fix">
                                         </select>
