@@ -36,7 +36,7 @@
                                     
                                     <label class="col-xs-3 control-label" required>Ciudad</label>
                                     <div class="col-xs-9">
-                                        <select name="ciudad" class="form-control form-control-fix">
+                                        <select name="city" class="form-control form-control-fix">
                                         </select>
                                     </div>
 

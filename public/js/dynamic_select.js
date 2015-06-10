@@ -15,7 +15,7 @@ $(document).ready( function(){
             options = options + "<option value="+ciudad.provincia_id+">"+ciudad.provincia_nombre+"</option>";
           })
 
-          $('select[name="ciudad"]').html(options);
+          $('select[name="city"]').html(options);
         }
       })
     }
