@@ -501,14 +501,14 @@ input[type="radio"]:checked + label:after {
 .white-bg-red-border {
     color: #010000;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 11px;
 }
 .form-api {
-    width: 275px;
-    position: relative;
-    margin-left: 23%;
-    margin-top: -97%;
+    width: 52%;
+    position: absolute;
+    top: 37%;
+    left: 24%;
 }
 small, .small {
     font-family: 'Source Sans Pro', sans-serif;
@@ -587,7 +587,6 @@ small, .small {
         height: 14%;
     }
     .form-api {
-        margin-top: -98%;
     }
 }
 
@@ -617,10 +616,6 @@ small, .small {
     }
 
     .form-api {
-        width: 214px;
-        position: relative;
-        margin-left: 22%;
-        margin-top: -97%;
     }
     .white-bg-red-border {
         font-size: 9px;
@@ -719,10 +714,8 @@ small, .small {
         height: 30px;
     }
     .form-api {
-        width: 124px;
-        position: relative;
-        margin-left: 21%;
-        margin-top: -98%;
+        left: 23%;
+        top: 39%;
     }
     .white-bg-red-border {
         font-weight: 400;
@@ -730,7 +723,7 @@ small, .small {
     }
     #enviar-button {
         width: 60%;
-        margin-top: 3%;
+        margin-top: 0%;
     }
     #terminos-condiciones {
         margin-top: -2%;
@@ -794,10 +787,7 @@ small, .small {
         left: 4px;
     }
     .form-api {
-        width: 124px;
-        position: relative;
-        margin-left: 21%;
-        margin-top: -100%;
+        left: 24%;
     }
     #terminos-condiciones {
         margin-top: -2%;
@@ -1116,7 +1106,7 @@ li.seventh-item .more-info{
     .form-api {
         width: 52%;
         left: 0%;
-        top: 128%;
+        top: 124%;
         position: absolute;
     }
     .white-bg-red-border {
