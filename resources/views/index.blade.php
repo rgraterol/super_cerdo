@@ -25,12 +25,21 @@
                                     </div>
                                     {!! Form::label('region', 'REGIÓN:', ['class' => 'col-xs-3 control-label', 'required']) !!}
                                     <div class="col-xs-9">
-                                        {!! Form::text('region',null, ['class'=>'form-control form-control-fix']) !!}
+                                        <select name="region" class="form-control form-control-fix">
+                                        <option value="0">Selecciona...</option>
+                                        @foreach(DB::table('regiones')->get() as $region)
+                                                <option value="{{$region->region_id}}">{{$region->region_nombre}}</option>
+                                        @endforeach
+                                        </select>
+                                        {{--{!! Form::select('region', $regions, ['class'=>'form-control form-control-fix']) !!}--}}
                                     </div>
-                                    {!! Form::label('ciudad', 'CIUDAD:', ['class' => 'col-xs-3 control-label', 'required']) !!}
+                                    
+                                    <label class="col-xs-3 control-label" required>Ciudad</label>
                                     <div class="col-xs-9">
-                                        {!! Form::text('ciudad',null, ['class'=>'form-control form-control-fix', 'required']) !!}
+                                        <select name="ciudad" class="form-control form-control-fix">
+                                        </select>
                                     </div>
+
                                     {!! Form::label('birthday', 'FECHA NACIMIENTO:', ['class' => 'col-xs-3 control-label', 'required']) !!}
                                     <div class="col-xs-9">
                                         {!! Form::text('birthday', null, ['class'=>'form-control form-control-fix', 'id' => 'datepicker']) !!}

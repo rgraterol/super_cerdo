@@ -5,6 +5,7 @@ use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Validator;
 use Input;
 use Request;
+use DB;
 
 class StaticController extends Controller {
     public function __construct()
@@ -14,7 +15,10 @@ class StaticController extends Controller {
 
     public function index()
     {
-        return view('index');
+//        $regions = \App\Regiones::lists('region_nombre','region_id');
+        $regiones = DB::table('regiones')->get();
+//        $regions = ['' => ''] + \App\Regiones::lists('region_nombre', 'region_id');
+        return view('index', $regiones);
     }
 
     public function  store()
