@@ -203,6 +203,11 @@
 
                     <div class="medallas-mobile">
                         <div class="medallas-mobile-content">
+
+                            <div class="user-frame">
+                                <div class="user-pic img-rounded">
+                                </div>
+                            </div>
                 
                             <div class="friend-frame ns-f first-medalla">
                                 <div class="img-rounded tl-friend friend-photo"></div>

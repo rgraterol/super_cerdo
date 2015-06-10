@@ -886,6 +886,12 @@ li.seventh-item .more-info{
     display: none;
 }
 
+@media screen and (min-width: 769px){
+    .medallas-mobile{
+        display: none !important;
+    }   
+}
+
 @media screen and (max-width: 768px) and (orientation: portrait){
     body{
         background: url('../img/bg_mobile.jpg') !important;
@@ -917,7 +923,7 @@ li.seventh-item .more-info{
         width: 100%;
         height: 40%;
         margin-left: 6%;
-        display: block;
+        display: none;
     }
 
     #wrapper{
@@ -1017,6 +1023,19 @@ li.seventh-item .more-info{
         padding-top: 18%;
         display: none;
     }
+
+    .friend-check{
+        background-color: transparent;
+    }
+
+    .font-check{
+        position: relative;
+        padding-left: 30px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-left: 37%;
+        margin-top: 25px;
+    }
 }
 
 @media screen and (max-width: 640px) and (orientation: portrait){
@@ -1031,5 +1050,14 @@ li.seventh-item .more-info{
 
     .friend-name p{
         font-size: 8px;
+    }
+
+    .font-check{
+        position: relative;
+        padding-left: 30px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-left: 25%;
+        margin-top: 0px;
     }
 }
