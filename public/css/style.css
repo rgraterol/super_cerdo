@@ -998,6 +998,20 @@ li.seventh-item .more-info{
         top: 70%;
     }
 
+    .left-medalla{
+        position: absolute;
+        top: 45%;
+        left: 15%;
+        display: none;
+    }
+
+    .right-medalla{
+        position: absolute;
+        top: 45%;
+        left: 60%;
+        display: none;
+    }
+
     .footer{
         display: none;
     }
@@ -1068,6 +1082,12 @@ li.seventh-item .more-info{
         margin-top: 8%;
     }
 
+    .volver{
+        top: 66%;
+        position: absolute;
+        left: 40%;
+        width: 17%;
+    }
     .user-name {
         left: 3%;
         top: 56%;
@@ -1126,5 +1146,12 @@ li.seventh-item .more-info{
         cursor: pointer;
         margin-left: 25%;
         margin-top: 0px;
+    }
+
+    .volver{
+        top: 60%;
+        position: absolute;
+        left: 33%;
+        width: 31%;
     }
 }

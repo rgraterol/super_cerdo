@@ -35,6 +35,8 @@ jQuery(document).ready(function($) {
                 if (response && !response.error) {
                     user_pic = response["data"]['url'];
                     $('.user-pic').css("background",'url(' + response["data"]['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
+
+                    $('.right-friend').css("background",'url(' + response["data"]['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
                 }
             }
         );
@@ -43,6 +45,8 @@ jQuery(document).ready(function($) {
             function (response) {
                 if (response && !response.error) {
                     user = response;
+
+                    $('.right-friend-name').text(user['name'].toUpperCase());
                 }
             }
         );
@@ -122,12 +126,14 @@ jQuery(document).ready(function($) {
         $('.ns-f').hide();
         $('#compartir-on').removeAttr("disabled");
         $('.user-frame').hide();
-        $('#volver').show();
+        $('#volver, .volver').show();
         $('#medallas').css('top','20%');
         document.getElementById('s-friend-check').checked = true;
         document.getElementById('s-user-check').checked = true;
         $('#s-user').css("background", 'url(' + user_pic + ') no-repeat').css("background-size", 'contain').css('-o-background-size', 'cover');
         $('.s-user-name').text(user['name'].toUpperCase());
+
+        $('.right-friend').show();
     }
     function set_friend(friend) {
         $('#s-friend').css("background",'url(' + friend['picture']['data']['url'] +') no-repeat').css("background-size",'contain').css('-o-background-size','cover');
@@ -157,13 +163,13 @@ jQuery(document).ready(function($) {
         user_info();
         set_friend(f6);
     });
-    $('#volver').click(function(){
+    $('#volver, .volver').click(function(){
         $('#medallas').css('top','0');
         $('#s-friend-frame').hide();
         $('#s-user-frame').hide();
         $('.ns-f').show();
         $('.user-frame').show();
-        $('#volver').hide();
+        $('#volver, .volver').hide();
     });
 //    Este es el lugar donde se envia el formulario y se guarda la data
     $('form[data-remote]').on('submit', function(e){

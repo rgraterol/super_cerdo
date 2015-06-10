@@ -209,6 +209,8 @@
                                 </div>
                             </div>
                 
+                            <img src="img/boton-volver.png" class="img-responsive btn volver" id="volver" style="display:none">
+
                             <div class="friend-frame ns-f first-medalla">
                                 <div class="img-rounded tl-friend friend-photo"></div>
                                 <div class="text-center friend-name">
@@ -278,6 +280,33 @@
                                 </div>
                                 <div class="text-center friend-name">
                                     <p class="dr-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="dr-check">
+                                    <input type="radio" name="one" id="six" value="six" />
+                                    <label for="six" class="font-check"></label>
+                                </div>
+                            </div>
+
+
+                            <div class="friend-frame ns-f left-medalla">
+                                <div class="left-friend img-rounded friend-photo">
+                                </div>
+                                <div class="text-center friend-name">
+                                    <p class="left-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="dc-check">
+                                    <input type="radio" name="one" id="five" value="five" />
+                                    <label for="five" class="font-check"></label>
+                                </div>
+                            </div>
+
+                            <div class="friend-frame ns-f right-medalla">
+                                <div class="right-friend img-rounded friend-photo">
+                                </div>
+                                <div class="text-center friend-name">
+                                    <p class="right-friend-name">
                                     </p>
                                 </div>
                                 <div class="img-rounded friend-check " id="dr-check">
