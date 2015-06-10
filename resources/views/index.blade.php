@@ -200,6 +200,23 @@
                             </tr>
                         </table>
                     </div>
+
+                    <div class="medallas-mobile">
+                    
+                        {{!-- Display de cada user de facebook}}
+                        <div class="friend-frame ns-f">
+                            <div class="img-rounded tl-friend friend-photo"></div>
+                            <div class="text-center friend-name">
+                                <p id="tl-friend-name">
+                                </p>
+                            </div>
+                            <div class="img-rounded friend-check " id="tl-check">
+                                <input type="radio" name="one" id="one" value="one" />
+                                <label for="one" class="font-check"></label>
+                            </div>
+                        </div>
+
+                    </div>
             </div>
 
             <div class="row second-page-mobile">
