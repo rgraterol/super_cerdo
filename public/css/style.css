@@ -1017,6 +1017,25 @@ li.seventh-item .more-info{
         margin-left: 37%;
         margin-top: 25px;
     }
+
+    .user-frame{
+        padding-top: 11%;
+        top: 50%;
+        left: 50%;
+        width: 80px;
+        margin-left: -54px;
+        margin-top: 40px;
+        position: absolute;
+    }
+
+    .user-frame .user-pic{
+        padding-top: 75%;
+        position: absolute;
+        top: 0px;
+        width: 78%;
+        margin-left: 9px;
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 640px) and (orientation: portrait){
