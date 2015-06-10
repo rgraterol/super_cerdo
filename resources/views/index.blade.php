@@ -36,13 +36,13 @@
                                         {!! Form::text('birthday', null, ['class'=>'form-control form-control-fix', 'id' => 'datepicker']) !!}
                                         {!! Form::hidden('friend_name', null, [ 'id' => 'hidden-field-friend-name']) !!}
                                     </div>
-                                    <div class="col-xs-12 text-center" style="margin-top: -1%;" id="terminos-condiciones">
+                                    <div class="col-xs-12 text-center" id="terminos-condiciones">
                                         <small>
                                             Al enviar aceptas los terminos y condiciones de uso.
                                         </small>
                                     </div>
                                     <div class="col-xs-12 text-center" style="margin-top: 5%;">
-                                        <button type="submit" style="padding: 0px; margin: 3%; border: 0px; background-color: transparent;" id="enviar-button"><img src="img/enviar-on-fixed.png"/></button>
+                                        <button type="submit" id="enviar-button"><img src="img/enviar-on-fixed.png"/></button>
                                     </div>
                                     <div class="col-xs-12 text-center email-in-use">
                                         <p class="email-in-use" id="show-email-permission" style="display: none;">
