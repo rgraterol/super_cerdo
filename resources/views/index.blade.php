@@ -227,8 +227,6 @@
     <a class="prev">‹</a>
     <a class="next">›</a>
     <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
 </div>
 
 @endsection             
