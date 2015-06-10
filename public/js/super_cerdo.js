@@ -133,7 +133,7 @@ jQuery(document).ready(function($) {
         $('#s-user').css("background", 'url(' + user_pic + ') no-repeat').css("background-size", 'contain').css('-o-background-size', 'cover');
         $('.s-user-name').text(user['name'].toUpperCase());
 
-        $('.right-friend').show();
+        $('.right-medalla').show();
     }
     function set_friend(friend) {
         $('#s-friend').css("background",'url(' + friend['picture']['data']['url'] +') no-repeat').css("background-size",'contain').css('-o-background-size','cover');
