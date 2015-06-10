@@ -9,7 +9,7 @@
             <div class="row first-page-mobile">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 banda">
                     {{--Este es el formulario del final--}}
-                    <div id="form-id-to-show" style="">
+                    <div id="form-id-to-show" style="display: none">
                         <div class="form-api">
                             <div class="row">
                                 <div class="white-bg-red-border">
@@ -70,13 +70,13 @@
                         </div>
                     </div>
                     {{--Fin de formulario--}}
-                    {{--<div class=" text-center user-name">--}}
-                        {{--<p id="user-name-p"></p>--}}
-                    {{--</div>--}}
-                    {{--<div class="fb_api">--}}
-                        {{--<img src="img/conectate-on.png", class="btn" id="boton-fb-on" />--}}
-                        {{--<img src="img/compartir-on.png", class="btn" id="compartir-on" style="display: none" disabled="true"/>--}}
-                    {{--</div>--}}
+                    <div class=" text-center user-name">
+                        <p id="user-name-p"></p>
+                    </div>
+                    <div class="fb_api">
+                        <img src="img/conectate-on.png", class="btn" id="boton-fb-on" />
+                        <img src="img/compartir-on.png", class="btn" id="compartir-on" style="display: none" disabled="true"/>
+                    </div>
 
                     <div class="show-carousel">
                     </div>
