@@ -137,7 +137,7 @@
                                         <div class="user-pic img-rounded">
                                         </div>
                                     </div>
-                                    <img src="img/boton-volver.png" class="img-responsive btn" class="volver" id="volver" style="display:none">
+                                    <img src="img/boton-volver.png" class="img-responsive btn volver" id="volver" style="display:none">
                                 </td>
                                 <td>
                                     <div class="friend-frame" id="s-user-frame" style="display: none;">
