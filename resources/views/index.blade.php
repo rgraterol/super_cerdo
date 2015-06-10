@@ -75,7 +75,7 @@
                     <div id="medallas" style="display: none"> <!-- sostiene las medallas de los amigos random y el avatar del user de fb  -->
                         <table style="width:100%" cellpadding="30" cellspacing="3"><!-- tabla que sostiene la grafica de las medallas -->
                             <tr>
-                                <td style="padding-top:100px;">
+                                <td class="padding-medalla-top">
                                     <div class="friend-frame ns-f">
                                         <div class="img-rounded tl-friend friend-photo"></div>
                                         <div class="text-center friend-name">
@@ -102,7 +102,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td style="padding-top:100px;">
+                                <td class="padding-medalla-top">
                                     <div class="friend-frame ns-f">
                                         <div class="tr-friend img-rounded friend-photo">
                                         </div>
@@ -155,7 +155,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td style="padding-bottom:100px;">
+                                <td class="padding-medalla-bottom">
                                     <div class="friend-frame ns-f" >
                                         <div class="dl-friend img-rounded friend-photo">
                                         </div>
@@ -183,7 +183,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td style="padding-bottom:100px;">
+                                <td class="padding-medalla-bottom">
                                     <div class="friend-frame ns-f">
                                         <div class="dr-friend img-rounded friend-photo">
                                         </div>
