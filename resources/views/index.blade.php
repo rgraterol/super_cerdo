@@ -6,7 +6,7 @@
     <div class="container-fluid no-padding" style="position: relative;                                                      ">
         <div id="header"></div>
         <div id="content">
-            <div class="row">
+            <div class="row first-page-mobile">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 banda">
                     {{--Este es el formulario del final--}}
                     <div id="form-id-to-show" style="display: none">
@@ -202,6 +202,39 @@
                             </tr>
                         </table>
                     </div>
+            </div>
+
+            <div class="row second-page-mobile">
+                <ul>
+                    <li class="first-item">
+                        <div class="more-info"></div>
+                        <div class="show-more-info"></div>
+                    </li>
+                    <li class="second-item">
+                        <div class="more-info"></div>
+                        <div class="show-more-info"></div>
+                    </li>
+                    <li class="third-item">
+                        <div class="more-info"></div>
+                        <div class="show-more-info"></div>
+                    </li>
+                    <li class="fourth-item">
+                        <div class="more-info"></div>
+                        <div class="show-more-info"></div>
+                    </li>
+                    <li class="fith-item">
+                        <div class="more-info"></div>
+                        <div class="show-more-info"></div>
+                    </li>
+                    <li class="sixth-item">
+                        <div class="more-info"></div>
+                        <div class="show-more-info"></div>
+                    </li>
+                    <li class="seventh-item">
+                        <div class="more-info"></div>
+                        <div class="show-more-info"></div>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class ="lightBoxGallery" id="footer">
