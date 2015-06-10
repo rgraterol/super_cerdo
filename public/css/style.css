@@ -880,6 +880,11 @@ li.seventh-item .more-info{
         padding-top: 33%;
     }
 
+    .friend-name p{
+        font-size: 14px;
+        overflow: hidden;
+    }
+
     .friend-photo{
         position: absolute;
         margin-left: 19%;
@@ -1003,5 +1008,9 @@ li.seventh-item .more-info{
 
     .show-carousel{
         height: 35px !important;
+    }
+
+    .friend-name p{
+        font-size: 8px;
     }
 }
