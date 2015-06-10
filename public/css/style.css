@@ -605,7 +605,7 @@ small, .small {
     }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 700px) and (max-height: 600px) {
+@media only screen and (max-width: 800px) and (min-width: 700px) and (max-height: 600px)  {
     .footer {
         height: 71px;
     }
@@ -1078,5 +1078,13 @@ li.seventh-item .more-info{
         cursor: pointer;
         margin-left: 25%;
         margin-top: 0px;
+    }
+    .user-name {
+        left: 3%;
+        top: 56%;
+        width: 345px;
+    }
+    #user-name-p {
+        font-size: 15px;
     }
 }
