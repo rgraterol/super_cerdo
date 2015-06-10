@@ -13,51 +13,49 @@
                         <div class="form-api">
                             <div class="row">
                                 <div class="white-bg-red-border">
-                                    <small>
-                                        {{--['data-remote'],--}}
-                                        {!! Form::open(['data-remote'], array('route' => 'save/user'), array('class' => 'form-horizontal', 'remore' => true)) !!}
-                                        {!! Form::label('name', 'NOMBRE:', ['class' => 'col-xs-3 control-label']) !!}
-                                        <div class="col-xs-9">
-                                            {!! Form::text('name',null, ['class'=>'form-control', 'required', 'id' => 'name-id-form']) !!}
-                                        </div>
-                                        {!! Form::label('email', 'EMAIL:', ['class' => 'col-xs-3 control-label', 'required']) !!}
-                                        <div class="col-xs-9">
-                                            {!! Form::text('email',null, ['class'=>'form-control', 'required', 'id' => 'email-id-form']) !!}
-                                        </div>
-                                        {!! Form::label('region', 'REGIÓN:', ['class' => 'col-xs-3 control-label', 'required']) !!}
-                                        <div class="col-xs-9">
-                                            {!! Form::text('region',null, ['class'=>'form-control']) !!}
-                                        </div>
-                                        {!! Form::label('ciudad', 'CIUDAD:', ['class' => 'col-xs-3 control-label', 'required']) !!}
-                                        <div class="col-xs-9">
-                                            {!! Form::text('ciudad',null, ['class'=>'form-control', 'required']) !!}
-                                        </div>
-                                        {!! Form::label('birthday', 'FECHA NACIMIENTO:', ['class' => 'col-xs-3 control-label', 'required']) !!}
-                                        <div class="col-xs-9">
-                                            {!! Form::text('birthday', null, ['class'=>'form-control', 'id' => 'datepicker']) !!}
-                                            {!! Form::hidden('friend_name', null, [ 'id' => 'hidden-field-friend-name']) !!}
-                                        </div>
-                                        <div class="col-xs-12 text-center" style="margin-top: -1%;">
-                                            <small>
-                                                Al enviar aceptas los terminos y condiciones de uso.
-                                            </small>
-                                        </div>
-                                        <div class="col-xs-12 text-center" style="margin-top: 5%;">
-                                            <button type="submit" style="padding: 0px; margin: 3%; border: 0px; background-color: transparent;"><img src="img/enviar-on-fixed.png"/></button>
-                                        </div>
-                                        <div class="col-xs-12 text-center email-in-use">
-                                            <p class="email-in-use" id="show-email-permission" style="display: none;">
-                                                El email ya esta participando. Gracias.
-                                            </p>
-                                            <small class="hide" id="show-accept" style="color: red;">
-                                                Debe aceptar los terminos para participar.
-                                            </small>
-                                            <br>
+                                    {{--['data-remote'],--}}
+                                    {!! Form::open(['data-remote'], array('route' => 'save/user'), array('class' => 'form-horizontal', 'remore' => true)) !!}
+                                    {!! Form::label('name', 'NOMBRE:', ['class' => 'col-xs-3 control-label']) !!}
+                                    <div class="col-xs-9">
+                                        {!! Form::text('name',null, ['class'=>'form-control', 'required', 'id' => 'name-id-form']) !!}
+                                    </div>
+                                    {!! Form::label('email', 'EMAIL:', ['class' => 'col-xs-3 control-label', 'required']) !!}
+                                    <div class="col-xs-9">
+                                        {!! Form::text('email',null, ['class'=>'form-control', 'required', 'id' => 'email-id-form']) !!}
+                                    </div>
+                                    {!! Form::label('region', 'REGIÓN:', ['class' => 'col-xs-3 control-label', 'required']) !!}
+                                    <div class="col-xs-9">
+                                        {!! Form::text('region',null, ['class'=>'form-control']) !!}
+                                    </div>
+                                    {!! Form::label('ciudad', 'CIUDAD:', ['class' => 'col-xs-3 control-label', 'required']) !!}
+                                    <div class="col-xs-9">
+                                        {!! Form::text('ciudad',null, ['class'=>'form-control', 'required']) !!}
+                                    </div>
+                                    {!! Form::label('birthday', 'FECHA NACIMIENTO:', ['class' => 'col-xs-3 control-label', 'required']) !!}
+                                    <div class="col-xs-9">
+                                        {!! Form::text('birthday', null, ['class'=>'form-control', 'id' => 'datepicker']) !!}
+                                        {!! Form::hidden('friend_name', null, [ 'id' => 'hidden-field-friend-name']) !!}
+                                    </div>
+                                    <div class="col-xs-12 text-center" style="margin-top: -1%;" id="terminos-condiciones">
+                                        <small>
+                                            Al enviar aceptas los terminos y condiciones de uso.
+                                        </small>
+                                    </div>
+                                    <div class="col-xs-12 text-center" style="margin-top: 5%;">
+                                        <button type="submit" style="padding: 0px; margin: 3%; border: 0px; background-color: transparent;" id="enviar-button"><img src="img/enviar-on-fixed.png"/></button>
+                                    </div>
+                                    <div class="col-xs-12 text-center email-in-use">
+                                        <p class="email-in-use" id="show-email-permission" style="display: none;">
+                                            El email ya esta participando. Gracias.
+                                        </p>
+                                        <small class="hide" id="show-accept" style="color: red;">
+                                            Debe aceptar los terminos para participar.
+                                        </small>
+                                        <br>
 
-                                            {{--{!! Form::submit('Guardar', array('class' => 'btn btn-danger btn-xs')) !!}--}}
-                                        </div>
-                                        {!! Form::close() !!}
-                                    </small>
+                                        {{--{!! Form::submit('Guardar', array('class' => 'btn btn-danger btn-xs')) !!}--}}
+                                    </div>
+                                    {!! Form::close() !!}
                                 </div>
                             </div>
                         </div>
@@ -263,8 +261,6 @@
     <a class="prev">‹</a>
     <a class="next">›</a>
     <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
 </div>
 
 @endsection             
