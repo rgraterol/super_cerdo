@@ -73,7 +73,7 @@
                     </div>
                 </div>
                     <div id="medallas" style="display: none"> <!-- sostiene las medallas de los amigos random y el avatar del user de fb  -->
-                        <table style="width:100%" cellpadding="30" cellspacing="3"><!-- tabla que sostiene la grafica de las medallas -->
+                        <table class="table-style " cellpadding="30" cellspacing="3"><!-- tabla que sostiene la grafica de las medallas -->
                             <tr>
                                 <td class="padding-medalla-top">
                                     <div class="friend-frame ns-f">

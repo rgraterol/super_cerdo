@@ -100,6 +100,9 @@ td {
     font-size: 18px;
     font-weight: 600;
 }
+.table-style {
+    width:100%;
+}
 
 .user-frame {
     background: url(../img/marco-foto-avatar.png) no-repeat ;
@@ -662,6 +665,55 @@ small, .small {
         top: 38%;
         width: 188px;
         margin-left: 0;
+    }
+    .table-style {
+        width: 61%;
+    }
+    #medallas {
+        left: 59%;
+    }
+    p {
+        font-size: 4px;
+        font-weight: 600;
+    }
+    .user-frame{
+        background: none;
+        padding-top: 0%;
+        width:37%;
+        margin-left: 9px;
+    }
+    .padding-medalla-top {
+        padding-top: 50px;
+    }
+    .padding-medalla-bottom {
+        padding-bottom: 50px;
+    }
+    .img-rounded {
+        border-radius: 4px;
+    }
+    .friend-name {
+        position: absolute;
+        margin-top: -80%;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .friend-check {
+        margin-left: 28%;
+        margin-top: -53%;
+        padding-top: 0%;
+        width: 44%;
+    }
+    .font-check {
+        position: relative;
+        padding-left: 30px;
+        font-size: 5px;
+        cursor: pointer;
+        margin-left: 15%;
+    }
+    .font-check:before, .font-check:after {
+        font-size: 12px;
+        top: -2px;
+        left: 3px;
     }
 }
 
