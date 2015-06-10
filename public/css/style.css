@@ -969,6 +969,14 @@ li.seventh-item .more-info{
         background-size: cover !important;
     }
 
+    .banda.banda-p2.banda-p4.banda-p5 {
+        background: transparent url("../img/bandaP5.png") repeat scroll 0% 0% !important;
+        width: 100%;
+        padding-top: 130%;
+        background-size: cover !important;
+    }
+
+
     .first-medalla{
         position: absolute;
         top: 12%;
@@ -1105,6 +1113,35 @@ li.seventh-item .more-info{
     #user-name-p {
         font-size: 18px;
     }
+    .form-api {
+        width: 52%;
+        left: 0%;
+        top: 128%;
+        position: absolute;
+    }
+    .white-bg-red-border {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        height: 33px;
+        padding: 0 5px;
+        font-size: 115%;
+        line-height: 100%;
+        color: #7f1805;
+        background-color: #ffffff;
+        background-image: none;
+        border: 1px solid #9F180F;
+        border-radius: 3px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+    #enviar-button {
+        margin: 7%;
+    }
+
 }
 
 @media screen and (max-width: 640px) and (orientation: portrait){
@@ -1139,5 +1176,31 @@ li.seventh-item .more-info{
 
     #user-name-p {
         font-size: 14px;
+    }
+    .form-api {
+        width: 62%;
+        left: -1%;
+        top: 119%;
+        position: absolute;
+    }
+
+    .white-bg-red-border {
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        height: 15px;
+        padding: 0 5px;
+        font-size: 115%;
+        line-height: 100%;
+        color: #7f1805;
+        background-color: #ffffff;
+        background-image: none;
+        border: 1px solid #9F180F;
+        border-radius: 3px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     }
 }
