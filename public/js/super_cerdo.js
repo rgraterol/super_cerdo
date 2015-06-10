@@ -139,9 +139,13 @@ jQuery(document).ready(function($) {
         $('#s-friend').css("background",'url(' + friend['picture']['data']['url'] +') no-repeat').css("background-size",'contain').css('-o-background-size','cover');
         $('.s-friend-name').text(friend['name'].toUpperCase());
 
+        document.getElementById('right-check').checked = true;
+        $('.left-check').prop('checked', true);
+
         $('.left-friend').css("background",'url(' + friend['picture']['data']['url'] +') no-repeat').css("background-size",'contain').css('-o-background-size','cover');
-        $('.right-friend-name').text(friend['name'].toUpperCase());
-        $('.left-friend').show();
+        $('.left-friend-name').text(friend['name'].toUpperCase());
+
+        $('.left-medalla').show();
     }
     $('#one').click(function() {
         user_info();
@@ -174,6 +178,8 @@ jQuery(document).ready(function($) {
         $('.ns-f').show();
         $('.user-frame').show();
         $('#volver, .volver').hide();
+
+        $('.left-medalla, .right-medalla').hide();
     });
 //    Este es el lugar donde se envia el formulario y se guarda la data
     $('form[data-remote]').on('submit', function(e){
@@ -258,6 +264,7 @@ jQuery(document).ready(function($) {
             name: string.slice(0,-2),
             description: 'Aunque somos super distintos, cuando el sabor juega de local nos juntamos en la parrilla ¿Te prendes con unas costillitas Super Cerdo?'
         }, function(response){
+            $('.medallas-mobile').hide();
             $('#medallas').hide();
             $('#compartir-on').hide();
             $('.user-name').hide();

@@ -1108,10 +1108,10 @@ li.seventh-item .more-info{
     .user-name {
         left: 3%;
         top: 56%;
-        width: 345px;
+        width: 100%;
     }
     #user-name-p {
-        font-size: 15px;
+        font-size: 18px;
     }
 }
 
@@ -1143,5 +1143,9 @@ li.seventh-item .more-info{
         position: absolute;
         left: 33%;
         width: 31%;
+    }
+
+    #user-name-p {
+        font-size: 14px;
     }
 }
