@@ -385,9 +385,7 @@ background-repeat: no-repeat;
         height: 14%;
     }
     .form-api {
-        width: 280px;
         margin-top: -98%;
-        margin-left: 23%;
     }
 }
 
@@ -416,6 +414,18 @@ background-repeat: no-repeat;
         margin-left: -1px;
     }
 
+    .form-api {
+        width: 214px;
+        position: relative;
+        margin-left: 22%;
+        margin-top: -97%;
+    }
+    .white-bg-red-border {
+        font-size: 9px;
+    }
+    .form-control {
+        height: 17px;
+    }
     .user-name {
         left: 11%;
     }
@@ -642,7 +652,7 @@ input[type="radio"]:checked + label:after {
     width: 275px;
     position: relative;
     margin-left: 23%;
-    margin-top: -96%;
+    margin-top: -97%;
 }
 small, .small {
     font-family: 'Source Sans Pro', sans-serif;
