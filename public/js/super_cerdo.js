@@ -256,3 +256,16 @@ jQuery(document).ready(function($) {
 
 
 });
+
+/* Code related with the mobile views */
+
+$(document).ready( function(){
+    $('.show-carousel').click( function(){
+        $('.first-page-mobile').hide();
+        $('.second-page-mobile').show();
+    })
+
+    $('.show-more-info').click( function(){
+        $(this).siblings('.more-info').fadeIn();
+    })
+})

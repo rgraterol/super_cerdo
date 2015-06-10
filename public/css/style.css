@@ -661,12 +661,84 @@ small, .small {
 }
 
 /* CSS for Portrait */
+
+.second-page-mobile{
+    display: none;
+}
+
+.second-page-mobile li{
+    padding-top: 65%;
+    width: 100%;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.second-page-mobile ul{
+    margin-left: 15%;
+    width: 70%;
+    background: rgba(0,0,0,0.6);
+    padding: 5px;
+}
+
+.second-page-mobile li:last-child{
+    margin-bottom: 0px;
+}
+
+li.first-item{
+    background: transparent url('../img/p1.jpg') repeat scroll 0% 0% / contain;
+}
+li.second-item{
+    background: transparent url('../img/p2.jpg') repeat scroll 0% 0% / contain;   
+}
+li.third-item{
+    background: transparent url('../img/p3.jpg') repeat scroll 0% 0% / contain;
+}
+li.fourth-item{
+    background: transparent url('../img/p4.jpg') repeat scroll 0% 0% / contain;
+}
+li.fith-item{
+    background: transparent url('../img/p5.jpg') repeat scroll 0% 0% / contain;
+}
+li.sixth-item{
+    background: transparent url('../img/p6.jpg') repeat scroll 0% 0% / contain;
+}
+li.seventh-item{
+    background: transparent url('../img/p7.jpg') repeat scroll 0% 0% / contain;
+}
+
+li.first-item .more-info{
+    background: transparent url('../img/p1t.png') repeat scroll 0% 0% / contain;   
+}
+
+li.second-item .more-info{
+    background: transparent url('../img/p2t.png') repeat scroll 0% 0% / contain;   
+}
+li.third-item .more-info{
+    background: transparent url('../img/p3t.png') repeat scroll 0% 0% / contain;
+}
+li.fourth-item .more-info{
+    background: transparent url('../img/p4t.png') repeat scroll 0% 0% / contain;
+}
+li.fith-item .more-info{
+    background: transparent url('../img/p5t.png') repeat scroll 0% 0% / contain;
+}
+li.sixth-item .more-info{
+    background: transparent url('../img/p6t.png') repeat scroll 0% 0% / contain;
+}
+li.seventh-item .more-info{
+    background: transparent url('../img/p7t.png') repeat scroll 0% 0% / contain;
+}
+
 @media screen and (max-width: 768px) and (orientation: portrait){
     body{
         background: url('../img/bg_mobile.jpg') !important;
         background-position: center center !important;
         background-repeat: no-repeat !important;
         background-size: cover !important;
+    }
+
+    #wrapper{
+        overflow-y: auto;
     }
 
     .banda{
@@ -696,6 +768,22 @@ small, .small {
         bottom: 0px;
         left: 13%;
         cursor: pointer;
+    }
+
+    .show-more-info{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        cursor: pointer;
+    }
+
+    .more-info{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding-top: 18%;
+        display: none;
     }
 }
 
