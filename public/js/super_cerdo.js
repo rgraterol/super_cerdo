@@ -84,7 +84,7 @@ jQuery(document).ready(function($) {
                     /* Para mobile */
                     // Cambiamos la banda de fondo para mostrar la cara de los amigos
                     $('.banda').addClass('banda-p2'); 
-                    $('.medallas-mob').show().addClass('magictime vanishIn');
+                    $('.medallas-mobile').show().addClass('magictime vanishIn');
 
                 }
             });
