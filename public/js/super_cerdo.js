@@ -52,28 +52,28 @@ jQuery(document).ready(function($) {
                     $('#boton-fb-on').attr("disabled", "disabled");
                     f1 = response["data"][one];
                     $('.tl-friend').css("background",'url(' + response["data"][one]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
-                    $('#tl-friend-name').text(response["data"][one]['name'].toUpperCase());
+                    $('.tl-friend-name').text(response["data"][one]['name'].toUpperCase());
 
 
                     f2 = response["data"][two];
                     $('.tc-friend').css("background",'url(' + response["data"][two]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
-                    $('#tc-friend-name').text(response["data"][two]['name'].toUpperCase());
+                    $('.tc-friend-name').text(response["data"][two]['name'].toUpperCase());
 
                     f3 = response["data"][three];
                     $('.tr-friend').css("background",'url(' + response["data"][three]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
-                    $('#tr-friend-name').text(response["data"][three]['name'].toUpperCase());
+                    $('.tr-friend-name').text(response["data"][three]['name'].toUpperCase());
 
                     f4 = response["data"][four];
                     $('.dl-friend').css("background",'url(' + response["data"][four]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
-                    $('#dl-friend-name').text(response["data"][four]['name'].toUpperCase());
+                    $('.dl-friend-name').text(response["data"][four]['name'].toUpperCase());
 
                     f5 = response["data"][five];
                     $('.dc-friend').css("background",'url(' + response["data"][five]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
-                    $('#dc-friend-name').text(response["data"][five]['name'].toUpperCase());
+                    $('.dc-friend-name').text(response["data"][five]['name'].toUpperCase());
 
                     f6 = response["data"][six];
                     $('.dr-friend').css("background",'url(' + response["data"][six]['picture']['data']['url'] +') no-repeat').css("background-size",'cover').css('-o-background-size','cover');
-                    $('#dr-friend-name').text(response["data"][six]['name'].toUpperCase());
+                    $('.dr-friend-name').text(response["data"][six]['name'].toUpperCase());
 
                     $('#medallas').show().addClass('magictime vanishIn');
                     $('#boton-fb-on').hide();
@@ -84,6 +84,7 @@ jQuery(document).ready(function($) {
                     /* Para mobile */
                     // Cambiamos la banda de fondo para mostrar la cara de los amigos
                     $('.banda').addClass('banda-p2'); 
+                    $('.medallas-mobile').show().addClass('magictime vanishIn');
 
                 }
             });

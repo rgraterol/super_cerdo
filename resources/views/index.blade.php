@@ -79,7 +79,7 @@
                                     <div class="friend-frame ns-f">
                                         <div class="img-rounded tl-friend friend-photo"></div>
                                         <div class="text-center friend-name">
-                                            <p id="tl-friend-name">
+                                            <p class="tl-friend-name">
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="tl-check">
@@ -93,7 +93,7 @@
                                         <div class="tc-friend img-rounded friend-photo">
                                         </div>
                                         <div class="text-center friend-name">
-                                            <p id="tc-friend-name">
+                                            <p class="tc-friend-name">
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="tc-check">
@@ -107,7 +107,7 @@
                                         <div class="tr-friend img-rounded friend-photo">
                                         </div>
                                         <div class="text-center friend-name">
-                                            <p id="tr-friend-name">
+                                            <p class="tr-friend-name">
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="tr-check">
@@ -123,7 +123,7 @@
                                         <div class="img-rounded friend-photo" id="s-friend">
                                         </div>
                                         <div class="text-center friend-name">
-                                            <p id="s-friend-name">
+                                            <p class="s-friend-name">
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="tr-check">
@@ -144,7 +144,7 @@
                                         <div class="img-rounded friend-photo" id="s-user">
                                         </div>
                                         <div class="text-center friend-name">
-                                            <p id="s-user-name">
+                                            <p class="s-user-name">
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="tr-check">
@@ -160,7 +160,7 @@
                                         <div class="dl-friend img-rounded friend-photo">
                                         </div>
                                         <div class="text-center friend-name">
-                                            <p id="dl-friend-name">
+                                            <p class="dl-friend-name">
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="dl-check">
@@ -174,7 +174,7 @@
                                         <div class="dc-friend img-rounded friend-photo">
                                         </div>
                                         <div class="text-center friend-name">
-                                            <p id="dc-friend-name">
+                                            <p class="dc-friend-name">
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="dc-check">
@@ -188,7 +188,7 @@
                                         <div class="dr-friend img-rounded friend-photo">
                                         </div>
                                         <div class="text-center friend-name">
-                                            <p id="dr-friend-name">
+                                            <p class="dr-friend-name">
                                             </p>
                                         </div>
                                         <div class="img-rounded friend-check " id="dr-check">
@@ -202,19 +202,86 @@
                     </div>
 
                     <div class="medallas-mobile">
+                        <div class="medallas-mobile-content">
                 
-                        <div class="friend-frame ns-f">
-                            <div class="img-rounded tl-friend friend-photo"></div>
-                            <div class="text-center friend-name">
-                                <p id="tl-friend-name">
-                                </p>
+                            <div class="friend-frame ns-f first-medalla">
+                                <div class="img-rounded tl-friend friend-photo"></div>
+                                <div class="text-center friend-name">
+                                    <p class="tl-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="tl-check">
+                                    <input type="radio" name="one" id="one" value="one" />
+                                    <label for="one" class="font-check"></label>
+                                </div>
                             </div>
-                            <div class="img-rounded friend-check " id="tl-check">
-                                <input type="radio" name="one" id="one" value="one" />
-                                <label for="one" class="font-check"></label>
-                            </div>
-                        </div>
 
+                            <div class="friend-frame ns-f second-medalla">
+                                <div class="tc-friend img-rounded friend-photo">
+                                </div>
+                                <div class="text-center friend-name">
+                                    <p class="tc-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="tc-check">
+                                    <input type="radio" name="one" id="two" value="two" />
+                                    <label for="two" class="font-check"></label>
+                                </div>
+                            </div>
+
+                            <div class="friend-frame ns-f third-medalla">
+                                <div class="tr-friend img-rounded friend-photo">
+                                </div>
+                                <div class="text-center friend-name">
+                                    <p class="tr-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="tr-check">
+                                    <input type="radio" name="one" id="three" value="three" />
+                                    <label for="three" class="font-check"></label>
+                                </div>
+                            </div>
+
+                            <div class="friend-frame ns-f fourth-medalla" >
+                                <div class="dl-friend img-rounded friend-photo">
+                                </div>
+                                <div class="text-center friend-name">
+                                    <p class="dl-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="dl-check">
+                                    <input type="radio" name="one" id="four"  value="four"/>
+                                    <label for="four" class="font-check"></label>
+                                </div>
+                            </div>
+
+                            <div class="friend-frame ns-f fifth-medalla">
+                                <div class="dc-friend img-rounded friend-photo">
+                                </div>
+                                <div class="text-center friend-name">
+                                    <p class="dc-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="dc-check">
+                                    <input type="radio" name="one" id="five" value="five" />
+                                    <label for="five" class="font-check"></label>
+                                </div>
+                            </div>
+
+                            <div class="friend-frame ns-f sixth-medalla">
+                                <div class="dr-friend img-rounded friend-photo">
+                                </div>
+                                <div class="text-center friend-name">
+                                    <p class="dr-friend-name">
+                                    </p>
+                                </div>
+                                <div class="img-rounded friend-check " id="dr-check">
+                                    <input type="radio" name="one" id="six" value="six" />
+                                    <label for="six" class="font-check"></label>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
             </div>
 

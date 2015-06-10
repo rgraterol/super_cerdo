@@ -863,6 +863,10 @@ li.seventh-item .more-info{
     border-radius: 4px;
 }
 
+.medallas-mobile{
+    display: none;
+}
+
 @media screen and (max-width: 768px) and (orientation: portrait){
     body{
         background: url('../img/bg_mobile.jpg') !important;
@@ -871,12 +875,33 @@ li.seventh-item .more-info{
         background-size: cover !important;
     }
 
+    .friend-frame{
+        width: 20%;
+        padding-top: 33%;
+    }
+
+    .friend-photo{
+        position: absolute;
+        margin-left: 19%;
+        margin-top: -147%;
+        padding-top: 62%;
+        width: 63%;
+    }
+
+    .medallas-mobile{
+        position: absolute;
+        width: 100%;
+        height: 40%;
+        margin-left: 6%;
+        display: block;
+    }
+
     #wrapper{
         overflow-y: auto;
     }
 
     #medallas{
-        display: none;
+        display: none !important;
     }
 
     .banda{
@@ -886,8 +911,49 @@ li.seventh-item .more-info{
         background-size: cover !important;
     }
 
-    .banda .banda-p2{
+    .banda.banda-p2{
         background: transparent url("../img/bandaP2.png") repeat scroll 0% 0% !important;
+        width: 100%;
+        padding-top: 130%;
+        background-size: cover !important;
+    }
+
+    .first-medalla{
+        position: absolute;
+        top: 12%;
+        left: 15%;
+    }
+
+    .second-medalla{
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        margin-left: -12% !important;
+    }
+
+    .third-medalla{
+        position: absolute;
+        top: 12%;
+        left: 60%;
+    }
+
+    .fourth-medalla{
+        position: absolute;
+        left: 15%;
+        top: 70%;
+    }
+
+    .fifth-medalla{
+        position: absolute;
+        left: 50%;
+        margin-left: -12% !important;
+        top: 80%;
+    }
+
+    .sixth-medalla{
+        position: absolute;
+        left: 60%;
+        top: 70%;
     }
 
     .footer{
