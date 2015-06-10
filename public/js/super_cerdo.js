@@ -127,12 +127,11 @@ jQuery(document).ready(function($) {
         document.getElementById('s-friend-check').checked = true;
         document.getElementById('s-user-check').checked = true;
         $('#s-user').css("background", 'url(' + user_pic + ') no-repeat').css("background-size", 'contain').css('-o-background-size', 'cover');
-        $('#s-user-name').text(user['name'].toUpperCase());
+        $('.s-user-name').text(user['name'].toUpperCase());
     }
     function set_friend(friend) {
         $('#s-friend').css("background",'url(' + friend['picture']['data']['url'] +') no-repeat').css("background-size",'contain').css('-o-background-size','cover');
-        console.log(friend['name'].toUpperCase());
-        $('#s-friend-name').text(friend['name'].toUpperCase());
+        $('.s-friend-name').text(friend['name'].toUpperCase());
     }
     $('#one').click(function() {
         user_info();
