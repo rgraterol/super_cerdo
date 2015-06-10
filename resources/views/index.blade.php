@@ -202,8 +202,7 @@
                     </div>
 
                     <div class="medallas-mobile">
-                    
-                        {{!-- Display de cada user de facebook}}
+                
                         <div class="friend-frame ns-f">
                             <div class="img-rounded tl-friend friend-photo"></div>
                             <div class="text-center friend-name">
