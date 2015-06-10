@@ -953,6 +953,12 @@ li.seventh-item .more-info{
         padding-top: 130%;
         background-size: cover !important;
     }
+    .banda.banda-p2.banda-p4 {
+        background: transparent url("../img/bandaP4.png") repeat scroll 0% 0% !important;
+        width: 100%;
+        padding-top: 130%;
+        background-size: cover !important;
+    }
 
     .first-medalla{
         position: absolute;
@@ -1061,6 +1067,14 @@ li.seventh-item .more-info{
         margin-left: 9%;
         margin-top: 8%;
     }
+    .user-name {
+        left: 3%;
+        top: 56%;
+        width: 345px;
+    }
+    #user-name-p {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 640px) and (orientation: portrait){
@@ -1084,13 +1098,5 @@ li.seventh-item .more-info{
         cursor: pointer;
         margin-left: 25%;
         margin-top: 0px;
-    }
-    .user-name {
-        left: 3%;
-        top: 56%;
-        width: 345px;
-    }
-    #user-name-p {
-        font-size: 15px;
     }
 }
