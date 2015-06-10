@@ -3,7 +3,7 @@
 @section('content')
 <div class="fb-root" id="fb-root">
 <div id="wrapper">
-    <div class="container-fluid no-padding" style="position: relative;                                                      ">
+    <div class="container-fluid no-padding" style="position: relative;">
         <div id="header"></div>
         <div id="content">
             <div class="row first-page-mobile">
@@ -251,6 +251,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="back-button">
+        Volver
     </div>
 </div>
 </div>
