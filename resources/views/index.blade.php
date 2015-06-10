@@ -12,7 +12,7 @@
                     <div id="form-id-to-show" style="display: none">
                         <div class="form-api">
                             <div class="row">
-                                <div class="white-bg-red-border form-horizontal">
+                                <div class="white-bg-red-border">
                                     {{--['data-remote'],--}}
                                     {!! Form::open(['data-remote'], array('route' => 'save/user'), array('class' => 'form-horizontal', 'remore' => true)) !!}
                                     {!! Form::label('name', 'NOMBRE:', ['class' => 'col-xs-3 control-label']) !!}
@@ -36,13 +36,13 @@
                                         {!! Form::text('birthday', null, ['class'=>'form-control', 'id' => 'datepicker']) !!}
                                         {!! Form::hidden('friend_name', null, [ 'id' => 'hidden-field-friend-name']) !!}
                                     </div>
-                                    <div class="col-xs-12 text-center" style="margin-top: -1%;">
+                                    <div class="col-xs-12 text-center" style="margin-top: -1%;" id="terminos-condiciones">
                                         <small>
                                             Al enviar aceptas los terminos y condiciones de uso.
                                         </small>
                                     </div>
                                     <div class="col-xs-12 text-center" style="margin-top: 5%;">
-                                        <button type="submit" style="padding: 0px; margin: 3%; border: 0px; background-color: transparent;"><img src="img/enviar-on-fixed.png"/></button>
+                                        <button type="submit" style="padding: 0px; margin: 3%; border: 0px; background-color: transparent;" id="enviar-button"><img src="img/enviar-on-fixed.png"/></button>
                                     </div>
                                     <div class="col-xs-12 text-center email-in-use">
                                         <p class="email-in-use" id="show-email-permission" style="display: none;">
