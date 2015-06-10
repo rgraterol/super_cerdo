@@ -969,6 +969,14 @@ li.seventh-item .more-info{
         background-size: cover !important;
     }
 
+    .banda.banda-p2.banda-p4.banda-p5 {
+        background: transparent url("../img/bandaP5.png") repeat scroll 0% 0% !important;
+        width: 100%;
+        padding-top: 130%;
+        background-size: cover !important;
+    }
+
+
     .first-medalla{
         position: absolute;
         top: 12%;
