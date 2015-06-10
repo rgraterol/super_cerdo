@@ -514,8 +514,8 @@ small, .small {
 /* RESPONSIVES DESKTOPS */
 @media only screen and (min-width : 1824px) {
     .banda {
-        padding-top: 61%;
-        width: 42%;
+        padding-top: 56%;
+        width: 38%;
     }
     .footer {
         height: 209px;
@@ -539,9 +539,9 @@ small, .small {
 
     }
     .form-api {
-        width: 410px;
-        margin-left: 23%;
-        margin-top: -91%;
+      width: 392px;
+      margin-left: 22%;
+      margin-top: -94%;
     }
     #enviar-button {
         margin: 6%
@@ -671,6 +671,7 @@ small, .small {
 
 .second-page-mobile{
     display: none;
+    margin-bottom: 45px;
 }
 
 .second-page-mobile li{
@@ -734,6 +735,23 @@ li.sixth-item .more-info{
 }
 li.seventh-item .more-info{
     background: transparent url('../img/p7t.png') repeat scroll 0% 0% / contain;
+}
+
+.back-button{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px 20px;
+    background: #e32617;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 2;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    display: none;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait){
