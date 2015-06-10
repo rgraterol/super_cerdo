@@ -844,6 +844,7 @@ li.seventh-item .more-info{
 
     .friend-name p{
         font-size: 14px;
+        overflow: hidden;
     }
 
     .friend-photo{
