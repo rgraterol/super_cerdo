@@ -19,7 +19,7 @@ Route::get('/home', 'Auth\AuthController@handleProviderCallback');
 
 Route::post('save/user', 'StaticController@store');
 
-Route::get('region/provincia', 'RegionesController@provincias');
+Route::get('region/provincia/{id}', 'RegionesController@provincias');
 /*Route::get('home', 'HomeController@index');
 
 Route::controllers([

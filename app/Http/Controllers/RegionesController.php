@@ -10,11 +10,10 @@ use DB;
 
 class RegionesController extends Controller {
 
-	public function provincias()
+	public function provincias($id)
 	{
-        $region_id = Input::all()['id'];
-        $provincias = DB::table('provincias')->where('region_id', $region_id)->get();
-//        $region = Regiones::where('region_id','=', $region_id);
+        $provincias = DB::table('provincias')->where('region_id', $id)->get();
+
         return response()->json($provincias);
 		//
 	}
