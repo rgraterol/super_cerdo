@@ -842,7 +842,7 @@ li.seventh-item .more-info{
         padding-top: 33%;
     }
 
-    .tl-friend-name{
+    .friend-name p{
         font-size: 14px;
     }
 
@@ -971,7 +971,7 @@ li.seventh-item .more-info{
         height: 35px !important;
     }
 
-    .tl-friend-name{
+    .friend-name p{
         font-size: 8px;
     }
 }
