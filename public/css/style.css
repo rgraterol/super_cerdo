@@ -619,3 +619,35 @@ small, .small {
     font-size: 12px;
     font-weight: 400;
 }
+
+
+/* CSS for Portrait */
+
+@media screen and (max-width: 768px) and (orientation: portrait){
+    body{
+        background: url('../img/bg_mobile.jpg') !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+
+    .banda{
+        background: transparent url("../img/bandaH.png") repeat scroll 0% 0% !important;
+        width: 100%;
+        padding-top: 130%;
+        background-size: cover !important;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .fb_api{
+        top: 75%;
+        left: 49%;
+    }
+
+    .fb_api img{
+        
+    }
+}
