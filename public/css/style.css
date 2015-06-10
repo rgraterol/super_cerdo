@@ -9,6 +9,15 @@ html, body{
     margin-top: 0%;
     overflow-x: hidden;
 }
+.container {
+    height: 100%;
+}
+#wrapper {
+    height: 100%;
+}
+#fb-root {
+    height: 100%;
+}
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -33,6 +42,7 @@ p {
     background-size: contain;
     -o-background-size: cover;
     position:relative;
+    margin-bottom: -3%;
 }
 
 .fb_api {
@@ -113,33 +123,31 @@ td {
 }
 .footer {
     height: 18%;
-    bottom: 0%;
-    /*padding: 3%;*/
+    bottom: 2%;
     position: absolute;
     width: 100%;
     margin: 0;
 }
 .costillas {
+    position: absolute;
     padding: 0;
-    width: 101%;
+    width: 100%;
     background-color: rgba(255,255,255,00.5);
     height: 100%;
-}
-.row li {
-    bottom: 0;
-    width: 14%;
-    margin-top: 4px;
-    margin-left: 3px;
-    margin-bottom: 4px;
-    background-color: #f8f8f8;
-    display: inline-block;
 }
 .row ul {
     width: 100%;
     padding: 0;
     list-style-type: none;
-    margin-left: -10px;
+    margin-left: 0.3%;
+    margin-top: 0.4%;
+
 }
+.row li {
+    width: 14%;
+    display: inline-block;
+}
+
 .detalle-bbq {
     background: url(../img/carousel_big/1-costillita-barbecue-on.png) no-repeat;
     background-size: contain;
@@ -310,20 +318,20 @@ background-repeat: no-repeat;
 
 /* RESPONSIVES DESKTOPS */
 @media only screen and (min-width : 1824px) {
-    .footer {
-        height: 17%;
-        bottom: 0px;
+    .banda {
+        padding-top: 61%;
+        width: 42%;
     }
+    .footer {
+        height: 209px;
+    }
+
     .user-name {
         margin-top: -85%;
         width: 64%;
     }
     .form-api {
-        padding-top: 0%;
-        padding-left: 27%;
-        padding-right: 0;
         width: 82%;
-        position: absolute;
         margin-top: -80%;
     }
     #medallas {
@@ -334,97 +342,96 @@ background-repeat: no-repeat;
         font-size: 14px;
     }
     .row ul {
-        width: 101%;
-        margin-left: -1%;
+        margin-left: 0.5%;
     }
     .row li {
-        bottom: 0;
-        width: 14%;
-        float: right;
-        margin-top: 3px;
-        margin-left: 5px;
-        margin-bottom: 4px;
-        background-color: #f8f8f8;
+
     }
 }
 
 @media only screen and (min-width : 1000px) and (max-width: 1280px) and (min-height: 800px) {
     .banda {
-        padding-top: 61%;
+        padding-top: 62%;
         width: 42%;
+        margin-bottom: -1%;
     }
     .footer {
         height: 14%;
-        bottom: 0px;
     }
 }
 
 @media only screen and (max-width : 1024px) and (min-width: 768px) {
     .banda {
         width: 51%;
-        padding-top: 72%;
+        padding-top: 74%;
+        margin-bottom: -2%;
     }
     .footer {
-        height: 12%;
-        bottom: 0px;
+        height: 11.7%;
     }
     .row ul {
-        margin-left: -5px;
+        margin-left: 0.1%;
     }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 800px) and (max-height: 600px) {
+@media only screen and (max-width: 800px) and (min-width: 700px) and (max-height: 600px) {
     .footer {
-        height: 12%;
+        height: 71px;
+    }
+    .row ul {
+        margin-left: 0.4%;
+    }
+    .row li {
+        margin-left: -1px;
+    }
+
+    .user-name {
+        left: 11%;
     }
 }
 @media only screen and (max-width: 568px) and (min-width: 320px) and (max-height: 568px) and (orientation : landscape) {
     .banda {
         width: 40%;
-        padding-top: 53%;
+        padding-top: 56%;
     }
     .footer {
-        height: 31%;
-        bottom: -16%;
     }
+    .fb_api {
+        width: 200px;
+        margin-left: -100px;
+        top: 64%;
+    }
+    .footer {
+        height: 15%
+    }
+
     .row ul {
-        width: 100%;
-        padding: 0;
-        list-style-type: none;
-        margin-left: -3px;
+        margin-top: 2px;
+        margin-left: 6px;
     }
     .row li {
-        bottom: 0;
-        width: 14%;
-        float: right;
-        margin-top: 1px;
-        margin-left: 1px;
-        margin-bottom: 1px;
+        width: 13.5%;
     }
 }
 
 @media only screen and (max-width: 480px) and (min-width: 480px) and (max-height: 320px) and (orientation : landscape) {
     .banda {
-        width: 170px;
-        padding-top: 46%;
+        width: 46%;
+        padding-top: 65%;
     }
     .footer {
-        height: 41px;
-        bottom: -84px;
+        height: 43px;
     }
     .row ul {
-        width: 100%;
-        padding: 0;
-        list-style-type: none;
-        margin-left: -3px;
+        margin-top: 3px;
+        margin-left: 4px;
+
+    }
+    .costillas {
+
     }
     .row li {
-        bottom: 0;
-        width: 14%;
-        float: right;
-        margin-top: 2px;
-        margin-left: 1px;
-        margin-bottom: 1px;
+
     }
 }
 
@@ -601,12 +608,10 @@ input[type="radio"]:checked + label:after {
     font-size: 12px;
 }
 .form-api {
-    padding-top: 0%;
-    padding-left: 22%;
-    padding-right: 0;
-    width: 71%;
-    position: absolute;
-    margin-top: -77%;
+    width: 240px;
+    position: relative;
+    margin-left: 24%;
+    margin-top: -98%;
 }
 small, .small {
     font-family: 'Source Sans Pro', sans-serif;
