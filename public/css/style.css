@@ -622,7 +622,6 @@ small, .small {
 
 
 /* CSS for Portrait */
-
 @media screen and (max-width: 768px) and (orientation: portrait){
     body{
         background: url('../img/bg_mobile.jpg') !important;
@@ -648,6 +647,26 @@ small, .small {
     }
 
     .fb_api img{
-        
+
+    }
+
+    .show-carousel{
+        position: absolute;
+        width: 80%;
+        height: 60px;
+        bottom: 0px;
+        left: 13%;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 640px) and (orientation: portrait){
+    .banda{
+        padding-top: 137% !important;
+        margin-left: -3% !important;
+    }
+
+    .show-carousel{
+        height: 35px !important;
     }
 }
