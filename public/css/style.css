@@ -160,6 +160,14 @@ td {
     background-size: contain;
     -o-background-size: cover;
 }
+
+.padding-medalla-top {
+    padding-top:100px;
+}
+
+.padding-medalla-bottom {
+    padding-bottom:100px;
+}
 img {
     border: 0 none;
     display: inline-block;
@@ -643,6 +651,17 @@ small, .small {
     }
     .row li {
         width: 13.5%;
+    }
+
+    #user-name-p {
+        font-size: 10px;
+    }
+    .user-name {
+        position: absolute;
+        left: 10%;
+        top: 38%;
+        width: 188px;
+        margin-left: 0;
     }
 }
 
