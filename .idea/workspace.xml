@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc6ea406-a5bf-4b26-9de9-f76ef38def14" name="Default" comment="-WORKING- PADDING MEDALLA Y FONDOS D">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/bandaH.png" afterPath="$PROJECT_DIR$/public/img/bandaH.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/bandaP2.png" afterPath="$PROJECT_DIR$/public/img/bandaP2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/bandaP4.png" afterPath="$PROJECT_DIR$/public/img/bandaP4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/bandaP5.png" afterPath="$PROJECT_DIR$/public/img/bandaP5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
+    <list default="true" id="fc6ea406-a5bf-4b26-9de9-f76ef38def14" name="Default" comment="-WORKING- UNICORNIO DESESPERADO">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -42,8 +37,8 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.407408" vertical-offset="1510" max-vertical-offset="4950">
-              <caret line="104" column="62" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
+            <state vertical-scroll-proportion="56.0" vertical-offset="3240" max-vertical-offset="6534">
+              <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
               <folding>
                 <element signature="e#135#162#0#HTML" expanded="true" />
                 <element signature="e#453#474#0#HTML" expanded="true" />
@@ -52,10 +47,9 @@
                 <element signature="e#3825#3844#0#HTML" expanded="true" />
                 <element signature="e#4780#4801#0#HTML" expanded="true" />
                 <element signature="e#4985#5006#0#HTML" expanded="true" />
-                <element signature="e#5119#5137#0#HTML" expanded="true" />
-                <element signature="e#8145#8167#0#HTML" expanded="true" />
-                <element signature="e#9356#9376#0#HTML" expanded="true" />
-                <element signature="e#9533#9555#0#HTML" expanded="true" />
+                <element signature="e#8156#8178#0#HTML" expanded="true" />
+                <element signature="e#9370#9390#0#HTML" expanded="true" />
+                <element signature="e#9547#9569#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,8 +58,8 @@
       <file leaf-file-name="super_cerdo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/super_cerdo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="5112">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state vertical-scroll-proportion="-105.14815" vertical-offset="1733" max-vertical-offset="5238">
+              <caret line="254" column="12" selection-start-line="254" selection-start-column="12" selection-end-line="254" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -74,8 +68,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71280277" vertical-offset="2612" max-vertical-offset="15264">
-              <caret line="168" column="25" selection-start-line="168" selection-start-column="25" selection-end-line="168" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.90136987" vertical-offset="19201" max-vertical-offset="20430">
+              <caret line="1085" column="0" selection-start-line="1085" selection-start-column="0" selection-end-line="1085" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,8 +88,8 @@
       <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1314">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            <state vertical-scroll-proportion="-12.666667" vertical-offset="990" max-vertical-offset="1494">
+              <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -100,10 +104,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/public/js/super_cerdo.js" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
       </list>
     </option>
   </component>
@@ -160,6 +164,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="super_cerdo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super_cerdo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super_cerdo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super_cerdo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super_cerdo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -473,12 +509,60 @@
       <option name="project" value="LOCAL" />
       <updated>1433962496960</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="-WORKING- PADDING MEDALLA Y FONDOS D">
+      <created>1433965766828</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1433965766828</updated>
+    </task>
+    <task id="LOCAL-00036" summary="-WORKING- MEDALLAS MOVIL">
+      <created>1433967389261</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1433967389261</updated>
+    </task>
+    <task id="LOCAL-00037" summary="-WORKING- FORM MOVIL">
+      <created>1433969302846</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1433969302846</updated>
+    </task>
+    <task id="LOCAL-00038" summary="-WORKING- FORM MOVIL">
+      <created>1433970798365</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1433970798365</updated>
+    </task>
+    <task id="LOCAL-00039" summary="-FIX- UNICORNIO DESESPERADO">
+      <created>1433971002706</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1433971002706</updated>
+    </task>
+    <task id="LOCAL-00040" summary="-WORKING- UNICORNIO DESESPERADO">
+      <created>1433971762886</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1433971762886</updated>
+    </task>
+    <task id="LOCAL-00041" summary="-WORKING- UNICORNIO DESESPERADO">
+      <created>1433972344773</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1433972344773</updated>
+    </task>
+    <task id="LOCAL-00042" summary="-WORKING- UNICORNIO DESESPERADO">
+      <created>1433972535578</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1433972535578</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -491,7 +575,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27045456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -536,7 +620,12 @@
     <MESSAGE value="-WORKING- RESPONSIVE CAROUSEL" />
     <MESSAGE value="-WORKING- CSS" />
     <MESSAGE value="-WORKING- CSS FORM" />
-    <option name="LAST_COMMIT_MESSAGE" value="-WORKING- CSS FORM" />
+    <MESSAGE value="-WORKING- PADDING MEDALLA Y FONDOS D" />
+    <MESSAGE value="-WORKING- MEDALLAS MOVIL" />
+    <MESSAGE value="-WORKING- FORM MOVIL" />
+    <MESSAGE value="-FIX- UNICORNIO DESESPERADO" />
+    <MESSAGE value="-WORKING- UNICORNIO DESESPERADO" />
+    <option name="LAST_COMMIT_MESSAGE" value="-WORKING- UNICORNIO DESESPERADO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -555,10 +644,9 @@
             <element signature="e#3825#3844#0#HTML" expanded="true" />
             <element signature="e#4780#4801#0#HTML" expanded="true" />
             <element signature="e#4985#5006#0#HTML" expanded="true" />
-            <element signature="e#5119#5137#0#HTML" expanded="true" />
-            <element signature="e#8145#8167#0#HTML" expanded="true" />
-            <element signature="e#9356#9376#0#HTML" expanded="true" />
-            <element signature="e#9533#9555#0#HTML" expanded="true" />
+            <element signature="e#8156#8178#0#HTML" expanded="true" />
+            <element signature="e#9370#9390#0#HTML" expanded="true" />
+            <element signature="e#9547#9569#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -599,10 +687,9 @@
             <element signature="e#3825#3844#0#HTML" expanded="true" />
             <element signature="e#4780#4801#0#HTML" expanded="true" />
             <element signature="e#4985#5006#0#HTML" expanded="true" />
-            <element signature="e#5119#5137#0#HTML" expanded="true" />
-            <element signature="e#8145#8167#0#HTML" expanded="true" />
-            <element signature="e#9356#9376#0#HTML" expanded="true" />
-            <element signature="e#9533#9555#0#HTML" expanded="true" />
+            <element signature="e#8156#8178#0#HTML" expanded="true" />
+            <element signature="e#9370#9390#0#HTML" expanded="true" />
+            <element signature="e#9547#9569#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -650,10 +737,9 @@
             <element signature="e#3825#3844#0#HTML" expanded="true" />
             <element signature="e#4780#4801#0#HTML" expanded="true" />
             <element signature="e#4985#5006#0#HTML" expanded="true" />
-            <element signature="e#5119#5137#0#HTML" expanded="true" />
-            <element signature="e#8145#8167#0#HTML" expanded="true" />
-            <element signature="e#9356#9376#0#HTML" expanded="true" />
-            <element signature="e#9533#9555#0#HTML" expanded="true" />
+            <element signature="e#8156#8178#0#HTML" expanded="true" />
+            <element signature="e#9370#9390#0#HTML" expanded="true" />
+            <element signature="e#9547#9569#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -722,10 +808,9 @@
             <element signature="e#3825#3844#0#HTML" expanded="true" />
             <element signature="e#4780#4801#0#HTML" expanded="true" />
             <element signature="e#4985#5006#0#HTML" expanded="true" />
-            <element signature="e#5119#5137#0#HTML" expanded="true" />
-            <element signature="e#8145#8167#0#HTML" expanded="true" />
-            <element signature="e#9356#9376#0#HTML" expanded="true" />
-            <element signature="e#9533#9555#0#HTML" expanded="true" />
+            <element signature="e#8156#8178#0#HTML" expanded="true" />
+            <element signature="e#9370#9390#0#HTML" expanded="true" />
+            <element signature="e#9547#9569#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -794,10 +879,9 @@
             <element signature="e#3825#3844#0#HTML" expanded="true" />
             <element signature="e#4780#4801#0#HTML" expanded="true" />
             <element signature="e#4985#5006#0#HTML" expanded="true" />
-            <element signature="e#5119#5137#0#HTML" expanded="true" />
-            <element signature="e#8145#8167#0#HTML" expanded="true" />
-            <element signature="e#9356#9376#0#HTML" expanded="true" />
-            <element signature="e#9533#9555#0#HTML" expanded="true" />
+            <element signature="e#8156#8178#0#HTML" expanded="true" />
+            <element signature="e#9370#9390#0#HTML" expanded="true" />
+            <element signature="e#9547#9569#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -847,21 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1314">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="766" max-vertical-offset="1890">
@@ -888,18 +957,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/super_cerdo.js">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="5112">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.407408" vertical-offset="1510" max-vertical-offset="4950">
-          <caret line="104" column="62" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
+        <state vertical-scroll-proportion="56.0" vertical-offset="3240" max-vertical-offset="6534">
+          <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
           <folding>
             <element signature="e#135#162#0#HTML" expanded="true" />
             <element signature="e#453#474#0#HTML" expanded="true" />
@@ -908,18 +977,33 @@
             <element signature="e#3825#3844#0#HTML" expanded="true" />
             <element signature="e#4780#4801#0#HTML" expanded="true" />
             <element signature="e#4985#5006#0#HTML" expanded="true" />
-            <element signature="e#5119#5137#0#HTML" expanded="true" />
-            <element signature="e#8145#8167#0#HTML" expanded="true" />
-            <element signature="e#9356#9376#0#HTML" expanded="true" />
-            <element signature="e#9533#9555#0#HTML" expanded="true" />
+            <element signature="e#8156#8178#0#HTML" expanded="true" />
+            <element signature="e#9370#9390#0#HTML" expanded="true" />
+            <element signature="e#9547#9569#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.666667" vertical-offset="990" max-vertical-offset="1494">
+          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/super_cerdo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-105.14815" vertical-offset="1733" max-vertical-offset="5238">
+          <caret line="254" column="12" selection-start-line="254" selection-start-column="12" selection-end-line="254" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71280277" vertical-offset="2612" max-vertical-offset="15264">
-          <caret line="168" column="25" selection-start-line="168" selection-start-column="25" selection-end-line="168" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.90136987" vertical-offset="19201" max-vertical-offset="20430">
+          <caret line="1085" column="0" selection-start-line="1085" selection-start-column="0" selection-end-line="1085" selection-end-column="0" />
           <folding />
         </state>
       </provider>
