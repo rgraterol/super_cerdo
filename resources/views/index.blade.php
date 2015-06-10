@@ -310,7 +310,7 @@
                                     </p>
                                 </div>
                                 <div class="img-rounded friend-check " id="dr-check">
-                                    <input type="radio" class="right-check" name="one" id="right-check" />
+                                    <input type="radio" class="right-check" name="one" id="right-check" checked="true"/>
                                     <label class="font-check"></label>
                                 </div>
                             </div>
