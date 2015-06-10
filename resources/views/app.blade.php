@@ -48,6 +48,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="js/super_cerdo.js"></script>
+    <script src="js/dynamic_select.js"></script>
     <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <!-- blueimp gallery -->
     <script src="js/blueimp/jquery.blueimp-gallery.min.js"></script>
