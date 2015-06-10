@@ -38,7 +38,7 @@
                                     </div>
                                     <div class="col-xs-12 text-center" id="terminos-condiciones">
                                         <small>
-                                            Al enviar aceptas los terminos y condiciones de uso.
+                                            Al enviar aceptas los <a href="http://nosunelaparrilla.cl/bases.pdf">términos y condiciones de uso.</a>
                                         </small>
                                     </div>
                                     <div class="col-xs-12 text-center" style="margin-top: 5%;">
