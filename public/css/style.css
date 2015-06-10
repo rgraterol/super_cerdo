@@ -854,7 +854,7 @@ li.seventh-item .more-info{
     }
 
     #medallas{
-        display: none;
+        display: none !important;
     }
 
     .banda{
