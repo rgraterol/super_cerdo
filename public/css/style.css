@@ -325,6 +325,7 @@ background-repeat: no-repeat;
     .footer {
         height: 209px;
     }
+
     .user-name {
         margin-top: -85%;
         width: 64%;
@@ -341,6 +342,7 @@ background-repeat: no-repeat;
         font-size: 14px;
     }
     .row ul {
+        margin-left: 0.5%;
     }
     .row li {
 
