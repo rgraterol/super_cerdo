@@ -12,7 +12,7 @@
                     <div id="form-id-to-show" style="display: none">
                         <div class="form-api">
                             <div class="row">
-                                <div class="white-bg-red-border">
+                                <div class="white-bg-red-border form-horizontal">
                                     <small>
                                         {{--['data-remote'],--}}
                                         {!! Form::open(['data-remote'], array('route' => 'save/user'), array('class' => 'form-horizontal', 'remore' => true)) !!}

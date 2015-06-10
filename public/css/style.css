@@ -335,16 +335,19 @@ background-repeat: no-repeat;
         margin-top: -80%;
     }
     #medallas {
-        top: 0%;
-        left: 60%;
+        top: 15%;
+        left: 63%;
     }
     .white-bg-red-border {
-        font-size: 14px;
+        font-size: 13px;
     }
     .row ul {
         margin-left: 0.5%;
     }
     .row li {
+
+    }
+    .form-api {
 
     }
 }
