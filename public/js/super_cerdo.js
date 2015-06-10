@@ -178,6 +178,8 @@ jQuery(document).ready(function($) {
         $('.ns-f').show();
         $('.user-frame').show();
         $('#volver, .volver').hide();
+
+        $('.left-medalla, .right-medalla').hide();
     });
 //    Este es el lugar donde se envia el formulario y se guarda la data
     $('form[data-remote]').on('submit', function(e){
