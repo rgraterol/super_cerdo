@@ -1105,33 +1105,6 @@ li.seventh-item .more-info{
     #user-name-p {
         font-size: 15px;
     }
-
-    .form-api {
-        width: 221px;
-        position: relative;
-        margin-left: 18%;
-        margin-top: -77%;
-    }
-
-    .white-bg-red-border {
-        font-weight: 400;
-        font-size: 10px;
-    }
-    .form-control {
-        display: block;
-        width: 100%;
-        height: 15px;
-        padding: 0 5px;
-        font-size: 115%;
-        line-height: 100%;
-        color: #7f1805;
-        background-color: #ffffff;
-        background-image: none;
-        border: 1px solid #9F180F;
-        border-radius: 3px;
-        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    }
 }
 
 @media screen and (max-width: 640px) and (orientation: portrait){

@@ -138,6 +138,10 @@ jQuery(document).ready(function($) {
     function set_friend(friend) {
         $('#s-friend').css("background",'url(' + friend['picture']['data']['url'] +') no-repeat').css("background-size",'contain').css('-o-background-size','cover');
         $('.s-friend-name').text(friend['name'].toUpperCase());
+
+        $('.left-friend').css("background",'url(' + friend['picture']['data']['url'] +') no-repeat').css("background-size",'contain').css('-o-background-size','cover');
+        $('.right-friend-name').text(friend['name'].toUpperCase());
+        $('.left-friend').show();
     }
     $('#one').click(function() {
         user_info();

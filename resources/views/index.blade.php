@@ -289,7 +289,7 @@
                             </div>
 
 
-                            <div class="friend-frame ns-f left-medalla">
+                            <div class="friend-frame left-medalla">
                                 <div class="left-friend img-rounded friend-photo">
                                 </div>
                                 <div class="text-center friend-name">
@@ -302,7 +302,7 @@
                                 </div>
                             </div>
 
-                            <div class="friend-frame ns-f right-medalla">
+                            <div class="friend-frame right-medalla">
                                 <div class="right-friend img-rounded friend-photo">
                                 </div>
                                 <div class="text-center friend-name">
