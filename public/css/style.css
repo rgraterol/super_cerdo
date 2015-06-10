@@ -123,7 +123,7 @@ td {
 }
 .footer {
     height: 18%;
-    bottom: 1%;
+    bottom: 2%;
     position: absolute;
     width: 100%;
     margin: 0;
@@ -136,18 +136,15 @@ td {
     height: 100%;
 }
 .row ul {
-    position: relative;
     width: 100%;
     padding: 0;
     list-style-type: none;
-    margin-left: 0;
+    margin-left: 0.3%;
+    margin-top: 0.4%;
+
 }
 .row li {
-    bottom: 0;
     width: 14%;
-    margin-top: 0.3%;
-    margin-left: 0.08%;
-    background-color: #f8f8f8;
     display: inline-block;
 }
 
@@ -322,12 +319,11 @@ background-repeat: no-repeat;
 /* RESPONSIVES DESKTOPS */
 @media only screen and (min-width : 1824px) {
     .banda {
-        padding-top: 64%;
-        width: 44%;
+        padding-top: 61%;
+        width: 42%;
     }
     .footer {
-        bottom: 0;
-        height: 220px;
+        height: 209px;
     }
     .user-name {
         margin-top: -85%;
@@ -345,17 +341,9 @@ background-repeat: no-repeat;
         font-size: 14px;
     }
     .row ul {
-        width: 101%;
-        margin-left: -1%;
     }
     .row li {
-        bottom: 0;
-        width: 14%;
-        float: right;
-        margin-top: 3px;
-        margin-left: 5px;
-        margin-bottom: 4px;
-        background-color: #f8f8f8;
+
     }
 }
 
@@ -367,10 +355,6 @@ background-repeat: no-repeat;
     }
     .footer {
         height: 14%;
-        bottom: 0px;
-    }
-    .row li {
-        width: 13.9%;
     }
 }
 
@@ -381,17 +365,22 @@ background-repeat: no-repeat;
         margin-bottom: -2%;
     }
     .footer {
-        height: 11.5%;
-        bottom: 0px;
+        height: 11.7%;
+    }
+    .row ul {
+        margin-left: 0.1%;
     }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 800px) and (max-height: 600px) {
+@media only screen and (max-width: 800px) and (min-width: 700px) and (max-height: 600px) {
     .footer {
-        height: 67px;
+        height: 71px;
+    }
+    .row ul {
+        margin-left: 0.4%;
     }
     .row li {
-        margin-left: -0.4px;
+        margin-left: -1px;
     }
 
     .user-name {
@@ -404,22 +393,22 @@ background-repeat: no-repeat;
         padding-top: 56%;
     }
     .footer {
-        bottom: -3%;
     }
     .fb_api {
         width: 200px;
         margin-left: -100px;
         top: 64%;
     }
-    .costillas {
-        height: 90%
+    .footer {
+        height: 15%
     }
 
     .row ul {
-        margin-left: 0;
+        margin-top: 2px;
+        margin-left: 6px;
     }
     .row li {
-        width: 13.8%;
+        width: 13.5%;
     }
 }
 
@@ -432,21 +421,15 @@ background-repeat: no-repeat;
         height: 43px;
     }
     .row ul {
-        width: 100%;
-        padding: 0;
-        list-style-type: none;
-        margin-left: -2px;
+        margin-top: 3px;
+        margin-left: 4px;
+
     }
     .costillas {
-        height: 97%;
+
     }
     .row li {
-        bottom: 0;
-        width: 14%;
-        float: right;
-        margin-top: 2px;
-        margin-left: 1px;
-        margin-bottom: 1px;
+
     }
 }
 

@@ -235,9 +235,9 @@ jQuery(document).ready(function($) {
             method: 'feed',
             link: 'http://nosunelaparrilla.cl/',
             caption: 'Super Cerdo',
-            picture: 'http://nosunelaparrilla.cl/img/5.png',
+            picture: 'http://nosunelaparrilla.cl/img/6.png',
             name: string.slice(0,-2),
-            description: string.slice(0,-2)
+            description: 'Aunque somos super distintos, cuando el sabor juega de local nos juntamos en la parrilla ¿Te prendes con unas costillitas Super Cerdo?'
         }, function(response){
             $('#medallas').hide();
             $('#compartir-on').hide();
