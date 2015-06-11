@@ -6,15 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1,   maximum-scale=1, user-scalable=no">
 
     <title>Super Cerdo</title>
-    <script src="js/bootstrap.youtubepopup.js"></script>
-    <script type="text/javascript">
-        if(document.referrer=="www.youtube.com"){
-            $(function () {
-                $(".youtube").YouTubeModal({autoplay:1, width:1100, height:619});
-            });
-        }else{
-        }
-    </script>
+
 
     <script>
         window.fbAsyncInit = function() {
@@ -58,6 +50,7 @@
 	<!-- Scripts -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.youtubepopup.js"></script>
     <script src="js/super_cerdo.js"></script>
     <script src="js/dynamic_select.js"></script>
     <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
@@ -86,9 +79,19 @@
 
     </script>
     <script type="text/javascript">
+        console.log(document.referrer);
+        if(document.referrer == "www.youtube.com"){
+
+        }else{
+            $(function () {
+                $(".youtube").YouTubeModal({autoplay:1, width:1100, height:619});
+            });
+        }
+    </script>
+    <script type="text/javascript">
         $(document).ready(function () {
             document.getElementById("YTV").click(); //simulates a link click
-            setTimeout('document.getElementsByClassName("close")[0].click();', 30000); //waits 10 seconds and then hides closes the lightbox window
+            setTimeout('document.getElementsByClassName("close")[0].click();', 222000); //waits 10 seconds and then hides closes the lightbox window
         });
     </script>
 
