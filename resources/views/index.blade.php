@@ -227,7 +227,7 @@
                                     </p>
                                 </div>
                                 <div class="img-rounded friend-check " id="tl-check">
-                                    <input type="radio" name="one" id="one" value="one" />
+                                    <input type="radio" name="two" id="one" value="one" />
                                     <label for="one" class="font-check"></label>
                                 </div>
                             </div>
@@ -240,7 +240,7 @@
                                     </p>
                                 </div>
                                 <div class="img-rounded friend-check " id="tc-check">
-                                    <input type="radio" name="one" id="two" value="two" />
+                                    <input type="radio" name="two" id="two" value="two" />
                                     <label for="two" class="font-check"></label>
                                 </div>
                             </div>
@@ -253,7 +253,7 @@
                                     </p>
                                 </div>
                                 <div class="img-rounded friend-check " id="tr-check">
-                                    <input type="radio" name="one" id="three" value="three" />
+                                    <input type="radio" name="two" id="three" value="three" />
                                     <label for="three" class="font-check"></label>
                                 </div>
                             </div>
@@ -266,7 +266,7 @@
                                     </p>
                                 </div>
                                 <div class="img-rounded friend-check " id="dl-check">
-                                    <input type="radio" name="one" id="four"  value="four"/>
+                                    <input type="radio" name="two" id="four"  value="four"/>
                                     <label for="four" class="font-check"></label>
                                 </div>
                             </div>
@@ -279,7 +279,7 @@
                                     </p>
                                 </div>
                                 <div class="img-rounded friend-check " id="dc-check">
-                                    <input type="radio" name="one" id="five" value="five" />
+                                    <input type="radio" name="two" id="five" value="five" />
                                     <label for="five" class="font-check"></label>
                                 </div>
                             </div>
@@ -292,7 +292,7 @@
                                     </p>
                                 </div>
                                 <div class="img-rounded friend-check " id="dr-check">
-                                    <input type="radio" name="one" id="six" value="six" />
+                                    <input type="radio" name="two" id="six" value="six" />
                                     <label for="six" class="font-check"></label>
                                 </div>
                             </div>
@@ -306,7 +306,7 @@
                                     </p>
                                 </div>
                                 <div class="img-rounded friend-check " id="dc-check">
-                                    <input type="radio" name="one" class="left-check" />
+                                    <input type="radio" name="two" class="left-check" />
                                     <label class="font-check"></label>
                                 </div>
                             </div>
@@ -319,7 +319,7 @@
                                     </p>
                                 </div>
                                 <div class="img-rounded friend-check " id="dr-check">
-                                    <input type="radio" class="right-check" name="one" id="right-check" checked="true"/>
+                                    <input type="radio" class="right-check" name="two" id="right-check" checked="true"/>
                                     <label class="font-check"></label>
                                 </div>
                             </div>
