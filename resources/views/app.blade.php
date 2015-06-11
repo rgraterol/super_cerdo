@@ -96,7 +96,7 @@
         var params = getSearchParameters();
         console.log(params.href);
         if(params.href == "youtube"){
-
+            $(".youtube").remove();
         }else{
             $(function () {
                 $(".youtube").YouTubeModal({autoplay:1, width:1100, height:619});
