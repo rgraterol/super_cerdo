@@ -6,6 +6,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1,   maximum-scale=1, user-scalable=no">
 
     <title>Super Cerdo</title>
+    <script src="js/bootstrap.youtubepopup.js"></script>
+    <script type="text/javascript">
+        if(document.referrer=="www.youtube.com"){
+            $(function () {
+                $(".youtube").YouTubeModal({autoplay:1, width:1100, height:619});
+            });
+        }else{
+        }
+    </script>
+
     <script>
         window.fbAsyncInit = function() {
             FB.init({
@@ -75,5 +85,16 @@
         ga('send', 'pageview');
 
     </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            document.getElementById("YTV").click(); //simulates a link click
+            setTimeout('document.getElementsByClassName("close")[0].click();', 30000); //waits 10 seconds and then hides closes the lightbox window
+        });
+    </script>
+
+
+
+    <!-- YOUTUBE  AutoLightbox Script-->
+
 </body>
 </html>
