@@ -91,9 +91,10 @@
     <script type="text/javascript">
         $(document).ready(function () {
             document.getElementById("YTV").click(); //simulates a link click
-            setTimeout('document.getElementsByClassName("close")[0].click();', 222000); //waits 10 seconds and then hides closes the lightbox window
+            setTimeout('document.getElementsByClassName("close")[0].click();', 133200); //waits 10 seconds and then hides closes the lightbox window
         });
     </script>
+
 
 
 
