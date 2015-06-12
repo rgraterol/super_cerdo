@@ -5,6 +5,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1,   maximum-scale=1, user-scalable=no">
     <meta property="og:image" content="http://nosunelaparrilla.cl/img/6.png" />
+    <head prefix="og: http://ogp.me/ns#">
+    <meta property="og:description" content="Super Cerdo" />
+    <meta property="og:title" content="Nos une la parrilla" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
+    <link rel="canonical" href="http://audiovisuaalinen.work/english.html" />
+    <meta property="og:url" content="http://audiovisuaalinen.work/english.html" />
+    <meta property="og:type" content="Food" />
 
     <title>Super Cerdo</title>
 
