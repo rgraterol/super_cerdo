@@ -8,8 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1,   maximum-scale=1, user-scalable=no">
     <meta property="og:image" content="http://nosunelaparrilla.cl/img/6.png" />
-    <meta property="og:description" content="SuperCerdo" />
-    <meta property="og:title" content="SuperCerdo" />
+    <meta property="og:description" content="Super Cerdo - Nos une la parrilla." />
+    <meta property="og:title" content="Super Cerdo" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="200" />
