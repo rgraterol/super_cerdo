@@ -10,7 +10,7 @@
     <meta property="og:image" content="http://nosunelaparrilla.cl/img/6.png" />
     <meta property="og:description" content="SuperCerdo" />
     <meta property="og:title" content="SuperCerdo" />
-    <meta property="og:locale" content="en_EN" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="200" />
     <meta property="og:url" content="http://nosunelaparrilla.cl" />
