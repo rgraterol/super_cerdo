@@ -13,7 +13,7 @@
     <meta property="og:locale" content="en_EN" />
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="200" />
-    <meta property="og:url" content="http://audiovisuaalinen.work/english.html" />
+    <meta property="og:url" content="http://nosunelaparrilla.cl" />
     <meta property="og:type" content="Food" />
     <script>
         window.fbAsyncInit = function() {
