@@ -1117,9 +1117,9 @@ li.seventh-item .more-info{
         font-size: 18px;
     }
     .form-api {
-        width: 57%;
-        left: -2%;
-        top: 128%;
+        width: 60%;
+        left: 21%;
+        top: 55%;
         position: absolute;
     }
     .white-bg-red-border {
@@ -1187,8 +1187,8 @@ li.seventh-item .more-info{
     }
     .form-api {
         width: 62%;
-        left: -1%;
-        top: 119%;
+        left: 22%;
+        top: 48%;
         position: absolute;
     }
 
