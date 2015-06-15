@@ -507,9 +507,9 @@ input[type="radio"]:checked + label:after {
 
 
 .form-api {
-    width: 52%;
+    width: 50%;
     position: absolute;
-    top: 38%;
+    top: 42%;
     left: 24%;
 }
 small, .small {
@@ -552,7 +552,8 @@ small, .small {
 
     }
     .form-api {
-      width: 52%;
+      width: 50%;
+        top: 38%;
     }
     #enviar-button {
         margin: 6%
@@ -580,7 +581,7 @@ small, .small {
 @media only screen and (min-width : 1000px) and (max-width: 1280px) and (min-height: 800px) {
     .banda {
         padding-top: 62%;
-        width: 42%;
+        width: 45%;
         margin-bottom: -1%;
     }
     .footer {
@@ -590,7 +591,7 @@ small, .small {
 
 @media only screen and (max-width : 1024px) and (min-width: 768px) {
     .banda {
-        width: 51%;
+        width: 56%;
         padding-top: 74%;
         margin-bottom: -2%;
     }
@@ -614,7 +615,7 @@ small, .small {
     }
 
     .form-api {
-        width: 52%;
+        width: 50%;
     }
     .white-bg-red-border {
         font-size: 9px;
