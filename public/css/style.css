@@ -507,7 +507,7 @@ input[type="radio"]:checked + label:after {
 
 
 .form-api {
-    width: 275px;
+    width: 52%;
     position: absolute;
     top: 38%;
     left: 24%;
@@ -552,7 +552,7 @@ small, .small {
 
     }
     .form-api {
-      width: 350px;
+      width: 52%;
     }
     #enviar-button {
         margin: 6%
@@ -614,7 +614,7 @@ small, .small {
     }
 
     .form-api {
-        width: 214px;
+        width: 52%;
     }
     .white-bg-red-border {
         font-size: 9px;
@@ -717,10 +717,7 @@ small, .small {
         height: 30px;
     }
     .form-api {
-        width: 124px;
-        position: relative;
-        margin-left: 21%;
-        margin-top: -98%;
+
     }
     .white-bg-red-border {
         font-weight: 400;
@@ -796,10 +793,6 @@ small, .small {
         left: 4px;
     }
     .form-api {
-        width: 124px;
-        position: relative;
-        margin-left: 21%;
-        margin-top: -100%;
     }
     #terminos-condiciones {
         margin-top: -2%;
