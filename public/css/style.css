@@ -502,16 +502,15 @@ input[type="radio"]:checked + label:after {
     color: #010000;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 11px;
 }
-.col-xs-3 {
-    width: 23%;
-}
+
+
 .form-api {
-    width: 270px;
-    position: relative;
-    margin-left: 21%;
-    margin-top: -97%;
+    width: 275px;
+    position: absolute;
+    top: 38%;
+    left: 24%;
 }
 small, .small {
     font-family: 'Source Sans Pro', sans-serif;
@@ -553,9 +552,7 @@ small, .small {
 
     }
     .form-api {
-      width: 392px;
-      margin-left: 22%;
-      margin-top: -95%;
+      width: 350px;
     }
     #enviar-button {
         margin: 6%
@@ -589,9 +586,6 @@ small, .small {
     .footer {
         height: 14%;
     }
-    .form-api {
-        margin-top: -97%;
-    }
 }
 
 @media only screen and (max-width : 1024px) and (min-width: 768px) {
@@ -605,9 +599,6 @@ small, .small {
     }
     .row ul {
         margin-left: 0.1%;
-    }
-    .form-api {
-        margin-top: -95%;
     }
 }
 
@@ -624,9 +615,6 @@ small, .small {
 
     .form-api {
         width: 214px;
-        position: relative;
-        margin-left: 22%;
-        margin-top: -97%;
     }
     .white-bg-red-border {
         font-size: 9px;
