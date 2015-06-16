@@ -82,7 +82,7 @@
                     </div>
 
                     <div class="boton-video">
-                        <img src="img/boton-video.png", class="btn" id="boton-video-img" />
+                        <a href=" https://www.youtube.com/watch?v=jxnG7XGxaHI"><img src="img/boton-video.png", class="btn" id="boton-video-img" /></a>
                     </div>
                 </div>
                     <div id="medallas" style="display: none"> <!-- sostiene las medallas de los amigos random y el avatar del user de fb  -->
