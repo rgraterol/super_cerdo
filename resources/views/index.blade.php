@@ -8,6 +8,9 @@
         <div id="content">
             <div class="row first-page-mobile">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 banda">
+                    <div class="boton-video">
+                        <img src="img/boton-video.png", class="btn" id="boton-video-img" />
+                    </div>
                     {{--Este es el formulario del final--}}
                     <div id="form-id-to-show" style="display: none">
                         <div class="form-api">

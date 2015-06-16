@@ -45,6 +45,10 @@ p {
     margin-bottom: -3%;
 }
 
+.boton-video {
+    display: none;
+}
+
 .fb_api {
     position: absolute;
     top: 58%;
@@ -1144,6 +1148,12 @@ li.seventh-item .more-info{
         display: none;
         visibility: hidden;
     }
+    .boton-video {
+        display: block;
+        position: absolute;
+        top:30%;
+        left:30%;
+    }
 
 }
 
@@ -1163,6 +1173,13 @@ li.seventh-item .more-info{
 
     .friend-name p{
         font-size: 8px;
+    }
+
+    .boton-video {
+        display: block;
+        position: absolute;
+        top:30%;
+        left:30%;
     }
 
     .font-check{
