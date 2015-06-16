@@ -80,7 +80,7 @@
 
                     <div class="show-carousel">
                     </div>
-                    
+
                     <div class="boton-video">
                         <img src="img/boton-video.png", class="btn" id="boton-video-img" />
                     </div>

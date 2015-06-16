@@ -1151,8 +1151,9 @@ li.seventh-item .more-info{
     .boton-video {
         display: block;
         position: absolute;
-        top:30%;
-        left:30%;
+        top: 39%;
+        left: 0%;
+        width: 100%;
     }
 
 }
