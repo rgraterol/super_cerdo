@@ -67,7 +67,7 @@
         $(function() {
             var currentDate = new Date();
             $( "#datepicker" ).datepicker({
-                dateFormat: 'dd-mm-yy',
+                dateFormat: 'mm-dd-yy',
                 defaultdate:'01-01-2000',
                 changeMonth: true,
                 changeYear: true,
