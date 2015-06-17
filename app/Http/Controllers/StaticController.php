@@ -29,7 +29,7 @@ class StaticController extends Controller {
         {
             return response()->json(['false']);
         }else{
-            echo $data->birthday;
+            $data->birthday = date("Y-m-d", strtotime($data->birthday));
             $client = new User($data);
             $client->save();
             return response()->json($client);
