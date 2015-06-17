@@ -29,6 +29,7 @@ class StaticController extends Controller {
         {
             return response()->json(['false']);
         }else{
+            echo $data->birtday;
             $client = new User($data);
             $client->save();
             return response()->json($client);
