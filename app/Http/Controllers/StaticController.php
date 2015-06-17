@@ -29,7 +29,7 @@ class StaticController extends Controller {
         {
             return response()->json(['false']);
         }else{
-            $data->birthday = date("Y-m-d", strtotime($data->birthday));
+            $data['birthday'] = date("Y-m-d", strtotime(Input::get('birthday')));
             $client = new User($data);
             $client->save();
             return response()->json($client);
