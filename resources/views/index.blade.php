@@ -25,24 +25,24 @@
                                     </div>
                                     {!! Form::label('region', 'REGIÓN:', ['class' => 'col-xs-3 control-label', 'required']) !!}
                                     <div class="col-xs-9">
-                                        <select name="region" class="form-control form-control-fix">
+                                        <select name="region" class="form-control form-control-fix" required="required">
                                         <option value="0">Selecciona...</option>
                                         @foreach(DB::table('regiones')->get() as $region)
                                                 <option value="{{$region->region_id}}">{{$region->region_nombre}}</option>
                                         @endforeach
                                         </select>
-                                        {{--{!! Form::select('region', $regions, ['class'=>'form-control form-control-fix']) !!}--}}
+                                        {{--{!! Form::select('region', $regions, ['class'=>'form-control form-control-fix', 'required']) !!}--}}
                                     </div>
                                     
                                     <label class="col-xs-3 control-label" required>CIUDAD:</label>
                                     <div class="col-xs-9">
-                                        <select name="city" class="form-control form-control-fix">
+                                        <select name="city" class="form-control form-control-fix" required="required">
                                         </select>
                                     </div>
 
                                     {!! Form::label('birthday', 'FECHA NACIMIENTO:', ['class' => 'col-xs-3 control-label', 'required']) !!}
                                     <div class="col-xs-9">
-                                        {!! Form::text('birthday', null, ['class'=>'form-control form-control-fix', 'id' => 'datepicker']) !!}
+                                        {!! Form::text('birthday', null, ['class'=>'form-control form-control-fix', 'id' => 'datepicker', , 'required']) !!}
                                         {!! Form::hidden('friend_name', null, [ 'id' => 'hidden-field-friend-name']) !!}
                                     </div>
                                     <div class="col-xs-12 text-center" id="terminos-condiciones">
