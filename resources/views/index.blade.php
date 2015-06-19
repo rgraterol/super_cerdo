@@ -42,7 +42,7 @@
 
                                     {!! Form::label('birthday', 'FECHA NACIMIENTO:', ['class' => 'col-xs-3 control-label', 'required']) !!}
                                     <div class="col-xs-9">
-                                        {!! Form::text('birthday', null, ['class'=>'form-control form-control-fix', 'id' => 'datepicker', , 'required']) !!}
+                                        {!! Form::text('birthday', null, ['class'=>'form-control form-control-fix', 'id' => 'datepicker', 'required']) !!}
                                         {!! Form::hidden('friend_name', null, [ 'id' => 'hidden-field-friend-name']) !!}
                                     </div>
                                     <div class="col-xs-12 text-center" id="terminos-condiciones">
